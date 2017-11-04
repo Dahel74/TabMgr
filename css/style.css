@@ -1,0 +1,12 @@
+h6.panel-title {
+    font-size: 10px;
+}
+
+h4.panel-title {
+    font-size: 14px;
+}
+
+@media (min-width: 200px) {
+    .my-custom-container{
+        width:1400px;
+    }}
