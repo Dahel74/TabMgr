@@ -10,8 +10,21 @@ h4.panel-title {
     resize: both;
     overflow: auto
 }
+
 .masked {
     opacity: 0;
+}
+
+.panel-body {
+    background-color: #9d9d9d;
+}
+
+.panel-body-light {
+    background-color: #cccccc;
+}
+
+body {
+    background-color: #737373;
 }
 
 @media (min-width: 200px) {

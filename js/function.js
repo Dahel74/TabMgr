@@ -36,7 +36,7 @@ function stockTabsMap() {
             });
         });
         var result = convertArrayToJSON(tabsMapTmp);
-        chrome.storage.sync.set({"tabsMap": result}, function () {
+        chrome.storage.local.set({"tabsMap": result}, function () {
             console.log("dataIsStore " + result);
         });
     });
@@ -44,7 +44,7 @@ function stockTabsMap() {
 
 function loadGroup() {
     var result = "";
-    chrome.storage.sync.get("tabsMap", function (object) {
+    chrome.storage.local.get("tabsMap", function (object) {
         result = object['tabsMap'];
         tabsMap = convertJSONToArray(result);
         displayGroup();
@@ -123,7 +123,7 @@ function createPanel(windowId, tabsMap) {
             content.appendChild(createMiniTab(tabId, windowId, tabsMap[windowId][tabId]));
         }
     }
-    content.appendChild(createInvisibleMiniTab());
+    content.appendChild(createInvisibleMiniTab(windowId));
     group.appendChild(content);
     column.appendChild(group);
     return column;
@@ -135,11 +135,12 @@ function createGroup() {
     container.appendChild(group);
 }
 
-function createInvisibleMiniTab() {
+function createInvisibleMiniTab(windowId) {
     var column = document.createElement("DIV");
     column.id = "0";
     column.className += " col-md-3 col-xs-3 masked";
     column.draggable = true;
+    column.windowId = windowId;
     var tab = document.createElement("DIV");
     tab.className += " panel panel-success";
     var tabTitle = document.createElement("DIV");
@@ -190,7 +191,7 @@ function createMiniTab(tabId, windowId, tabArray) {
     tabTitle.appendChild(title);
     // todo: get an image of the tab content
     var content = document.createElement("DIV");
-    content.className += " panel-boby";
+    content.className += " panel-body panel-body-light";
     content.style.height = "40px";
     content.style.whiteSpace = "nowrap";
     content.style.textOverflow = "ellipsis";
@@ -202,12 +203,16 @@ function createMiniTab(tabId, windowId, tabArray) {
     tab.appendChild(content);
     column.appendChild(tab);
     addDnDHandlers(column);
-    column.addEventListener("click", function () {
+    clickTab(column)
+    return column;
+}
+
+function clickTab(elem) {
+    elem.addEventListener("click", function () {
         chrome.tabs.update(parseInt(this.id), {active: true});
         chrome.windows.update(parseInt(this.windowId), {focused: true});
         window.close();
     });
-    return column;
 }
 
 // drag and drop
@@ -246,7 +251,11 @@ function handleDrop(e) {
         var dropHTML = e.dataTransfer.getData('text/html');
         this.insertAdjacentHTML('beforebegin', dropHTML);
         var dropElem = this.previousSibling;
+        dropElem.windowId = parseInt(this.windowId);
+        clickTab(dropElem);
         addDnDHandlers(dropElem);
+        alert(dropElem.windowId);
+        chrome.tabs.move(parseInt(dropElem.id), {"windowId": parseInt(dropElem.windowId), "index": -1});
     }
     this.classList.remove('over');
     return false;
