@@ -1,127 +1,57 @@
 // Variable initialize when working without chrome extensions
 var tabsMap = [];
 
-function loadMockGroup() {
-    tabsMap[48] = [];
-    tabsMap[48][57] = [];
-    tabsMap[48][57]["url"] = "http://www.cpabien.cx/torrents/films";
-    tabsMap[48][57]["icon"] = "http://www.cpabien.cx/themes/default/img/favicon.ico";
-    tabsMap[48][57]["title"] = "Torrent";
-    tabsMap[48][59] = [];
-    tabsMap[48][59]["url"] = "http://www.cpabien.cx/torrents/series";
-    tabsMap[48][59]["icon"] = "http://www.cpabien.cx/themes/default/img/favicon.ico";
-    tabsMap[48][59]["title"] = "Torrent";
-    tabsMap[48][61] = [];
-    tabsMap[48][61]["url"] = "http://www.cpabien.cx/torrents/jeux";
-    tabsMap[48][61]["icon"] = "http://www.cpabien.cx/themes/default/img/favicon.ico";
-    tabsMap[48][61]["title"] = "Torrent";
-    tabsMap[48][63] = [];
-    tabsMap[48][63]["url"] = "http://www.cpabien.cx/torrents/musiques";
-    tabsMap[48][63]["icon"] = "http://www.cpabien.cx/themes/default/img/favicon.ico";
-    tabsMap[48][63]["title"] = "Torrent";
-    tabsMap[48][65] = [];
-    tabsMap[48][65]["url"] = "https://yggtorrent.com/torrents/filmvideo/2184-serie-tv?&page=25";
-    tabsMap[48][65]["icon"] = "https://yggtorrent.com/static/images/favicon.png";
-    tabsMap[48][65]["title"] = "Yggtorrent";
-    tabsMap[48][1053] = [];
-    tabsMap[48][1053]["url"] = "https://yggtorrent.com/torrent/filmvid%C3%A9o/s%C3%A9rie-tv/113903-ncis+s14e21+french+720p+hdtv+x264-sh0w";
-    tabsMap[48][1053]["icon"] = "https://yggtorrent.com/static/images/favicon.png";
-    tabsMap[48][1053]["title"] = "Télécharger NCIS.S14E21.FRENCH.720p.HDTV.x264-SH0W - Yggtorrent";
-    tabsMap[48][67] = [];
-    tabsMap[48][67]["url"] = "https://yggtorrent.com/engine/search?q=webstorm";
-    tabsMap[48][67]["icon"] = "https://yggtorrent.com/static/images/favicon.png";
-    tabsMap[48][67]["title"] = "Yggtorrent";
-    tabsMap[48][69] = [];
-    tabsMap[48][69]["url"] = "http://www.torrents9.pe/torrents_films.html";
-    tabsMap[48][69]["icon"] = "http://www.torrents9.pe/favicon.ico";
-    tabsMap[48][69]["title"] = "Torrents9.pe - Films";
-    tabsMap[48][985] = [];
-    tabsMap[48][985]["url"] = "http://www.torrents9.pe/torrents_series.html";
-    tabsMap[48][985]["icon"] = "http://www.torrents9.pe/favicon.ico";
-    tabsMap[48][985]["title"] = "Torrents9.pe - Séries";
-    tabsMap[48][73] = [];
-    tabsMap[48][73]["url"] = "http://www.torrents9.pe/torrents_musique.html";
-    tabsMap[48][73]["icon"] = "http://www.torrents9.pe/favicon.ico";
-    tabsMap[48][73]["title"] = "Torrents9.pe - Musique";
-    tabsMap[48][75] = [];
-    tabsMap[48][75]["url"] = "http://www.torrents9.pe/torrents_musique.html";
-    tabsMap[48][75]["icon"] = "http://www.torrents9.pe/favicon.ico";
-    tabsMap[48][75]["title"] = "Torrents9.pe - Musique";
-    tabsMap[48][1029] = [];
-    tabsMap[48][1029]["url"] = "https://mobile.free.fr/moncompte/index.php?page=telephones";
-    tabsMap[48][1029]["icon"] = "https://mobile.free.fr/images/favicon.ico";
-    tabsMap[48][1029]["title"] = "Free Mobile - Bienvenue dans votre Espace Abonné";
-    tabsMap[611] = [];
-    tabsMap[611][49] = [];
-    tabsMap[611][49]["url"] = "https://www.facebook.com/";
-    tabsMap[611][49]["icon"] = "https://www.facebook.com/rsrc.php/yl/r/H3nktOa7ZMg.ico";
-    tabsMap[611][49]["title"] = "(42) Facebook";
-    tabsMap[611][51] = [];
-    tabsMap[611][51]["url"] = "https://www.flickr.com/";
-    tabsMap[611][51]["icon"] = "https://s.yimg.com/pw/favicon.ico";
-    tabsMap[611][51]["title"] = "Accueil | Flickr";
-    tabsMap[611][589] = [];
-    tabsMap[611][589]["url"] = "https://www.ecoledirecte.com/Eleves/6351/CahierDeTexte";
-    tabsMap[611][589]["icon"] = "https://www.ecoledirecte.com/favicon.ico";
-    tabsMap[611][589]["title"] = "EcoleDirecte";
-    tabsMap[611][804] = [];
-    tabsMap[611][804]["url"] = "https://developer.chrome.com/extensions/tabs#method-update";
-    tabsMap[611][804]["icon"] = "https://www.google.com/images/icons/product/chrome-32.png";
-    tabsMap[611][804]["title"] = "chrome.tabs - Google Chrome";
-    tabsMap[611][906] = [];
-    tabsMap[611][906]["url"] = "http://jsfiddle.net/54QM2/1/";
-    tabsMap[611][906]["icon"] = "http://jsfiddle.net/favicon.png";
-    tabsMap[611][906]["title"] = "Edit fiddle - JSFiddle";
-    tabsMap[611][910] = [];
-    tabsMap[611][910]["url"] = "https://code.jquery.com/jquery/";
-    tabsMap[611][910]["icon"] = "undefined";
-    tabsMap[611][910]["title"] = "jQuery Core – All Versions | jQuery CDN";
-    tabsMap[611][1064] = [];
-    tabsMap[611][1064]["url"] = "http://localhost/web/Damien/test/";
-    tabsMap[611][1064]["icon"] = "http://localhost/favicon.ico";
-    tabsMap[611][1064]["title"] = "Test Interface Tab Manager";
-    tabsMap[611][1068] = [];
-    tabsMap[611][1068]["url"] = "http://getbootstrap.com/docs/3.3/examples/theme/";
-    tabsMap[611][1068]["icon"] = "http://getbootstrap.com/favicon.ico";
-    tabsMap[611][1068]["title"] = "Theme Template for Bootstrap";
-    tabsMap[611][1074] = [];
-    tabsMap[611][1074]["url"] = "https://stackoverflow.com/questions/16965780/concatenating-numbers-as-string-in-javascript";
-    tabsMap[611][1074]["icon"] = "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d";
-    tabsMap[611][1074]["title"] = "Concatenating numbers as string in Javascript - Stack Overflow";
-    tabsMap[617] = [];
-    tabsMap[617][53] = [];
-    tabsMap[617][53]["url"] = "https://www.rtbf.be/sport/direct/motor/formule-1/85/grand-prix-du-mexique/result/4107/course";
-    tabsMap[617][53]["icon"] = "https://www.static.rtbf.be/news/sport/ico/favicon-sport-32x32.png";
-    tabsMap[617][53]["title"] = "Résultats - Grand Prix du Mexique - Formule 1 - Sports mécaniques - RTBF";
-    tabsMap[617][55] = [];
-    tabsMap[617][55]["url"] = "https://www.rtbf.be/sport/direct/motor/formule-1/classement";
-    tabsMap[617][55]["icon"] = "https://www.static.rtbf.be/news/sport/ico/favicon-sport-32x32.png";
-    tabsMap[617][55]["title"] = "Classement - Formule 1 - Sports mécaniques - RTBF";
-    tabsMap[618] = [];
-    tabsMap[618][56] = [];
-    tabsMap[618][56]["url"] = "https://www.rtbf.be/sport/direct/motor/formule-1/85/grand-prix-du-mexique/result/4107/course";
-    tabsMap[618][56]["icon"] = "https://www.static.rtbf.be/news/sport/ico/favicon-sport-32x32.png";
-    tabsMap[618][56]["title"] = "Résultats - Grand Prix du Mexique - Formule 1 - Sports mécaniques - RTBF";
-    displayGroup();
+function convertArrayToJSON(arr) {
+    var result = "{";
+    var subresult = "";
+    for (var i in arr) {
+        if (arr[i] instanceof Array) {
+            subresult = convertArrayToJSON(arr[i]);
+        } else {
+            subresult = '"' + encodeURI(arr[i]) + '"';
+        }
+        result += "\"" + i + "\": " + subresult + ","
+    }
+    result = result.substr(0, result.length - 1);
+    result += "}";
+    return result;
 }
 
-function loadGroup() {
+function convertJSONToArray(str) {
+    var result = JSON.parse(str);
+    return result;
+}
+
+function stockTabsMap() {
+    var tabsMapTmp = [];
     chrome.windows.getAll({populate: true}, function (windows) {
         windows.forEach(function (window) {
             var id = window.id;
-            tabsMap[id] = [];
+            tabsMapTmp[id] = [];
             window.tabs.forEach(function (tab) {
-                tabsMap[id][tab.id] = [];
-                tabsMap[id][tab.id]["url"] = tab.url;
-                tabsMap[id][tab.id]["icon"] = tab.favIconUrl;
-                tabsMap[id][tab.id]["title"] = tab.title;
+                tabsMapTmp[id][tab.id] = [];
+                tabsMapTmp[id][tab.id]["url"] = tab.url;
+                tabsMapTmp[id][tab.id]["icon"] = tab.favIconUrl;
+                tabsMapTmp[id][tab.id]["title"] = tab.title;
             });
         });
+        var result = convertArrayToJSON(tabsMapTmp);
+        chrome.storage.sync.set({"tabsMap": result}, function () {
+            console.log("dataIsStore " + result);
+        });
+    });
+}
+
+function loadGroup() {
+    var result = "";
+    chrome.storage.sync.get("tabsMap", function (object) {
+        result = object['tabsMap'];
+        tabsMap = convertJSONToArray(result);
         displayGroup();
     });
 }
 
-//  Launche the window
+//  Launch the window
 function openWindow() {
     chrome.windows.create(
         {
@@ -151,13 +81,7 @@ function ready() {
 // Get the list of group with tab in it
 // return: boolean
 function getGroup() {
-    // todo: use of chrome.windows.getAll in extensions
-    if (window.location.toString().indexOf("extension") > 0) {
-        loadGroup();
-    } else {
-        loadMockGroup();
-    }
-    // call an array instead when test page
+    loadGroup();
 }
 
 // Add a new group
@@ -183,7 +107,7 @@ function createPanel(windowId, tabsMap) {
     column.className += " col-md-6 col-xs-6";
     var group = document.createElement("DIV");
     group.id = windowId;
-    group.className += " panel panel-primary";
+    group.className += " panel panel-primary ";
     var groupTitle = document.createElement("DIV");
     groupTitle.className += " panel-heading";
     var title = document.createElement("H4");
@@ -199,6 +123,7 @@ function createPanel(windowId, tabsMap) {
             content.appendChild(createMiniTab(tabId, windowId, tabsMap[windowId][tabId]));
         }
     }
+    content.appendChild(createInvisibleMiniTab());
     group.appendChild(content);
     column.appendChild(group);
     return column;
@@ -208,6 +133,33 @@ function createGroup() {
     var container = document.getElementById("main");
     var group = createPanel();
     container.appendChild(group);
+}
+
+function createInvisibleMiniTab() {
+    var column = document.createElement("DIV");
+    column.id = "0";
+    column.className += " col-md-3 col-xs-3 masked";
+    column.draggable = true;
+    var tab = document.createElement("DIV");
+    tab.className += " panel panel-success";
+    var tabTitle = document.createElement("DIV");
+    tabTitle.className += " panel-heading";
+    var title = document.createElement("H6");
+    title.className += " panel-title";
+    title.style.whiteSpace = "nowrap";
+    title.style.textOverflow = "ellipsis";
+    title.style.overflow = "hidden";
+    title.appendChild(document.createTextNode("empty"));
+    tabTitle.appendChild(title);
+    // todo: get an image of the tab content
+    var content = document.createElement("DIV");
+    content.className += " panel-boby";
+    content.style.height = "40px";
+    tab.appendChild(tabTitle);
+    tab.appendChild(content);
+    column.appendChild(tab);
+    addDnDHandlers(column);
+    return column;
 }
 
 function createMiniTab(tabId, windowId, tabArray) {
@@ -220,6 +172,7 @@ function createMiniTab(tabId, windowId, tabArray) {
     tab.className += " panel panel-success";
     var tabTitle = document.createElement("DIV");
     tabTitle.className += " panel-heading";
+    tabTitle.title = decodeURI(tabArray["title"]);
     var title = document.createElement("H6");
     title.className += " panel-title";
     title.style.whiteSpace = "nowrap";
@@ -227,22 +180,23 @@ function createMiniTab(tabId, windowId, tabArray) {
     title.style.overflow = "hidden";
     var icon = document.createElement("IMG");
     icon.setAttribute('src', tabArray["icon"]);
-    icon.setAttribute('height', '16px');
-    icon.setAttribute('width', '16px');
+    icon.setAttribute('height', '12px');
+    icon.setAttribute('width', '12px');
     icon.addEventListener('error', function () {
         this.setAttribute('src', "image/404.png");
     });
     title.appendChild(icon);
-    title.appendChild(document.createTextNode(" " + tabArray["title"]));
+    title.appendChild(document.createTextNode(" " + decodeURI(tabArray["title"])));
     tabTitle.appendChild(title);
     // todo: get an image of the tab content
     var content = document.createElement("DIV");
     content.className += " panel-boby";
-    content.style.height = "50px";
+    content.style.height = "40px";
     content.style.whiteSpace = "nowrap";
     content.style.textOverflow = "ellipsis";
     content.style.overflow = "hidden";
     content.style.fontSize = "10px";
+    content.title = tabArray["url"];
     content.appendChild(document.createTextNode(tabArray["url"]));
     tab.appendChild(tabTitle);
     tab.appendChild(content);

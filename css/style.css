@@ -6,7 +6,16 @@ h4.panel-title {
     font-size: 14px;
 }
 
+.panel-resizable {
+    resize: both;
+    overflow: auto
+}
+.masked {
+    opacity: 0;
+}
+
 @media (min-width: 200px) {
-    .my-custom-container{
-        width:1400px;
-    }}
+    .my-custom-container {
+        width: 1400px;
+    }
+}

@@ -11,7 +11,8 @@
   "description": "This extension allows the user to manage the tab.",
   "version": "1.0",
   "permissions": [
-    "tabs"
+    "tabs",
+    "storage"
   ],
   "commands": {
     "toggle-feature": {
