@@ -113,6 +113,13 @@ function createPanel(windowId, tabsMap) {
     var title = document.createElement("H4");
     title.className += " panel-title";
     title.appendChild(document.createTextNode("Group " + windowId));
+    var buttonClose = document.createElement("IMG");
+    buttonClose.windowId = windowId;
+    buttonClose.className = "iconButton";
+    buttonClose.setAttribute('src', "image/close-window-16-blue.png");
+    buttonClose.addEventListener('click', function () {
+    });
+    title.appendChild(buttonClose);
     groupTitle.appendChild(title);
     group.appendChild(groupTitle);
     var content = document.createElement(("DIV"));
@@ -186,8 +193,19 @@ function createMiniTab(tabId, windowId, tabArray) {
     icon.addEventListener('error', function () {
         this.setAttribute('src', "image/404.png");
     });
+    var buttonClose = document.createElement("IMG");
+    buttonClose.tabId = tabId;
+    buttonClose.className = "iconButton";
+    buttonClose.setAttribute('src', "image/close-window-16-green.png");
+    buttonClose.addEventListener('click', function () {
+        var tabId = this.tabId;
+        var tab = document.getElementById(tabId);
+        chrome.tabs.remove(parseInt(tabId));
+        tab.parentNode.removeChild(tab);
+    });
     title.appendChild(icon);
     title.appendChild(document.createTextNode(" " + decodeURI(tabArray["title"])));
+    tabTitle.appendChild(buttonClose);
     tabTitle.appendChild(title);
     // todo: get an image of the tab content
     var content = document.createElement("DIV");
@@ -208,10 +226,12 @@ function createMiniTab(tabId, windowId, tabArray) {
 }
 
 function clickTab(elem) {
-    elem.addEventListener("click", function () {
-        chrome.tabs.update(parseInt(this.id), {active: true});
-        chrome.windows.update(parseInt(this.windowId), {focused: true});
-        window.close();
+    elem.addEventListener("click", function (evt) {
+        if (evt.srcElement.className !== "iconButton") {
+            chrome.tabs.update(parseInt(this.id), {active: true});
+            chrome.windows.update(parseInt(this.windowId), {focused: true});
+            window.close();
+        }
     });
 }
 

@@ -4,6 +4,7 @@ h6.panel-title {
 
 h4.panel-title {
     font-size: 14px;
+    width: 100%;
 }
 
 .panel-resizable {
@@ -21,6 +22,20 @@ h4.panel-title {
 
 .panel-body-light {
     background-color: #cccccc;
+}
+
+.iconButton {
+    float: right;
+    opacity: 0.3;
+    height: 16px;
+    width: 16px;
+}
+
+.iconButton:hover {
+    float: right;
+    opacity: 1;
+    height: 16px;
+    width: 16px;
 }
 
 body {
