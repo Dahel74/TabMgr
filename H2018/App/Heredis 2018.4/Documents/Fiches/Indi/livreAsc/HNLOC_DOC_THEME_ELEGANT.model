@@ -1,0 +1,64 @@
+<model version="140" categorie="0" type="4">
+    <blocs>
+        <couverture affiche="1" locKey="HNLOC_DOC_BLOC_COUVERTURE"/>
+        <ascendance affiche="1" locKey="HNLOC_DOC_BLOC_ASC"/>
+        <photos affiche="1" locKey="HNLOC_DOC_BLOC_PHOTOS"/>
+        <tableaux affiche="1" locKey="HNLOC_DOC_BLOC_TABLEAUX"/>
+    </blocs>
+    <taillePapierCm w="595.00002670288086" h="842"/>
+    <taillePapierInch w="595.00002670288086" h="842"/>
+    <orientationPapier>0</orientationPapier>
+    <margesCm top="0" bottom="0" left="0" right="0"/>
+    <margesInch top="0" bottom="0" left="0" right="0"/>
+    <fontName>Didot</fontName>
+    <fontSize>10</fontSize>
+    <couleurTextes>33383b</couleurTextes>
+    <titre affiche="0"></titre>
+    <date affiche="0"/>
+    <numPage affiche="1"/>
+    <auteur affiche="0"></auteur>
+    <couleurHomme>491b01</couleurHomme>
+    <couleurFemme>491b01</couleurFemme>
+    <couleurImplexe></couleurImplexe>
+    <couleurSosa>33383b</couleurSosa>
+    <couleurTitres>491b01</couleurTitres>
+    <couleurBandeaux>eee9d7</couleurBandeaux>
+    <couleurCases></couleurCases>
+    <couleurBordures epaisseur="1" complete="0">c6c3b4</couleurBordures>
+    <formatPrenoms withSurnom="1">0</formatPrenoms>
+    <formatNomPrenom withQualite="0" withSuffixe="1">0</formatNomPrenom>
+    <formatDates gregorien="0" symboles="1">7</formatDates>
+    <formatLieux subdivision="1">2</formatLieux>
+    <withImages>1</withImages>
+    <withFiliation>1</withFiliation>
+    <withSignature>1</withSignature>
+    <withEtiquettes>0</withEtiquettes>
+    <withRubriquesPerso>1</withRubriquesPerso>
+    <withNumeros>1</withNumeros>
+    <withTemoins>1</withTemoins>
+    <withSources option="1">1</withSources>
+    <withNotesEvent>1</withNotesEvent>
+    <eventsCroises>0</eventsCroises>
+    <eventsMineurs>1</eventsMineurs>
+    <conjointsEnfants>1</conjointsEnfants>
+    <descendanceEnfants>1</descendanceEnfants>
+    <donneesPrivees>1</donneesPrivees>
+    <withEvtsVides>0</withEvtsVides>
+    <withRemariages>1</withRemariages>
+    <withNotesIndis>1</withNotesIndis>
+    <withTitre>0</withTitre>
+    <withProfession>0</withProfession>
+    <withStatutUnion>0</withStatutUnion>
+    <posNotes>inline</posNotes>
+    <limitNbGen maxGenerations="3">1</limitNbGen>
+    <couvTitre affiche="1">Ascendance de Claude "Charles" dit Chacha de CHAMP Senior</couvTitre>
+    <couvSsTitre affiche="1"></couvSsTitre>
+    <couvAuteur affiche="1">Aude Front</couvAuteur>
+    <couvImage affiche="1"></couvImage>
+    <withPersonnesLiees>1</withPersonnesLiees>
+    <withDureeUnions>1</withDureeUnions>
+    <withConsanguinite degre="4">1</withConsanguinite>
+    <withExtinctionBranches>0</withExtinctionBranches>
+    <withAges>1</withAges>
+    <deuxColonnes>1</deuxColonnes>
+</model>

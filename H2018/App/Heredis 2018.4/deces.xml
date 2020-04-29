@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml-stylesheet href="stylesheet.css" type="text/css"?>
+<XMLDocumentRoot>	
+	<Onglet>
+		<Name>Registre</Name>
+		<Type>INFOS_REGISTRE</Type>
+		<Options></Options>
+	</Onglet>
+	<Onglet>
+		<Name>Source</Name>
+		<Type>SOURCE</Type>
+		<Options></Options>
+	</Onglet>
+	<Onglet>
+		<Name>Officier d'état civil</Name>
+		<Type>OFFICIER_ETAT_CIVIL</Type>
+		<Options>SELECT_INDI_BT,PRENOMS_SEXE,SEXE_MASCULIN,NOM,TITRE,LIEN_NOTE</Options>
+	</Onglet>
+	<Onglet>
+		<Name>Déclarants</Name>
+		<Type>DEUX_DECLARANTS</Type>
+		<Options>SELECT_INDI_BT,PRENOMS_SEXE,NOM,PROFESSION,TITRE,AGE,DOMICILE,LIEN_NOTE</Options>
+	</Onglet>		
+	<Onglet>
+		<Name>Défunt</Name>
+		<Type>DEFUNT</Type>
+		<Options>SELECT_INDI_BT,PRENOMS_SEXE,NOM,PROFESSION,TITRE,AGE,DOMICILE,NAISSANCE</Options>
+	</Onglet>
+	<Onglet>
+		<Name>Conjoint</Name>
+		<Type>CONJOINT</Type>
+		<Options>SELECT_INDI_BT,PRENOMS_SEXE,NOM,PROFESSION,TITRE,AGE,PRESENCE</Options>
+	</Onglet>
+	<Onglet>
+		<Name>Parents</Name>
+		<Type>PARENT_DEFUNT</Type>
+		<Options>SELECT_INDI_BT,PRENOMS_SEXE,NOM,PROFESSION,DOMICILE,PRESENCE</Options>
+	</Onglet>	
+	<Onglet>
+		<Name>Décès</Name>
+		<Type>DEFUNT_DECES</Type>
+		<Options>DECES</Options>
+	</Onglet>
+	<Onglet>
+		<Name>Témoins</Name>
+		<Type>TEMOINS</Type>
+		<Options>HIDE_MAJEUR_MINEUR</Options>
+	</Onglet>
+	<Onglet>
+		<Name>Signatures</Name>
+		<Type>SIGNATURES</Type>
+		<Options></Options>
+	</Onglet>
+	<Onglet>
+		<Name>Infos complémentaires</Name>
+		<Type>INFOS_AUTRES</Type>
+		<Options></Options>
+	</Onglet>
+</XMLDocumentRoot>

@@ -1,0 +1,1 @@
+$(document).ready(function(){$.cookie.json=!0,kendo.culture("fr-FR"),(new MainController).init();$(window).scroll(function(){$(window).scrollTop()>500?$("a.back-to-top").fadeIn("slow"):$("a.back-to-top").fadeOut("slow")})});

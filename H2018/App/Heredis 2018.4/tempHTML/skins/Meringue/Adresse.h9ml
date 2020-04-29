@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Heredis 10</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="style_panneaux.css" type="text/css">
+</head>
+<body>
+<div class="document">
+	<h1>$NomsIndividus$ </h1>
+	
+	$Private$
+
+	<h2 class="no-border-top">Adresse postale 1</h2>
+	<p>
+			$Adresse1$
+	</p>
+	
+	<h2 class="no-border-top">Adresse postale 2</h2>
+	<p>
+			$Adresse2$
+	</p>
+	
+	<h2>Tél / fax</h2>
+	<p>
+			$Tel$
+	</p>
+	
+	<h2>Internet</h2>
+	<p>
+			$Internet$
+	</p>
+	
+	<h2>Les individus liés</h2>
+	<p>
+		$LesIndisLies$
+	</p>
+	
+	$TitreTache$
+	$LesTachesLiees$
+	
+	<h2>Note</h2>
+	<p>
+		$Note$
+	</p>
+	
+</div>
+</body>
+</html>

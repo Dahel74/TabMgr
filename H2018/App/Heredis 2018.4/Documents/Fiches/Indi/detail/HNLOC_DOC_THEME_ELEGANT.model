@@ -1,0 +1,57 @@
+<model version="130" categorie="0" type="0">
+    <blocs>
+        <individu affiche="1" locKey="HNLOC_DOC_BLOC_INDIVIDU"/>
+        <parents affiche="1" locKey="HNLOC_DOC_BLOC_PARENTS"/>
+        <fratrie affiche="1" locKey="HNLOC_DOC_BLOC_FRATRIE"/>
+        <conjoints_enfants affiche="1" locKey="HNLOC_DOC_BLOC_CONJOINTS_ENFANTS"/>
+        <personnes_liees affiche="1" locKey="HNLOC_DOC_BLOC_PERSONNES_LIEES"/>
+        <chrono affiche="1" locKey="HNLOC_DOC_BLOC_CHRONO"/>
+        <notes affiche="1" locKey="HNLOC_DOC_BLOC_NOTES"/>
+        <photos affiche="1" locKey="HNLOC_DOC_BLOC_PHOTOS"/>
+    </blocs>
+    <taillePapierCm w="595" h="842"/>
+    <taillePapierInch w="595" h="842"/>
+    <orientationPapier>0</orientationPapier>
+    <margesInch top="0.6" bottom="0.6" left="0.6" right="0.6"/>
+    <margesCm top="1.5" bottom="1.5" left="1.5" right="1.5"/>
+    <fontName>Didot</fontName>
+    <fontSize>10</fontSize>
+    <couleurTextes>33383B</couleurTextes>
+    <titre affiche="1">DUCHAMP, Claude Charles  (~ 1932-&lt;&gt; 2009 &amp; 2010) - N° 1 (G1)</titre>
+    <date affiche="1"/>
+    <numPage affiche="1"/>
+    <auteur affiche="1">x</auteur>
+    <couleurHomme>491B01</couleurHomme>
+    <couleurFemme>491B01</couleurFemme>
+    <couleurImplexe>5B1A09</couleurImplexe>
+    <couleurSosa>33383B</couleurSosa>
+    <couleurTitres>491B01</couleurTitres>
+    <couleurBandeaux>EEE9D7</couleurBandeaux>
+    <couleurCases>EEE9D7</couleurCases>
+    <couleurBordures epaisseur="1" complete="1">C6C3B4</couleurBordures>
+    <formatPrenoms withSurnom="1">0</formatPrenoms>
+    <formatNomPrenom withQualite="0" withSuffixe="1">1</formatNomPrenom>
+    <formatDates gregorien="0" symboles="1">7</formatDates>
+    <formatLieux subdivision="1">2</formatLieux>
+    <withImages>1</withImages>
+    <withFiliation>1</withFiliation>
+    <withSignature>1</withSignature>
+    <withEtiquettes>0</withEtiquettes>
+    <withRubriquesPerso>1</withRubriquesPerso>
+    <withNumeros>1</withNumeros>
+    <withTemoins>1</withTemoins>
+    <withSources option="0">1</withSources>
+    <withNotesEvent>1</withNotesEvent>
+    <eventsCroises>1</eventsCroises>
+    <eventsMineurs>1</eventsMineurs>
+    <conjointsEnfants>1</conjointsEnfants>
+    <descendanceEnfants>1</descendanceEnfants>
+    <donneesPrivees>1</donneesPrivees>
+    <withEvtsVides>0</withEvtsVides>
+    <withRemariages>0</withRemariages>
+    <withNotesIndis>1</withNotesIndis>
+    <withTitre>1</withTitre>
+    <withProfession>1</withProfession>
+    <withStatutUnion>0</withStatutUnion>
+    <posNotes>foot</posNotes>
+</model>

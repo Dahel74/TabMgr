@@ -1,0 +1,87 @@
+
+<div class="row">
+        <div class="col col-lg-8 col-lg-offset-2 col-md-9 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12" id="banniere"></div>
+</div>
+<div class="row" id="loginFormContainer">
+    <div class="col col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-6">
+        <div class="box">
+            <div class="box-content" data-bind="events: { keyup: keypress }">
+                <h3 class="tag-title">
+                    <span data-bind="text: loginSectionTitle" id="login_title"></span>
+                </h3>
+                <div class="form-group">
+                    <label for="basic-addon1">
+                        <span id="username_label" data-bind="text: usernameLabel"></span>
+                    </label>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        </span>
+                        <input type="text" data-bind="attr: { placeholder: usernamePlaceholder }, value: usernameValue" id="username" class="form-control"
+                            aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="basic-addon1">
+                        <span data-bind="text: pwdLabel" id="pwd_label"></span>
+                    </label>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">
+                            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+                        </span>
+                        <input type="password" data-bind="attr: { placeholder: pwdInputPlaceholder }, value: pwdInputValue" id="passwd" class="form-control"
+                            aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" data-bind="text: loginSectionTitle, checked: RememberIsChecked" name="rememberMe" id="rememberMe">
+                        <span data-bind="text: rememberMeText" id="textRememberMeButton"></span>
+                    </label>
+                </div>
+                <button data-bind="text: buttonConnectText, click: connect" class="btn btn-primary" id="connectUser"></button>
+                <p>
+                    <a href="https://familysearch.org/recover/username" target="_blank">
+                        <span data-bind="text: usernameForgotLinktext" id="usernameLinkLabel"></span>
+                    </a>
+                    <span data-bind="text: orText" id="orText"></span>
+                    <a href="https://familysearch.org/recover/password" target="_blank">
+                        <span data-bind="text: pwdForgotLinkLabelText" id="pwdLinkLabel"></span>
+                    </a>
+                    <span data-bind="text: forgotText" id="forgotText"></span>
+                </p>
+                <div id="logError"></div>
+                <div id="requirementsContainer">
+                    <p>
+                        <span data-bind="text:Requirements_1"></span>
+                    </p>
+                    <p>
+                        <span data-bind="text:Requirements_2"></span>
+                        <a data-bind="attr:{href:privacyPolicyHref}" target="_blank" >
+                            <span data-bind="text:privacyPolicyString"></span> 
+                        </a>     
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col col-lg-4 col-lg-offset-0 col-md-5 col-md-offset-0 col-sm-5 col-sm-offset-0 col-xs-6">
+        <div class="box">
+            <div class="box-content">
+                <h3 class="tag-title">
+                    <span id="newuser_title" data-bind="text: newUserSectionTitle"></span>
+                </h3>
+                <p data-bind="text: noAccountText" id="textNoAccount"></p>
+                <br/>
+                <a href="https://familysearch.org/register" target="_blank">
+                    <button type="submit" data-bind="text: buttonCreateAccountText" class="btn btn-primary" id="createNewUser">
+                        <span id="create_account"></span>
+                    </button>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>,

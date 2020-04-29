@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Heredis 9</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="style_panneaux.css" type="text/css">
+</head>
+<body>
+
+<h1>$Nom$</h1>
+<br>
+$TitreChemin$
+<p>$Repertoire$</p>
+<p>$HOLStatus$</p>
+<br>
+
+<h2>$TitreUtilisations$$NbUtilisations$</h2>
+<p>$Utilisations$</p>
+
+</body>
+</html>

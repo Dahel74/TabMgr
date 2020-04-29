@@ -1,0 +1,2586 @@
+
+"HNLOC_GENERATION" = "génération";
+"HNLOC_GENERATION_INITIAL" = "G";
+"HNLOC_INDIVIDU" = "individu";
+"HNLOC_INDIVIDU_PL" = "individus";
+"HNLOC_INDIVIDU_CAP" = "Individu";
+"HNLOC_INDIVIDU_PL_CAP" = "Individus";
+"HNLOC_UNION_PL" = "unions";
+"HNLOC_UNION" = "union";
+"HNLOC_UNION_PL_CAP" = "Unions";
+"HNLOC_UNION_CAP" = "Union";
+"HNLOC_FAMILLES_PL_CAP" = "Familles";
+"HNLOC_EVENEMENT" = "événement";
+"HNLOC_EVENEMENT_PL" = "événements";
+"HNLOC_EVENEMENT_CAP" = "Événement";
+"HNLOC_EVENEMENT_PL_CAP" = "Événements";
+"HNLOC_EVENEMENTS_MAJEURS" = "Événements majeurs";
+"HNLOC_FAIT_CAP" = "Rubrique personnelle";
+"HNLOC_FAIT" = "rubrique personnelle";
+"HNLOC_FAIT_PL" = "rubriques personnelles";
+"HNLOC_FAIT_PL_CAP" = "Rubriques personnelles";
+"HNLOC_PERE_CAP_2PTS" = "Père :";
+"HNLOC_MERE_CAP_2PTS" = "Mère :";
+"HNLOC_ENFANT_PL_CAP" = "Enfants";
+"HNLOC_ENFANT_CAP" = "Enfant";
+"HNLOC_PARENTS_PL_CAP" = "Parents";
+"HNLOC_PERE_CAP" = "Père";
+"HNLOC_MERE_CAP" = "Mère";
+"HNLOC_CONJOINTS" = "conjoints";
+"HNLOC_CONJOINT" = "conjoint";
+"HNLOC_LUI_CAP" = "Lui";
+"HNLOC_ELLE_CAP" = "Elle";
+"HNLOC_LUI_CAP_2PTS" = "Lui :";
+"HNLOC_ELLE_CAP_2PTS" = "Elle :";
+"HNLOC_A_ACCENT" = "à";
+"HNLOC_2PTS" = " :";
+"HNLOC_D_APOS" = "d'";
+"HNLOC_DE" = "de ";
+"HNLOC_NOM_RECHERCHE_NUMERO" = "Recherche par numéro";
+"HNLOC_NOTE_CAP"    = "Note";
+"HNLOC_ALTERNATE_NAME_PL_CAP" = "Autres noms";
+
+"HNLOC_OUI_CAP" = "Oui";
+"HNLOC_NON_CAP" = "Non";
+
+//-----------------------------------------------------//
+//                  GENERAL                            //
+//-----------------------------------------------------//
+"HNLOC_GLOBAL_ACTION_REPLACE" = "Remplacer";
+"HNLOC_GLOBAL_ACTION_ADD" = "Ajouter";
+
+
+//-----------------------------------------------------//
+//                  MISE À JOUR FICHIER                //
+//-----------------------------------------------------//
+"HNLOC_HEREDIS_FICHIER_MAJ" = "Conversion du fichier..." ;
+"HNLOC_HEREDIS_FICHIER_VERIFICATION" = "Vérification du fichier..." ;
+"HNLOC_HEREDIS_FICHIER_MAJ_PROFESSIONS_US" = "%d professions vérifiées";
+"HNLOC_HEREDIS_FICHIER_MAJ_LOCALISATION_LIEU" = "%d lieux vérifiés";
+"HNLOC_HEREDIS_FICHIER_MAJ_DATE_EVENT" = "%d dates vérifiées";
+"HNLOC_HEREDIS_FICHIER_MAJ_DATE_MODIF" = "%d individus vérifiés";
+"HNLOC_HEREDIS_FICHIER_MAJ_HEURE" = "%d heures vérifiées";
+"HNLOC_HEREDIS_FICHIER_MAJ_MEDIAS_BUNDLE" = "%d médias traités";
+"HNLOC_HEREDIS_FICHIER_MAJ_INDIVIDUS" = "%d/%d individus vérifiés";
+"HNLOC_HEREDIS_FICHIER_MAJ_UNIONS" = "%d/%d unions vérifiées";
+"HNLOC_HEREDIS_FICHIER_MAJ_EVENEMENTS" = "%d/%d événements vérifiés";
+"HNLOC_HEREDIS_FICHIER_MAJ_NOMS_MEDIAS_BUNDLE" = "%d noms de médias traités";
+"HNLOC_HEREDIS_FICHIER_MAJ_NOTES" = "%d/%d notes vérifiées";
+"HNLOC_HEREDIS_FICHIER_MAJ_NOMS_BUNDLE" = "%d noms traités";
+"HNLOC_HEREDIS_FICHIER_MAJ_PRENOMS_BUNDLE" = "%d prénoms traités";
+"HNLOC_HEREDIS_FICHIER_MAJ_SOURCES_BUNDLE" = "%d sources traitées";
+"HNLOC_HEREDIS_FICHIER_MAJ_EVENTS_BUNDLE" = "%d événements traités";
+"HNLOC_HEREDIS_FICHIER_MAJ_UNIONS_BUNDLE" = "%d unions traitées";
+"HNLOC_HEREDIS_FICHIER_MAJ_ORDRE_UNION" = "%d ordres des unions traités";
+"HNLOC_HEREDIS_FICHIER_MAJ_DATE_TRI_INDIVIDU" = "%d dates d'individu traitées";
+"HNLOC_HEREDIS_FICHIER_MAJ_AGE_DECES_INDIVIDU" = "%d âges au décès verifiés";
+"HNLOC_HEREDIS_FICHIER_MAJ_NOTE_NETTOYEE" = "%d notes traitées";
+"HNLOC_HEREDIS_FICHIER_MAJ_DATE_TACHE" = "%d tâches traitées";
+"HNLOC_HEREDIS_FICHIER_MAJ_EVENT_TITRE" = "Vérification des événements...";
+"HNLOC_HEREDIS_FICHIER_MAJ_UNION_AGE" = "%d âges à l'union vérifiés";
+"HNLOC_HEREDIS_FICHIER_MAJ_NUMERO_SOSA" = "Calcul des numéros Sosa...";
+"HNLOC_HEREDIS_FICHIER_MAJ_INDIVIDU_CODE_UNION_PARENT" = "%d/%d parents vérifiés";
+"HNLOC_HEREDIS_FICHIER_MAJ_RUBRIQUES_PERSO" = "%d rubriques converties";
+"HNLOC_HEREDIS_FICHIER_MAJ_LOG_UPGRADE" = "Enregistrement de la mise à jour...";
+"HNLOC_HEREDIS_FICHIER_MAJ_LIEUX_BUNDLE" = "%d lieux traités";
+
+"HNLOC_HEREDIS_FICHIER_CONVERSION_IMPOSSIBLE_TITLE" = "Ouverture du fichier impossible";
+"HNLOC_HEREDIS_FICHIER_CONVERSION_IMPOSSIBLE_MESSAGE" = "Le fichier ne peut pas être ouvert car il a été créé avec une version trop ancienne de Heredis.\nPour convertir votre fichier au nouveau format Heredis, merci de prendre contact avec notre service technique.";
+"HNLOC_HEREDIS_FICHIER_CONVERSION_IMPOSSIBLE_SUPPORT" = "Contacter le service technique ";
+
+"HNLOC_HEREDIS_FICHIER_MAJ_NOTE_IMAGE_BACKUP_TITLE" = "Gestion des images extraites des notes";
+"HNLOC_HEREDIS_FICHIER_MAJ_NOTE_IMAGE_BACKUP" = "Des images ont été extraites de vos notes et sauvegardées dans le dossier\n'%s'.\n\nDepuis le menu \"Outils\" un utilitaire vous permet de gérer ces notes et images.";
+
+"HNLOC_DICO_IMPORT_FAIL" = "Vous essayez d’importer le dictionnaire d’un fichier d’une version antérieure, veuillez au préalable convertir le fichier.";
+"HNLOC_DICO_IMPORT_FAIL_TITLE" = "Fichier à vérifier";
+
+//-----------------------------------------------------//
+//                     FILIATION                       //    
+//-----------------------------------------------------//
+"HNLOC_FILIATION_LEGITIME" = "Légitime";
+"HNLOC_FILIATION_NATUREL" = "Naturel";
+"HNLOC_FILIATION_RECONNU" = "Reconnu";
+"HNLOC_FILIATION_LEGITIME2" = "Légitimé";
+"HNLOC_FILIATION_TROUVE" = "Trouvé";
+"HNLOC_FILIATION_ADOPTE" = "Adopté";
+"HNLOC_FILIATION_ADULTERIN" = "Adultérin";
+"HNLOC_FILIATION_MORTNE" = "Mort-né";
+"HNLOC_FILIATION_NONCONNUE" = "Non connue";
+
+//-----------------------------------------------------//
+//                     SIGNATURE                       //
+//-----------------------------------------------------//
+"HNLOC_SIGNE_OUI" = "Sait signer";
+"HNLOC_SIGNE_NON" = "Ne sait pas signer";
+"HNLOC_SIGNE_PEUTETRE" = "Sait peut-être signer";
+
+"HNLOC_SIGNE_OUI_COURT" = "Oui";
+"HNLOC_SIGNE_NON_COURT" = "Non";
+"HNLOC_SIGNE_PEUTETRE_COURT" = "?";
+
+//-----------------------------------------------------//
+//                    APPLICATION                      //
+//-----------------------------------------------------//
+"HNLOC_LANG_APP" = "fr";
+"HNLOC_OUVERTURE_FICHIER" = "Ouverture du fichier...";
+"HNLOC_SAUVEGARDE_FICHIER" = "Enregistrement du fichier";
+"HNLOC_SAUVEGARDE_EN_COURS" = "Enregistrement en cours...";
+"HNLOC_HEREDIS_PREMIUM"     = "Heredis Premium activé";
+
+//-----------------------------------------------------//
+//                     INDIVIDUS                       //
+//-----------------------------------------------------//
+"HNLOC_DIT_MASC" = "dit";
+"HNLOC_DIT_FEM" = "dite";
+"HNLOC_SOSA_INTITULE" = "Sosa n° ";
+
+"HN_LOC_ABREVIATION_SEXE_MASCULIN" = "M";
+"HN_LOC_ABREVIATION_SEXE_FEMININ" = "F";
+"HN_LOC_ABREVIATION_SEXE_INDETERMINE" = "?";
+"HN_LOC_ABREVIATION_PERE" = "P";
+"HN_LOC_ABREVIATION_MERE" = "M";
+
+"HNLOC_INDIVIDUS_HOMMES" = "Hommes";
+"HNLOC_INDIVIDUS_FEMMES" = "Femmes";
+"HNLOC_INDIVIDUS_CONFIDENTIEL" = "Confidentiel";
+"HNLOC_INDIVIDUS_SANS_UNION" = "Sans union";
+"HNLOC_INDIVIDUS_SANS_ENFANT" = "Sans descendance";
+"HNLOC_INDIVIDUS_MARQUE" = "Marqué";
+"HNLOC_INDIVIDUS_SECONDAIRE" = "Secondaire";
+
+"HNLOC_TOOLTIP_NAISSANCE_COMPLET" = "Informations de naissance complètes";
+"HNLOC_TOOLTIP_NAISSANCE_INCOMPLET" = "Informations de naissance incomplètes";
+"HNLOC_TOOLTIP_MARIAGE_COMPLET" = "Informations d'union complètes";
+"HNLOC_TOOLTIP_MARIAGE_INCOMPLET" = "Informations d'union incomplètes";
+"HNLOC_TOOLTIP_MARIAGE_PAS_D_UNION" = "Pas d'union";
+"HNLOC_TOOLTIP_DECES_COMPLET" = "Informations de décès complètes";
+"HNLOC_TOOLTIP_DECES_INCOMPLET" = "Informations de décès incomplètes";
+"HNLOC_TOOLTIP_INDIVIDU_CONTEMPORAIN" = "Individu contemporain";
+"HNLOC_TOOLTIP_INDIVIDU_COMPLET" = "Individu considéré comme complet";
+
+"HNLOC_NUMERO_LIT_MONO_PARENTAL" = "?";
+
+
+//-----------------------------------------------------//
+//                      DE CUJUS                         //    
+//-----------------------------------------------------//
+"HNLOC_LIGNEE_SOSA" = "Lignée Sosa";
+
+//-----------------------------------------------------//
+//                 IMPORT GEDCOM                       //
+//-----------------------------------------------------//
+"HNLOC_IMPORT_GEDCOM" = "Import GEDCOM";
+"HNLOC_ANALYSE_GEDCOM" = "Analyse du fichier GEDCOM";
+"HNLOC_IMPORT_GEDCOM_ORIGINE" = "Fichier : %s";
+"HNLOC_IMPORT_GEDCOM_DOCUMENT" = "Import Gedcom du %s";
+"HNLOC_GEDCOM_INVALIDE" = "Ce fichier GEDCOM n'est pas valide, vous ne pourrez pas l'importer.";
+"HNLOC_GEDCOM_TROP_GROS" = "Ce fichier GEDCOM est trop volumineux, vous ne pourrez pas l'importer.";
+"HNLOC_GEDCOM_LOCATE_MEDIA" = "Votre fichier contient des médias. Voulez-vous les localiser maintenant ?";
+
+//-----------------------------------------------------//
+//                    IMPORT HEREDIS                   //
+//-----------------------------------------------------//
+"HNLOC_IMPORT_HEREDIS"                      = "Import Heredis";
+"HNLOC_IMPORT_HEREDIS_IMPOSSIBLE_TITRE"     = "Import du fichier impossible";
+"HNLOC_IMPORT_HEREDIS_DOCUMENT"             = "Import Heredis du %s";
+"HNLOC_IMPORT_HEREDIS_IMPOSSIBLE_MESSAGE"   = "Le fichier %s ne peut pas être importé car il a été enregistré avec une version plus récente de Heredis." ;
+"HNLOC_IMPORT_HEREDIS_OPERATION"            = "L'import Heredis s'est bien déroulé.";
+"HNLOC_IMPORT_HEREDIS_FAILED"               = "L'import Heredis a échoué.";
+
+
+//-----------------------------------------------------//
+//                      EXPORT GEDCOM                  //
+//-----------------------------------------------------//
+"HNLOC_EXPORT_GEDCOM"               = "Export GEDCOM";
+"HNLOC_EXPORT_GEDCOM_OPERATION"     = "L'export GEDCOM s'est bien déroulé.";
+"HNLOC_EXPORT_GEDCOM_ENCODAGE_UTF8" = "L'encodage UTF8 a été substitué.";
+"HNLOC_IMPORT_GEDCOM_FAILED"        = "L'import GEDCOM a échoué.";
+
+//-----------------------------------------------------//
+//                      AppController                  //    
+//-----------------------------------------------------//
+"HN_LOC_ALERT_FICHIER_HEREDIS_PC" = "Le fichier '%s' a été enregistré avec Heredis pour Windows sans utiliser le mode de compatibilité Mac.\nHeredis Mac ne peut pas l'ouvrir." ;
+"HN_LOC_ALERT_FICHIER_HEREDIS_PC_TITLE" = "Ouvrir un fichier" ;
+
+
+//-----------------------------------------------------//
+//                      DicoMedias                     //    
+//-----------------------------------------------------//
+
+"HNLOC_MEDIA_NO_FIND"               = "(original non trouvé)";
+"HNLOC_MEDIA_NOM_PRESSE_PAPIERS"    = "Capture";
+"HNLOC_MEDIA_RESET_CACHE_MENU"      = "Réinitialiser l'envoi des médias en ligne";
+"HNLOC_MEDIA_RESET_CACHE_TITLE"     = "Réinitialisation effectuée avec succès";
+"HNLOC_MEDIA_RESET_CACHE_MESSAGE"   = "L'envoi des médias en ligne reprendra au prochain redémarrage de Heredis.";
+
+
+//-----------------------------------------------------//
+//                      DicoNoms                       //    
+//-----------------------------------------------------//
+"HNLOC_SANS_NOM" = "Sans nom";
+"HNLOC_NOM_PAR_DEFAUT" = "? SANS NOM";
+
+//-----------------------------------------------------//
+//                   DicoProfession                     //
+//-----------------------------------------------------//
+"HNLOC_PROFESSION_CAP" = "Profession";
+
+//-----------------------------------------------------//
+//                      Sources                        //    
+//-----------------------------------------------------//
+"HNLOC_SOURCE_TYPE_ACTE" = "Acte";
+"HNLOC_SOURCE_TYPE_BIBLEFAM" = "Document familial";
+"HNLOC_SOURCE_TYPE_CD" = "CD-ROM";
+"HNLOC_SOURCE_TYPE_CORRESPONDANCE" = "Correspondance";
+"HNLOC_SOURCE_TYPE_DOC_ADMIN" = "Doc. administratif";
+"HNLOC_SOURCE_TYPE_DOC_INTERNET" = "Doc. Internet";
+"HNLOC_SOURCE_TYPE_GEDCOM" = "Fichier GEDCOM";
+"HNLOC_SOURCE_TYPE_INSCRIPTION" = "Inscription";
+"HNLOC_SOURCE_TYPE_MEDIA" = "Média";
+"HNLOC_SOURCE_TYPE_PARUTION" = "Parution";
+"HNLOC_SOURCE_TYPE_LISTE_NOMI" = "Liste nominative";
+"HNLOC_SOURCE_TYPE_OTHER" = "Autre";
+
+"HNLOC_SOURCE_NATURE_FICHIERNUM" = "Fichier numérique";
+"HNLOC_SOURCE_NATURE_INTERNET" = "Internet";
+"HNLOC_SOURCE_NATURE_MICROFILM" = "Microfilm";
+"HNLOC_SOURCE_NATURE_ORIGINAL" = "Original";
+"HNLOC_SOURCE_NATURE_COPIE" = "Copie";
+"HNLOC_SOURCE_NATURE_AUTRE" = "Autre";
+
+"HNLOC_SOURCE_CERTITUDE_0" = "Source incertaine";
+"HNLOC_SOURCE_CERTITUDE_1" = "Source peu certaine";
+"HNLOC_SOURCE_CERTITUDE_2" = "Source plutôt certaine";
+"HNLOC_SOURCE_CERTITUDE_3" = "Source certaine";
+
+"HNLOC_NO_SOURCE" = "Pas de source";
+
+//-----------------------------------------------------//
+//                      Dates                          //    
+//-----------------------------------------------------//
+"HNLOC_DATE_AGO_US_ONLY" = " "; // Conserver l'espace car iLocalize ne charge pas les clés dont la valeur est vide
+"HNLOC_AGE_2P" = "Âge : ";
+"HNLOC_MOINS_D_UN_AN" = "moins d'un an";
+"HNLOC_AN" = "an";
+"HNLOC_AN_FORCE" = "an";
+"HNLOC_ANS" = "ans";
+"HNLOC_ANS_FORCE" = "ans";
+"HNLOC_DUREE_AN" = "an";    // ne pas vider en anglais, c'est pour écrire les durées
+"HNLOC_DUREE_ANS" = "ans";
+"HNLOC_MOIS" = "mois";
+"HNLOC_MOISS" = "mois";
+"HNLOC_JOUR" = "jour";
+"HNLOC_JOURS" = "jours";
+"HNLOC_MOINS_D_UN" = "moins d'un";
+"HNLOC_AUJOURDHUI" = "aujourd'hui";
+//fmtAgeExtraCourt
+"HNLOC_AN_INITIALE" = "a";
+"HNLOC_MOIS_INITIALE" = "m";
+"HNLOC_JOUR_INITIALE" = "j";
+//fmtAgeLong
+"HNLOC_AGE_DE_M" = "âgé de %1 %an";
+"HNLOC_AGE_DE_F" = "âgée de %1 %an";
+"HNLOC_PROBA_AGE_DE_M" = "probablement âgé de %1 %an";
+"HNLOC_PROBA_AGE_DE_F" = "probablement âgée de %1 %an";
+"HNLOC_AGE_DE_MOINS_DE_M" = "âgé de moins de %1 %an";
+"HNLOC_AGE_DE_MOINS_DE_F" = "âgée de moins de %1 %an";
+"HNLOC_PROBA_AGE_DE_MOINS_DE_M" = "probablement âgé de moins de %1 %an";
+"HNLOC_PROBA_AGE_DE_MOINS_DE_F" = "probablement âgée de moins de %1 %an";
+"HNLOC_AGE_DE_AN_AU_MOINS_M" = "âgé de %1 %an au moins";
+"HNLOC_AGE_DE_AN_AU_MOINS_F" = "âgée de %1 %an au moins";
+"HNLOC_PROBA_AGE_DE_AN_AU_MOINS_M" = "probablement âgé de %1 %an au moins";
+"HNLOC_PROBA_AGE_DE_AN_AU_MOINS_F" = "probablement âgée de %1 %an au moins";
+"HNLOC_AGE_DE_ENTRE_M" = "âgé de %1 %an à %2 %a2";
+"HNLOC_AGE_DE_ENTRE_F" = "âgée de %1 %an à %2 %a2";
+"HNLOC_PROBA_AGE_DE_ENTRE_M" = "probablement âgé de %1 %an à %2 %a2";
+"HNLOC_PROBA_AGE_DE_ENTRE_F" = "probablement âgée de %1 %an à %2 %a2";
+"HNLOC_AGE_DE_ENVIRON_M" = "âgé de %1 %an environ";
+"HNLOC_AGE_DE_ENVIRON_F" = "âgée de %1 %an environ";
+//fmtAgeLong2
+"HNLOC_A_L_AGE_DE" = "à l'âge de %1 %an";
+"HNLOC_PROBA_A_L_AGE_DE" = "à l'âge de %1 %an probablement";
+"HNLOC_A_L_AGE_DE_MOINS_DE" = "à l'âge de moins de %1 %an";
+"HNLOC_PROBA_A_L_AGE_DE_MOINS_DE" = "à l'âge de moins de %1 %an probablement";
+"HNLOC_A_L_AGE_DE_AN_AU_MOINS" = "à l'âge de %1 %an au moins";
+"HNLOC_PROBA_A_L_AGE_DE_AN_AU_MOINS" = "probablement à l'âge de %1 %an au moins";
+"HNLOC_A_L_AGE_DE_ENTRE" = "à l'âge de %1 %an à %2 %a2";
+"HNLOC_PROBA_A_L_AGE_DE_ENTRE" = "à l'âge de %1 %an à %2 %a2 probablement";
+"HNLOC_A_L_AGE_DE_ENVIRON" = "à l'âge de %1 %an environ";
+//fmtAgeCourt
+"HNLOC_X_AN" = "%1 %an";
+"HNLOC_PROBA_X_AN" = "probablement %1 %an";
+"HNLOC_MOINS_X_ANS" = "moins de %1 %an";
+"HNLOC_PROBA_MOINS_X_ANS" = "probablement moins de %1 %an";
+"HNLOC_X_AN_AU_MOINS" = "%1 %an au moins";
+"HNLOC_PROBA_X__AN_AU_MOINS" = "probablement %1 %an au moins";
+"HNLOC_DE_ENTRE" = "%1 %an à %2 %a2";
+"HNLOC_PROBA_DE_ENTRE" = "probablement %1 %an à %2 %a2";
+
+"HNLOC_XANS_ENVIRON" = "%1 %an environ";
+
+"HNLOC_ALERT_DATE_INVALIDE_MESS" = "Contrôle de date"; // OK
+"HNLOC_ALERT_DATE_INVALIDE_INFO" = "'%1' n'est pas une date valide.";
+"HNLOC_ALERT_ANNEE_INVALIDE_INFO" = "'%1' n'est pas une année valide.";
+"HNLOC_ALERT_HEURE_INVALIDE_INFO" = "'%1' n'est pas une heure valide.";
+
+//-----------------------------------------------------//
+//                         Saisie                      //    
+//-----------------------------------------------------//
+"HNLOC_INFOS_DUREE_UNION_INCONNUE" = "Inconnue";
+"HNLOC_ALERT_LIEN_RECURSIF_MESS" = "Ce lien est impossible.";
+"HNLOC_ALERT_LIEN_RECURSIF_INFO" = "%1 est un ancêtre de %2.";
+"HNLOC_ALERT_NO_SEXE_MESS" = "Le sexe de %1 est indéterminé.";
+"HNLOC_ALERT_NO_SEXE_ADD_ENFANT_INFO" = "Veuillez le modifier avant de lui ajouter un enfant.";
+"HNLOC_ALERT_NO_SEXE_ADD_CONJOINT_INFO" = "Veuillez le modifier avant de lui ajouter un conjoint.";
+"HNLOC_ALERT_SUPPRESSION_UNION_MESS" = "Suppression d'union";
+"HNLOC_ALERT_SUPPRESSION_UNION_AVEC_ENFANT_INFO" = "Il est impossible de supprimer l'union %1 car des enfants existent.";
+"HNLOC_ALERT_SUPPRIMER_PC_MESS" = "L'ensemble des informations et des liens concernant %1 vont être supprimés.";
+"HNLOC_ALERT_SUPPRIMER_DE_CUJUS_MESS" = "Il est impossible de supprimer le Personnage racine du fichier.";
+"HNLOC_ALERT_SUPPRIMER_DE_CUJUS_INFO" = "Définissez une autre personne comme Personnage racine pour supprimer cet individu.";
+
+
+"HNLOC_MENU_TEMOINS" = "Témoins";
+"HNLOC_MENU_PARTICIPANTS" = "Participants";
+"HNLOC_MENU_TITRE" = "Titre";
+
+//-----------------------------------------------------//
+//                Liens ancêtres communs               //
+//-----------------------------------------------------//
+"HNLOC_RECHERCHE_LIENS_REDAC_ANC_COMMUN_FRERES" = "frères";
+"HNLOC_RECHERCHE_LIENS_REDAC_ANC_COMMUN_SOEURS" = "sœurs";
+"HNLOC_RECHERCHE_LIENS_REDAC_ANC_COMMUN_FRERE_SOEUR" = "frère et sœur";
+"HNLOC_RECHERCHE_LIENS_REDAC_ANC_COMMUN_PARENTS_PL_M" = "parents à %d générations";
+"HNLOC_RECHERCHE_LIENS_REDAC_ANC_COMMUN_PARENTS_PL_F" = "parentes à %d générations";
+"HNLOC_RECHERCHE_LIENS_REDAC_ANC_COMMUN_PARENTS_X_ET_Y_M" = "parents à %d et %d générations";
+"HNLOC_RECHERCHE_LIENS_REDAC_ANC_COMMUN_PARENTS_X_ET_Y_F" = "parentes à %d et %d générations";
+"HNLOC_RECHERCHE_LIENS_REDAC_ANC_COMMUN_COUSIN_GERMAIN_M" = "cousins germains";
+"HNLOC_RECHERCHE_LIENS_REDAC_ANC_COMMUN_COUSIN_GERMAIN_F" = "cousines germaines";
+"HNLOC_RECHERCHE_LIENS_REDAC_ANC_COMMUN_COUSIN_ISSU_GERMAIN_M" = "cousins issus de germains";
+"HNLOC_RECHERCHE_LIENS_REDAC_ANC_COMMUN_COUSIN_ISSU_GERMAIN_F" = "cousines issues de germains";
+
+//-----------------------------------------------------//
+//                      Liens indi-indi                //    
+//-----------------------------------------------------//
+"HNLOC_LIEN_TYPE_AIEUL_SENS1_MASC" = "Aïeul";
+"HNLOC_LIEN_TYPE_AIEUL_SENS1_FEM" = "Aïeule";
+"HNLOC_LIEN_TYPE_AIEUL_SENS2_MASC" = "Descendant";
+"HNLOC_LIEN_TYPE_AIEUL_SENS2_FEM" = "Descendante";
+
+"HNLOC_LIEN_TYPE_AMI_SENS1_MASC" = "Ami";
+"HNLOC_LIEN_TYPE_AMI_SENS1_FEM" = "Amie";
+"HNLOC_LIEN_TYPE_AMI_SENS2_MASC" = "Ami";
+"HNLOC_LIEN_TYPE_AMI_SENS2_FEM" = "Amie";
+
+"HNLOC_LIEN_TYPE_BEAUFRERE_SENS1_MASC" = "Beau-frère";
+"HNLOC_LIEN_TYPE_BEAUFRERE_SENS1_FEM" = "Belle-sœur";
+"HNLOC_LIEN_TYPE_BEAUFRERE_SENS2_MASC" = "Beau-frère";
+"HNLOC_LIEN_TYPE_BEAUFRERE_SENS2_FEM" = "Belle-sœur";
+
+"HNLOC_LIEN_TYPE_PARENT_SENS1_MASC" = "Parent";
+"HNLOC_LIEN_TYPE_PARENT_SENS1_FEM" = "Parente";
+"HNLOC_LIEN_TYPE_PARENT_SENS2_MASC" = "Parent";
+"HNLOC_LIEN_TYPE_PARENT_SENS2_FEM" = "Parente";
+
+"HNLOC_LIEN_TYPE_BEAUPERE_SENS1_MASC" = "Beau-père";
+"HNLOC_LIEN_TYPE_BEAUPERE_SENS1_FEM" = "Belle-mère";
+"HNLOC_LIEN_TYPE_BEAUPERE_SENS2_MASC" = "Gendre";
+"HNLOC_LIEN_TYPE_BEAUPERE_SENS2_FEM" = "Bru";
+
+"HNLOC_LIEN_TYPE_CONSANGUIN_SENS1_MASC" = "Lien consanguin";
+"HNLOC_LIEN_TYPE_CONSANGUIN_SENS1_FEM" = "Lien consanguin";
+"HNLOC_LIEN_TYPE_CONSANGUIN_SENS2_MASC" = "Lien consanguin";
+"HNLOC_LIEN_TYPE_CONSANGUIN_SENS2_FEM" = "Lien consanguin";
+
+"HNLOC_LIEN_TYPE_COUSIN_SENS1_MASC" = "Cousin";
+"HNLOC_LIEN_TYPE_COUSIN_SENS1_FEM" = "Cousine";
+"HNLOC_LIEN_TYPE_COUSIN_SENS2_MASC" = "Cousin";
+"HNLOC_LIEN_TYPE_COUSIN_SENS2_FEM" = "Cousine";
+
+"HNLOC_LIEN_TYPE_DOUBLON_SENS1_MASC" = "Doublon";
+"HNLOC_LIEN_TYPE_DOUBLON_SENS1_FEM" = "Doublon";
+"HNLOC_LIEN_TYPE_DOUBLON_SENS2_MASC" = "Doublon";
+"HNLOC_LIEN_TYPE_DOUBLON_SENS2_FEM" = "Doublon";
+
+"HNLOC_LIEN_TYPE_FRERE_SENS1_MASC" = "Frère";
+"HNLOC_LIEN_TYPE_FRERE_SENS1_FEM" = "Sœur";
+"HNLOC_LIEN_TYPE_FRERE_SENS2_MASC" = "Frère";
+"HNLOC_LIEN_TYPE_FRERE_SENS2_FEM" = "Sœur";
+
+"HNLOC_LIEN_TYPE_JUMEAU_SENS1_MASC" = "Jumeau";
+"HNLOC_LIEN_TYPE_JUMEAU_SENS1_FEM" = "Jumelle";
+"HNLOC_LIEN_TYPE_JUMEAU_SENS2_MASC" = "Jumeau";
+"HNLOC_LIEN_TYPE_JUMEAU_SENS2_FEM" = "Jumelle";
+
+"HNLOC_LIEN_TYPE_HERITIER_SENS1_MASC" = "Testateur";
+"HNLOC_LIEN_TYPE_HERITIER_SENS1_FEM" = "Testatrice";
+"HNLOC_LIEN_TYPE_HERITIER_SENS2_MASC" = "Héritier";
+"HNLOC_LIEN_TYPE_HERITIER_SENS2_FEM" = "Héritière";
+
+"HNLOC_LIEN_TYPE_ONCLE_SENS1_MASC" = "Oncle";
+"HNLOC_LIEN_TYPE_ONCLE_SENS1_FEM" = "Tante";
+"HNLOC_LIEN_TYPE_ONCLE_SENS2_MASC" = "Neveu";
+"HNLOC_LIEN_TYPE_ONCLE_SENS2_FEM" = "Nièce";
+
+"HNLOC_LIEN_TYPE_RECONNU_SENS1_MASC" = "A reconnu";
+"HNLOC_LIEN_TYPE_RECONNU_SENS1_FEM" = "A reconnu";
+"HNLOC_LIEN_TYPE_RECONNU_SENS2_MASC" = "A été reconnu";
+"HNLOC_LIEN_TYPE_RECONNU_SENS2_FEM" = "A été reconnue";
+
+"HNLOC_LIEN_TYPE_TUTEUR_SENS1_MASC" = "Tuteur";
+"HNLOC_LIEN_TYPE_TUTEUR_SENS1_FEM" = "Tutrice";
+"HNLOC_LIEN_TYPE_TUTEUR_SENS2_MASC" = "Sous tutelle";
+"HNLOC_LIEN_TYPE_TUTEUR_SENS2_FEM" = "Sous tutelle";
+
+"HNLOC_LIEN_TYPE_AUTRE_SENS1_MASC" = "Autre lien";
+"HNLOC_LIEN_TYPE_AUTRE_SENS1_FEM" = "Autre lien";
+"HNLOC_LIEN_TYPE_AUTRE_SENS2_MASC" = "Autre lien";
+"HNLOC_LIEN_TYPE_AUTRE_SENS2_FEM" = "Autre lien";
+
+"HNLOC_LIEN_TYPE_PARENT_ADOPTIF_SENS1_MASC" = "Père adoptif";
+"HNLOC_LIEN_TYPE_PARENT_ADOPTIF_SENS1_FEM" = "Mère adoptive";
+"HNLOC_LIEN_TYPE_PARENT_ADOPTIF_SENS2_MASC" = "Fils adoptif";
+"HNLOC_LIEN_TYPE_PARENT_ADOPTIF_SENS2_FEM" = "Fille adoptive";
+
+"HNLOC_LIEN_TYPE_PARENT_BIOLOGIQUE_SENS1_MASC" = "Père biologique";
+"HNLOC_LIEN_TYPE_PARENT_BIOLOGIQUE_SENS1_FEM" = "Mère biologique";
+"HNLOC_LIEN_TYPE_PARENT_BIOLOGIQUE_SENS2_MASC" = "Fils biologique";
+"HNLOC_LIEN_TYPE_PARENT_BIOLOGIQUE_SENS2_FEM" = "Fille biologique";
+
+//les mêmes liens indi-indi mais rédigés
+"HNLOC_LIEN_TYPE_REDAC_AIEUL_SENS1_MASC" = "est l'aïeul de";
+"HNLOC_LIEN_TYPE_REDAC_AIEUL_SENS1_FEM" = "est l'aïeule de";
+"HNLOC_LIEN_TYPE_REDAC_AIEUL_SENS2_MASC" = "est le descendant de";
+"HNLOC_LIEN_TYPE_REDAC_AIEUL_SENS2_FEM" = "est la descendante de";
+
+"HNLOC_LIEN_TYPE_REDAC_AMI_SENS1_MASC" = "est l'ami de";
+"HNLOC_LIEN_TYPE_REDAC_AMI_SENS1_FEM" = "est l'amie de";
+"HNLOC_LIEN_TYPE_REDAC_AMI_SENS2_MASC" = "est l'ami de";
+"HNLOC_LIEN_TYPE_REDAC_AMI_SENS2_FEM" = "est l'amie de";
+
+"HNLOC_LIEN_TYPE_REDAC_BEAUFRERE_SENS1_MASC" = "est le beau-frère de";
+"HNLOC_LIEN_TYPE_REDAC_BEAUFRERE_SENS1_FEM" = "est la belle-sœur de";
+"HNLOC_LIEN_TYPE_REDAC_BEAUFRERE_SENS2_MASC" = "est le beau-frère de";
+"HNLOC_LIEN_TYPE_REDAC_BEAUFRERE_SENS2_FEM" = "est la belle-sœur de";
+
+"HNLOC_LIEN_TYPE_REDAC_PARENT_SENS1_MASC" = "est parent avec";
+"HNLOC_LIEN_TYPE_REDAC_PARENT_SENS1_FEM" = "est parente avec";
+"HNLOC_LIEN_TYPE_REDAC_PARENT_SENS2_MASC" = "est parent avec";
+"HNLOC_LIEN_TYPE_REDAC_PARENT_SENS2_FEM" = "est parente avec";
+
+"HNLOC_LIEN_TYPE_REDAC_BEAUPERE_SENS1_MASC" = "est le beau-père de";
+"HNLOC_LIEN_TYPE_REDAC_BEAUPERE_SENS1_FEM" = "est la belle-mère de";
+"HNLOC_LIEN_TYPE_REDAC_BEAUPERE_SENS2_MASC" = "est le gendre de";
+"HNLOC_LIEN_TYPE_REDAC_BEAUPERE_SENS2_FEM" = "est la bru de";
+
+"HNLOC_LIEN_TYPE_REDAC_CONSANGUIN_SENS1_MASC" = "a un lien consanguin avec";
+"HNLOC_LIEN_TYPE_REDAC_CONSANGUIN_SENS1_FEM" = "a un lien consanguin avec";
+"HNLOC_LIEN_TYPE_REDAC_CONSANGUIN_SENS2_MASC" = "a un lien consanguin avec";
+"HNLOC_LIEN_TYPE_REDAC_CONSANGUIN_SENS2_FEM" = "a un lien consanguin avec";
+
+"HNLOC_LIEN_TYPE_REDAC_COUSIN_SENS1_MASC" = "est le cousin de";
+"HNLOC_LIEN_TYPE_REDAC_COUSIN_SENS1_FEM" = "est la cousine de";
+"HNLOC_LIEN_TYPE_REDAC_COUSIN_SENS2_MASC" = "est le cousin de";
+"HNLOC_LIEN_TYPE_REDAC_COUSIN_SENS2_FEM" = "est la cousine de";
+
+"HNLOC_LIEN_TYPE_REDAC_DOUBLON_SENS1_MASC" = "est doublon avec";
+"HNLOC_LIEN_TYPE_REDAC_DOUBLON_SENS1_FEM" = "est doublon avec";
+"HNLOC_LIEN_TYPE_REDAC_DOUBLON_SENS2_MASC" = "est doublon avec";
+"HNLOC_LIEN_TYPE_REDAC_DOUBLON_SENS2_FEM" = "est doublon avec";
+
+"HNLOC_LIEN_TYPE_REDAC_FRERE_SENS1_MASC" = "est le frère de";
+"HNLOC_LIEN_TYPE_REDAC_FRERE_SENS1_FEM" = "est la sœur de";
+"HNLOC_LIEN_TYPE_REDAC_FRERE_SENS2_MASC" = "est le frère de";
+"HNLOC_LIEN_TYPE_REDAC_FRERE_SENS2_FEM" = "est la sœur de";
+
+"HNLOC_LIEN_TYPE_REDAC_JUMEAU_SENS1_MASC" = "est le jumeau de";
+"HNLOC_LIEN_TYPE_REDAC_JUMEAU_SENS1_FEM" = "est la jumelle de";
+"HNLOC_LIEN_TYPE_REDAC_JUMEAU_SENS2_MASC" = "est le jumeau de";
+"HNLOC_LIEN_TYPE_REDAC_JUMEAU_SENS2_FEM" = "est la jumelle de";
+
+"HNLOC_LIEN_TYPE_REDAC_HERITIER_SENS1_MASC" = "est le testateur de";
+"HNLOC_LIEN_TYPE_REDAC_HERITIER_SENS1_FEM" = "est la testatrice de";
+"HNLOC_LIEN_TYPE_REDAC_HERITIER_SENS2_MASC" = "est l'héritier de";
+"HNLOC_LIEN_TYPE_REDAC_HERITIER_SENS2_FEM" = "est l'héritière de";
+
+"HNLOC_LIEN_TYPE_REDAC_ONCLE_SENS1_MASC" = "est l'oncle de";
+"HNLOC_LIEN_TYPE_REDAC_ONCLE_SENS1_FEM" = "est la tante de";
+"HNLOC_LIEN_TYPE_REDAC_ONCLE_SENS2_MASC" = "est le neveu de";
+"HNLOC_LIEN_TYPE_REDAC_ONCLE_SENS2_FEM" = "est la nièce de";
+
+"HNLOC_LIEN_TYPE_REDAC_RECONNU_SENS1_MASC" = "a reconnu";
+"HNLOC_LIEN_TYPE_REDAC_RECONNU_SENS1_FEM" = "a reconnu";
+"HNLOC_LIEN_TYPE_REDAC_RECONNU_SENS2_MASC" = "a été reconnu par";
+"HNLOC_LIEN_TYPE_REDAC_RECONNU_SENS2_FEM" = "a été reconnue par";
+
+"HNLOC_LIEN_TYPE_REDAC_TUTEUR_SENS1_MASC" = "est le tuteur de";
+"HNLOC_LIEN_TYPE_REDAC_TUTEUR_SENS1_FEM" = "est la tutrice de";
+"HNLOC_LIEN_TYPE_REDAC_TUTEUR_SENS2_MASC" = "est sous tutelle de";
+"HNLOC_LIEN_TYPE_REDAC_TUTEUR_SENS2_FEM" = "est sous tutelle de";
+
+"HNLOC_LIEN_TYPE_REDAC_AUTRE_SENS1_MASC" = "a un lien avec";
+"HNLOC_LIEN_TYPE_REDAC_AUTRE_SENS1_FEM" = "a un lien avec";
+"HNLOC_LIEN_TYPE_REDAC_AUTRE_SENS2_MASC" = "a un lien avec";
+"HNLOC_LIEN_TYPE_REDAC_AUTRE_SENS2_FEM" = "a un lien avec";
+
+"HNLOC_LIEN_TYPE_REDAC_PARENT_ADOPTIF_SENS1_MASC" = "est le père adoptif de";
+"HNLOC_LIEN_TYPE_REDAC_PARENT_ADOPTIF_SENS1_FEM" = "est la mère adoptive de";
+"HNLOC_LIEN_TYPE_REDAC_PARENT_ADOPTIF_SENS2_MASC" = "est le fils adoptif de";
+"HNLOC_LIEN_TYPE_REDAC_PARENT_ADOPTIF_SENS2_FEM" = "est la fille adoptive de";
+
+"HNLOC_LIEN_TYPE_REDAC_PARENT_BIOLOGIQUE_SENS1_MASC" = "est le père biologique de";
+"HNLOC_LIEN_TYPE_REDAC_PARENT_BIOLOGIQUE_SENS1_FEM" = "est la mère biologique de";
+"HNLOC_LIEN_TYPE_REDAC_PARENT_BIOLOGIQUE_SENS2_MASC" = "est le fils biologique de";
+"HNLOC_LIEN_TYPE_REDAC_PARENT_BIOLOGIQUE_SENS2_FEM" = "est la fille biologique de";
+
+//-----------------------------------------------------//
+//                      Liens indi-event               //    
+//-----------------------------------------------------//
+"HNLOC_LIEN_TYPE_DECLARANT_MASC" = "Déclarant";
+"HNLOC_LIEN_TYPE_DECLARANT_FEM" = "Déclarante";
+"HNLOC_LIEN_TYPE_OFFCIV_MASC" = "Officier d'état-civil";
+"HNLOC_LIEN_TYPE_OFFCIV_FEM" = "Officier d'état-civil";
+"HNLOC_LIEN_TYPE_OFFRELIG_MASC" = "Officiant religieux";
+"HNLOC_LIEN_TYPE_OFFRELIG_FEM" = "Officiant religieux";
+"HNLOC_LIEN_TYPE_PARRAIN_MASC" = "Parrain";
+"HNLOC_LIEN_TYPE_PARRAIN_FEM" = "Marraine";
+"HNLOC_LIEN_TYPE_PRESENT_MASC" = "Présent";
+"HNLOC_LIEN_TYPE_PRESENT_FEM" = "Présente";
+"HNLOC_LIEN_TYPE_TEMOIN_MASC" = "Témoin";
+"HNLOC_LIEN_TYPE_TEMOIN_FEM" = "Témoin";
+"HNLOC_LIEN_TYPE_AUTRE_MASC" = "Autre rôle";
+"HNLOC_LIEN_TYPE_AUTRE_FEM" = "Autre rôle";
+"HNLOC_LIEN_TYPE_NOTAIRE_MASC" = "Notaire";
+"HNLOC_LIEN_TYPE_NOTAIRE_FEM" = "Notaire";
+"HNLOC_LIEN_TYPE_CITE_ACTE_MASC" = "Cité dans l'acte";
+"HNLOC_LIEN_TYPE_CITE_ACTE_FEM" = "Citée dans l'acte";
+"HNLOC_LIEN_TYPE_HUISSIER_MASC" = "Huissier";
+"HNLOC_LIEN_TYPE_HUISSIER_FEM" = "Huissier";
+"HNLOC_LIEN_TYPE_HERITIER_MASC" = "Héritier";
+"HNLOC_LIEN_TYPE_HERITIER_FEM" = "Héritière";
+"HNLOC_LIEN_TYPE_TESTATEUR_MASC" = "Testateur";
+"HNLOC_LIEN_TYPE_TESTATEUR_FEM" = "Testatrice";
+"HNLOC_LIEN_TYPE_JUMEAU_MASC" = "Jumeau";
+"HNLOC_LIEN_TYPE_JUMEAU_FEM" = "Jumelle";
+
+"HNLOC_LIEN_TYPE_PARTICIPANT_MASC" = "Participant";
+"HNLOC_LIEN_TYPE_PARTICIPANT_FEM" = "Participante";
+"HNLOC_LIEN_TYPE_ADOPTANT_MASC" = "Adoptant";
+"HNLOC_LIEN_TYPE_ADOPTANT_FEM" = "Adoptante";
+"HNLOC_LIEN_TYPE_ADOPTE_MASC" = "Adopté";
+"HNLOC_LIEN_TYPE_ADOPTE_FEM" = "Adoptée";
+"HNLOC_LIEN_TYPE_VENDEUR_MASC" = "Vendeur";
+"HNLOC_LIEN_TYPE_VENDEUR_FEM" = "Vendeuse";
+"HNLOC_LIEN_TYPE_ACHETEUR_MASC" = "Acheteur";
+"HNLOC_LIEN_TYPE_ACHETEUR_FEM" = "Acheteuse";
+"HNLOC_LIEN_TYPE_ORGANISATEUR_MASC" = "Organisateur";
+"HNLOC_LIEN_TYPE_ORGANISATEUR_FEM" = "Organisatrice";
+
+"HNLOC_TOOLTIP_ADD_TEMOIN" = "Ajouter un témoin";
+"HNLOC_TOOLTIP_REMOVE_TEMOIN" = "Détacher le témoin sélectionné";
+"HNLOC_TOOLTIP_EDIT_TEMOIN" = "Modifier le témoin sélectionné";
+"HNLOC_TOOLTIP_NAVIGATE_TEMOIN" = "Placer le témoin sélectionné en personnage central";
+"HNLOC_TOOLTIP_ADD_PARTICIPANT" = "Ajouter un participant";
+"HNLOC_TOOLTIP_REMOVE_PARTICIPANT" = "Détacher le participant sélectionné";
+"HNLOC_TOOLTIP_EDIT_PARTICIPANT" = "Modifier le participant sélectionné";
+"HNLOC_TOOLTIP_NAVIGATE_PARTICIPANT" = "Placer le participant sélectionné en personnage central";
+
+//-----------------------------------------------------//
+//                 Liens indi-indi             //
+//-----------------------------------------------------//
+"HNLOC_EVT_MENU_ROLE_AIEUL" = "Aïeul/Descendant";
+"HNLOC_EVT_MENU_ROLE_FRERE" = "Frère";
+"HNLOC_EVT_MENU_ROLE_BEAU_FRERE" = "Beau-frère";
+"HNLOC_EVT_MENU_ROLE_JUMEAU" = "Jumeau";
+"HNLOC_EVT_MENU_ROLE_ONCLE" = "Oncle/Neveu";
+"HNLOC_EVT_MENU_ROLE_BEAU_PERE" = "Beau-père/Gendre";
+"HNLOC_EVT_MENU_ROLE_PARENT" = "Parent";
+"HNLOC_EVT_MENU_ROLE_COUSIN" = "Cousin";
+"HNLOC_EVT_MENU_ROLE_CONSANGUIN" = "Consanguin";
+"HNLOC_EVT_MENU_ROLE_PARENT_BIOLOGIQUE" = "Parent/Enfant biologique";
+"HNLOC_EVT_MENU_ROLE_PARENT_ADOPTIF" = "Parent/Enfant adoptif";
+"HNLOC_EVT_MENU_ROLE_RECONNU" = "Reconnu";
+"HNLOC_EVT_MENU_ROLE_HERITIER_TESTATEUR" = "Héritier/Testateur";
+"HNLOC_EVT_MENU_ROLE_TUTEUR" = "Tuteur/Sous tutelle";
+"HNLOC_EVT_MENU_ROLE_AMI" = "Ami";
+"HNLOC_EVT_MENU_ROLE_DOUBLON" = "Doublon";
+"HNLOC_EVT_MENU_ROLE_AUTRE_LIEN" = "Autre lien";
+
+//-----------------------------------------------------//
+//                 Liens indi-event             //
+//-----------------------------------------------------//
+"HNLOC_EVT_MENU_ROLE_AUTRES" = "Autres";
+
+"HNLOC_EVT_MENU_ROLE_TEMOIN" = "Témoin";
+"HNLOC_EVT_MENU_ROLE_DECLARANT" = "Déclarant";
+"HNLOC_EVT_MENU_ROLE_PRESENT" = "Présent";
+"HNLOC_EVT_MENU_ROLE_OFF_ETAT_CIVIL" = "Officier d'état-civil";
+"HNLOC_EVT_MENU_ROLE_CITE_ACTE" = "Cité dans l'acte";
+
+"HNLOC_EVT_MENU_ROLE_PARRAIN_MARRAINE" = "Parrain - Marraine";
+"HNLOC_EVT_MENU_ROLE_OFFICIANTRELIGIEUX" = "Officiant religieux";
+
+"HNLOC_EVT_MENU_ROLE_NOTAIRE" = "Notaire";
+"HNLOC_EVT_MENU_ROLE_HERITIER" = "Héritier";
+"HNLOC_EVT_MENU_ROLE_TESTATEUR" = "Testateur";
+
+"HNLOC_EVT_MENU_ROLE_PARTICIPANT" = "Participant";
+"HNLOC_EVT_MENU_ROLE_ADOPTANT" = "Adoptant";
+"HNLOC_EVT_MENU_ROLE_ADOPTE" = "Adopté";
+"HNLOC_EVT_MENU_ROLE_ACHETEUR" = "Acheteur";
+"HNLOC_EVT_MENU_ROLE_VENDEUR" = "Vendeur";
+"HNLOC_EVT_MENU_ROLE_ORGANISATEUR" = "Organisateur";
+
+"HNLOC_EVT_MENU_ROLE_AUTRE" = "Autre rôle";
+
+
+//-----------------------------------------------------//
+//                      ÉVÉNEMENTS                     //    
+//-----------------------------------------------------//
+// Résumé
+"HNLOC_INDI_RESUME_SANS_ENFANT_CONNU"   = "Pas de descendance connue";
+"HNLOC_INDI_RESUME_SANS_CONJOINT_CONNU" = "Pas de conjoint connu";
+"HNLOC_INDI_RESUME_SANS_DESCENDANCE"    = "Pas d'enfant";
+"HNLOC_INDI_RESUME_SANS_UNION"          = "Pas de conjoint";
+"HNLOC_EVENEMENT_RESUME_DETAIL"         = "Détail";
+"HNLOC_EVENEMENT_RESUME_SOURCES"        = "Sources";
+// Rechercher acte
+"HNLOC_EVENEMENT_RECHERCHER_ACTE_OUI"   = "Faire des recherches";
+"HNLOC_EVENEMENT_RECHERCHER_ACTE_NON"   = "Ne pas rechercher";
+"HNLOC_EVENEMENT_ACTE_INTROUVABLE"      = "Introuvable";
+
+// Bouton Partager
+"HNLOC_EVENEMENT_SHARED"                = "Partagé";
+"HNLOC_EVENEMENT_PRIVE"                 = "Privé";
+"HNLOC_EVENEMENT_LABEL_BTN_PARTAGER"    = "Partager";
+"HNLOC_EVENEMENT_LABEL_BTN_DEPARTAGER"  = "Ne plus partager";
+"HNLOC_EVENEMENT_TOOLTIP_BTN_PARTAGER"  = "Partager cet événement";
+"HNLOC_EVENEMENT_TOOLTIP_BTN_DEPARTAGER"= "Ne plus partager cet événement";
+
+"HNLOC_EVENEMENT_TOOLTIP_UNION_AVEC"    = "Union %d avec %s" ;
+"HNLOC_EVENEMENT_TOOLTIP_NOTE"          = "Note :";
+
+
+// événements individuels
+"HNLOC_EVENT_TYPE_0_CAP" = "Baptême LDS";
+"HNLOC_EVENT_TYPE_0" = "baptême LDS";
+"HNLOC_EVENT_TYPE_1_CAP" = "Autre baptême";
+"HNLOC_EVENT_TYPE_1" = "autre baptême";
+"HNLOC_EVENT_TYPE_2_CAP" = "Bar Mitzvah";
+"HNLOC_EVENT_TYPE_2" = "Bar Mitzvah";
+"HNLOC_EVENT_TYPE_3_CAP" = "Bat Mitzvah";
+"HNLOC_EVENT_TYPE_3" = "Bat Mitzvah";
+"HNLOC_EVENT_TYPE_4_CAP" = "Naissance";
+"HNLOC_EVENT_TYPE_4" = "naissance";
+"HNLOC_EVENT_TYPE_5_CAP" = "Bénédiction";
+"HNLOC_EVENT_TYPE_5" = "bénédiction";
+"HNLOC_EVENT_TYPE_6_CAP" = "Inhumation";
+"HNLOC_EVENT_TYPE_6" = "inhumation";
+"HNLOC_EVENT_TYPE_7_CAP" = "Recensement";
+"HNLOC_EVENT_TYPE_7" = "recensement";
+"HNLOC_EVENT_TYPE_8_CAP" = "Baptême";
+"HNLOC_EVENT_TYPE_8" = "baptême";
+"HNLOC_EVENT_TYPE_9_CAP" = "Baptême adulte";
+"HNLOC_EVENT_TYPE_9" = "baptême adulte";
+"HNLOC_EVENT_TYPE_10_CAP" = "Confirmation";
+"HNLOC_EVENT_TYPE_10" = "confirmation";
+"HNLOC_EVENT_TYPE_11_CAP" = "Confirmation LDS";
+"HNLOC_EVENT_TYPE_11" = "confirmation LDS";
+"HNLOC_EVENT_TYPE_12_CAP" = "Décès";
+"HNLOC_EVENT_TYPE_12" = "décès";
+"HNLOC_EVENT_TYPE_13_CAP" = "Émigration";
+"HNLOC_EVENT_TYPE_13" = "émigration";
+"HNLOC_EVENT_TYPE_14_CAP" = "Dotation LDS";
+"HNLOC_EVENT_TYPE_14" = "dotation LDS";
+"HNLOC_EVENT_TYPE_15_CAP" = "Événement";
+"HNLOC_EVENT_TYPE_15" = "événement";
+"HNLOC_EVENT_TYPE_16_CAP" = "Diplôme";
+"HNLOC_EVENT_TYPE_16" = "diplôme";
+"HNLOC_EVENT_TYPE_17_CAP" = "Immigration";
+"HNLOC_EVENT_TYPE_17" = "immigration";
+"HNLOC_EVENT_TYPE_18_CAP" = "Naturalisation";
+"HNLOC_EVENT_TYPE_18" = "naturalisation";
+"HNLOC_EVENT_TYPE_19_CAP" = "Ordination";
+"HNLOC_EVENT_TYPE_19" = "ordination";
+"HNLOC_EVENT_TYPE_20_CAP" = "Homologation de testament";
+"HNLOC_EVENT_TYPE_20" = "homologation de testament";
+"HNLOC_EVENT_TYPE_21_CAP" = "Retraite";
+"HNLOC_EVENT_TYPE_21" = "retraite";
+"HNLOC_EVENT_TYPE_22_CAP" = "Lien parental LDS";
+"HNLOC_EVENT_TYPE_22" = "lien parental LDS";
+"HNLOC_EVENT_TYPE_23_CAP" = "Profession";
+"HNLOC_EVENT_TYPE_23" = "profession";
+"HNLOC_EVENT_TYPE_24_CAP" = "Acquisition";
+"HNLOC_EVENT_TYPE_24" = "acquisition";
+"HNLOC_EVENT_TYPE_25_CAP" = "Décoration";
+"HNLOC_EVENT_TYPE_25" = "décoration";
+"HNLOC_EVENT_TYPE_26_CAP" = "En vie";
+"HNLOC_EVENT_TYPE_26" = "en vie";
+"HNLOC_EVENT_TYPE_27_CAP" = "Service militaire";
+"HNLOC_EVENT_TYPE_27" = "service militaire";
+"HNLOC_EVENT_TYPE_28_CAP" = "Vente d'un bien";
+"HNLOC_EVENT_TYPE_28" = "vente d'un bien";
+"HNLOC_EVENT_TYPE_29_CAP" = "Voyage";
+"HNLOC_EVENT_TYPE_29" = "voyage";
+"HNLOC_EVENT_TYPE_30_CAP" = "Domicile";
+"HNLOC_EVENT_TYPE_30" = "domicile";
+"HNLOC_EVENT_TYPE_31_CAP" = "Testament";
+"HNLOC_EVENT_TYPE_31" = "testament";
+"HNLOC_EVENT_TYPE_32_CAP" = "Première communion";
+"HNLOC_EVENT_TYPE_32" = "première communion";
+"HNLOC_EVENT_TYPE_33_CAP" = "Titre";
+"HNLOC_EVENT_TYPE_33" = "titre";
+"HNLOC_EVENT_TYPE_34_CAP" = "Adoption";
+"HNLOC_EVENT_TYPE_34" = "adoption";
+"HNLOC_EVENT_TYPE_35_CAP" = "Crémation";
+"HNLOC_EVENT_TYPE_35" = "crémation";
+"HNLOC_EVENT_TYPE_36_CAP" = "EMPL";
+"HNLOC_EVENT_TYPE_36" = "EMPL";
+"HNLOC_EVENT_TYPE_37_CAP" = "Unused01";
+"HNLOC_EVENT_TYPE_37" = "Unused01";
+"HNLOC_EVENT_TYPE_38_CAP" = "Événement après décès";
+"HNLOC_EVENT_TYPE_38" = "événement après décès";
+"HNLOC_EVENT_TYPE_39_CAP" = "Réunion de famille";
+"HNLOC_EVENT_TYPE_39" = "réunion de famille";
+
+// événements d'union
+"HNLOC_EVENT_TYPE_54_CAP" = "Divorce";
+"HNLOC_EVENT_TYPE_54" = "divorce";
+"HNLOC_EVENT_TYPE_55_CAP" = "Demande de divorce";
+"HNLOC_EVENT_TYPE_55" = "demande de divorce";
+"HNLOC_EVENT_TYPE_56_CAP" = "Fiançailles";
+"HNLOC_EVENT_TYPE_56" = "fiançailles";
+"HNLOC_EVENT_TYPE_57_CAP" = "Événement du couple";
+"HNLOC_EVENT_TYPE_57" = "événement du couple";
+"HNLOC_EVENT_TYPE_58_CAP" = "Bans";
+"HNLOC_EVENT_TYPE_58" = "bans";
+"HNLOC_EVENT_TYPE_59_CAP" = "Contrat de mariage";
+"HNLOC_EVENT_TYPE_59" = "contrat de mariage";
+"HNLOC_EVENT_TYPE_60_CAP" = "Certificat de publication des bans";
+"HNLOC_EVENT_TYPE_60" = "certificat de publication des bans";
+"HNLOC_EVENT_TYPE_61_CAP" = "Mariage";
+"HNLOC_EVENT_TYPE_61" = "mariage";
+"HNLOC_EVENT_TYPE_62_CAP" = "Constitution de rente entre époux";
+"HNLOC_EVENT_TYPE_62" = "constitution de rente entre époux";
+"HNLOC_EVENT_TYPE_63_CAP" = "Lien conjugal LDS";
+"HNLOC_EVENT_TYPE_63" = "lien conjugal LDS";
+"HNLOC_EVENT_TYPE_64_CAP" = "Domicile du couple";
+"HNLOC_EVENT_TYPE_64" = "domicile du couple";
+"HNLOC_EVENT_TYPE_65_CAP" = "Séparation";
+"HNLOC_EVENT_TYPE_65" = "séparation";
+"HNLOC_EVENT_TYPE_66_CAP" = "Adoption";
+"HNLOC_EVENT_TYPE_66" = "adoption";
+"HNLOC_EVENT_TYPE_67_CAP" = "Annulation du mariage";
+"HNLOC_EVENT_TYPE_67" = "annulation du mariage";
+"HNLOC_EVENT_TYPE_68_CAP" = "Mariage religieux";
+"HNLOC_EVENT_TYPE_68" = "mariage religieux";
+"HNLOC_EVENT_TYPE_69_CAP" = "Autre union officielle";
+"HNLOC_EVENT_TYPE_69" = "autre union officielle";
+
+// rubriques personnelles
+"HNLOC_EVENT_TYPE_86_CAP"   = "Caste";
+"HNLOC_EVENT_TYPE_86"       = "caste";
+"HNLOC_EVENT_TYPE_87_CAP"   = "Description physique";
+"HNLOC_EVENT_TYPE_87"       = "description physique";
+"HNLOC_EVENT_TYPE_88_CAP"   = "Instruction";
+"HNLOC_EVENT_TYPE_88"       = "instruction";
+"HNLOC_EVENT_TYPE_89_CAP"   = "Santé";
+"HNLOC_EVENT_TYPE_89"       = "santé";
+"HNLOC_EVENT_TYPE_90_CAP"   = "Numéro d'identification";
+"HNLOC_EVENT_TYPE_90"       = "numéro d'identification";
+"HNLOC_EVENT_TYPE_91_CAP"   = "Nom religieux";
+"HNLOC_EVENT_TYPE_91"       = "nom religieux";
+"HNLOC_EVENT_TYPE_92_CAP"   = "Nationalité";
+"HNLOC_EVENT_TYPE_92"       = "nationalité";
+"HNLOC_EVENT_TYPE_93_CAP"   = "Référence extérieure";
+"HNLOC_EVENT_TYPE_93"       = "référence extérieure";
+"HNLOC_EVENT_TYPE_94_CAP"   = "Lieu d'origine";
+"HNLOC_EVENT_TYPE_94"       = "lieu d'origine";
+"HNLOC_EVENT_TYPE_95_CAP"   = "Propriété";
+"HNLOC_EVENT_TYPE_95"       = "propriété";
+"HNLOC_EVENT_TYPE_96_CAP"   = "Religion";
+"HNLOC_EVENT_TYPE_96"       = "religion";
+"HNLOC_EVENT_TYPE_97_CAP"   = "Résidence";
+"HNLOC_EVENT_TYPE_97"       = "résidence";
+"HNLOC_EVENT_TYPE_98_CAP"   = "Numéro Sécurité Sociale";
+"HNLOC_EVENT_TYPE_98"       = "numéro Sécurité Sociale";
+"HNLOC_EVENT_TYPE_99_CAP"   = "Rubrique générique";
+"HNLOC_EVENT_TYPE_99"       = "rubrique générique";
+
+
+// symboles généalogiques
+"HN_LOC_SYMBOLE_BAPTEME" = "b";
+"HN_LOC_SYMBOLE_MARIAGE_CIVIL" = "x";
+"HN_LOC_SYMBOLE_MARIAGE_RELIGIEUX" = "xR";
+"HN_LOC_SYMBOLE_MAIN_EVENT_UNION" = "x";
+"HN_LOC_SYMBOLE_MARIAGE_CONTRAT" = "cm";
+
+// abréviations
+"HN_LOC_ABREVIATION_NAISSANCE" = "N";
+"HN_LOC_ABREVIATION_BAPTEME" = "B";
+"HN_LOC_ABREVIATION_DECES" = "D";
+"HN_LOC_ABREVIATION_INHUMATION" = "I";
+"HN_LOC_ABREVIATION_MARIAGE" = "M";
+"HN_LOC_ABREVIATION_MARIAGE_RELIGIEUX" = "MR";
+"HN_LOC_ABREVIATION_CONTRAT_MARIAGE" = "CM";
+"HN_LOC_ABREVIATION_MAIN_EVENT_UNION" = "A";
+"HN_LOC_ABREVIATION_EVENT_2PTS" = " :"; // espace avant les deux points en français
+"HN_LOC_ABREVIATION_SHARED_EVENT" = "P"; // pour afficher dans la liste des événements
+
+
+// types d'union
+"HN_LOC_TYPE_UNION_MARIAGE" = "Mariage";
+"HN_LOC_TYPE_UNION_SEPARATION" = "Séparation";
+"HN_LOC_TYPE_UNION_FIANCAILLES" = "Fiançailles";
+"HN_LOC_TYPE_UNION_DIVORCE" = "Divorce";
+"HN_LOC_TYPE_UNION_OFFICIELLE" = "Autre union officielle";
+"HN_LOC_TYPE_UNION_LIBRE" = "Union libre";
+"HN_LOC_TYPE_UNION_NON_CONNU" = "Statut d'union inconnu";
+"HN_LOC_TYPE_UNION_MARIAGE_ADJ" = "Mariés";
+"HN_LOC_TYPE_UNION_SEPARATION_ADJ" = "Séparés";
+"HN_LOC_TYPE_UNION_FIANCAILLES_ADJ" = "Fiancés";
+"HN_LOC_TYPE_UNION_DIVORCE_ADJ" = "Divorcés";
+"HN_LOC_TYPE_UNION_OFFICIELLE_ADJ" = "Autre union officielle";
+"HN_LOC_TYPE_UNION_LIBRE_ADJ" = "Union libre";
+"HN_LOC_TYPE_UNION_NON_CONNU_ADJ" = "Statut non connu";
+
+// menus et fenêtre gestion événements
+"HN_LOC_EVENEMENTS_INDIVIDUELS" = "Événements individuels";
+"HN_LOC_EVENEMENTS_UNION" = "Événements d'union";
+"HN_LOC_EVENEMENTS_POSSIBLES" = "Autres";
+"HN_LOC_RUBRIQUES_PERSONNELLES" = "Rubriques personnelles";
+"HN_LOC_EVENEMENTS_PERSONNALISER" = "Personnaliser...";
+
+// types de notes
+"HNLOC_NOTE_TYPE_INDIVIDU" = "Individu";
+"HNLOC_NOTE_TYPE_UNION" = "Union";
+"HNLOC_NOTE_TYPE_EVENEMENT" = "Événement";
+"HNLOC_NOTE_TYPE_NOM" = "Nom";
+"HNLOC_NOTE_TYPE_PRENOM" = "Prénom";
+"HNLOC_NOTE_TYPE_LIEU" = "Lieu";
+"HNLOC_NOTE_TYPE_SOURCE" = "Transcription de source";
+"HNLOC_NOTE_TYPE_REPOSITORY" = "Repository";
+"HNLOC_NOTE_TYPE_MEDIA" = "Média";
+"HNLOC_NOTE_TYPE_PROFESSION" = "Profession";
+"HNLOC_NOTE_TYPE_ADRESSE" = "Adresse";
+"HNLOC_NOTE_TYPE_INDIVIDU_RECHERCHE" = "Recherche d'individu";
+"HNLOC_NOTE_TYPE_SOURCE_RECHERCHE" = "Recherche de source";
+"HNLOC_NOTE_TYPE_CITATION" = "Transcription de citation";
+"HNLOC_NOTE_TYPE_CITATION_RECHERCHE" = "Recherche de citation";
+
+"HNLOC_NOTE_WITH_IMAGE_LINK_RESULTATS_TITRE" = "Liens d'image(s) extraite(s) (%d)";
+"HNLOC_NOTE_WITH_IMAGE_LINK_TRAITEMENTS_TITRE" = "Image(s) extraite(s) sélectionnée(s) (%d)";
+"HNLOC_NOTE_WITH_IMAGE_LINK_RECHERCHE" = "%d / %d note(s) avec image(s) extraite(s) traitées";
+"HNLOC_NOTE_WITH_IMAGE_LINK_TRAITEMENT" = "%d / %d image(s) extraite(s) traitées";
+"HNLOC_NOTE_WITH_IMAGE_TRAITEMENT_CONFIRMATION" = "Voulez vous appliquer ce traitement à toutes les images selectionnées ?";
+
+// autres
+"HN_LOC_EVENT_NUM_UNION" = "%d";
+
+"HN_LOC_TYPE_STATUT_2PTS" = "Statut : %s";
+"HNLOC_UNION_SAISIE" = "l'union de";
+
+//-----------------------------------------------------//
+//                      Arbres                         //
+//-----------------------------------------------------//
+
+// les types d'arbres
+"HNLOC_ARBRE_TYPE_ASCENDANCE_COMPLET" = "Arbres illimités";
+"HNLOC_ARBRE_TYPE_ASCENDANCE_EVENTAIL" = "Arbre éventail";
+"HNLOC_ARBRE_TYPE_ASCENDANCE_GRAPHIQUE" = "Arbres illustrés";
+"HNLOC_ARBRE_TYPE_ASCENDANCE_TRAVAIL" = "Arbres de travail";
+"HNLOC_ARBRE_TYPE_DESCENDANCE_GROUPE" = "Arbres illimités";
+"HNLOC_ARBRE_TYPE_MIXTE_COMPLET" = "Arbres illimités";
+
+"HNLOC_ASCENDANCE_TITRE" = "Ascendance %s%s"; // Ascendance de Laure MATTET
+"HNLOC_DESC_INDENTEE_TITRE" = "Descendance %s%s"; // Descendance de Laure MATTET
+
+
+//-----------------------------------------------------//
+//             Controle des cohérences                 //    
+//-----------------------------------------------------//
+"HNLOC_COHERENCE_PERE_NON_NE" = "Son père n'était pas né au moment de sa naissance.";
+"HNLOC_COHERENCE_PERE_BAD_AGE" = "Son père avait %s au moment de sa naissance.";
+"HNLOC_COHERENCE_PERE_DECEDE" = "Son père est décédé %s avant sa naissance.";
+"HNLOC_COHERENCE_MERE_NON_NE" = "Sa mère n'était pas née au moment de sa naissance.";
+"HNLOC_COHERENCE_MERE_BAD_AGE" = "Sa mère avait %s au moment de sa naissance.";
+"HNLOC_COHERENCE_MERE_DECEDE" = "Sa mère est décédée %s avant sa naissance.";
+"HNLOC_COHERENCE_IL" = "Il";
+"HNLOC_COHERENCE_ELLE" = "Elle";
+"HNLOC_COHERENCE_SON_FRERE" = "son frère";
+"HNLOC_COHERENCE_SA_SOEUR" = "sa sœur";
+"HNLOC_COHERENCE_FRERESOEUR_TROP_RAPPROCHES" = "%s a %d jours d'écart avec %s %s.";
+"HNLOC_COHERENCE_IL_DECEDE" = "Il est décédé à %s.";
+"HNLOC_COHERENCE_ELLE_DECEDE" = "Elle est décédée à %s.";
+"HNLOC_COHERENCE_IL_DECEDE_AVANTNAISSANCE" = "Il est décédé %s avant sa naissance.";
+"HNLOC_COHERENCE_ELLE_DECEDE_AVANTNAISSANCE" = "Elle est décédée %s avant sa naissance.";
+"HNLOC_COHERENCE_EVENT_AVANT_NAISSANCE" = "%s a un événement '%s' avant sa naissance.";
+"HNLOC_COHERENCE_INHUMATION_AVANT_DECES" = "%s a été inhumé avant son décès.";
+"HNLOC_COHERENCE_EVENT_APRES_DECES" = "%s a un événement '%s' après son décès.";
+"HNLOC_COHERENCE_EVENT_AVANT_DECES" = "%s a un événement '%s' avant son décès.";
+"HNLOC_COHERENCE_ECART_AGE_CONJOINT_MASCULIN" = "L'écart d'âge avec son conjoint %1$s est de %2$s.";
+"HNLOC_COHERENCE_ECART_AGE_CONJOINT_FEMININ" = "L'écart d'âge avec son conjoint %1$s est de %2$s.";
+"HNLOC_COHERENCE_MAINUNION_BAD_AGE" = "%s a %s au moment de son union avec %s.";
+"HNLOC_COHERENCE_MAINUNION_IL_NON_NE" = "Il est né %s après son union avec %s.";
+"HNLOC_COHERENCE_MAINUNION_ELLE_NON_NE" = "Elle est née %s après son union avec %s.";
+"HNLOC_COHERENCE_MAINUNION_IL_DECEDE" = "Il est décédé au moment de son union avec %s.";
+"HNLOC_COHERENCE_MAINUNION_ELLE_DECEDE" = "Elle est décédée au moment de son union avec %s.";
+"HNLOC_COHERENCE_MAINUNION_BAD_AGE_CONJOINT" = "%s a %s au moment de son union avec %s.";
+"HNLOC_COHERENCE_MAINUNION_IL_NON_NE_CONJOINT" = "%s est né %s après son union avec %s.";
+"HNLOC_COHERENCE_MAINUNION_ELLE_NON_NE_CONJOINT" = "%s est née %s après son union avec %s.";
+"HNLOC_COHERENCE_MAINUNION_IL_DECEDE_CONJOINT" = "%s est décédé au moment de son union avec %s.";
+"HNLOC_COHERENCE_MAINUNION_ELLE_DECEDE_CONJOINT" = "%s est décédée au moment de son union avec %s.";
+"HNLOC_COHERENCE_OTHERUNION_BAD_AGE" = "%s a %s au moment de l'événement %s avec %s.";
+"HNLOC_COHERENCE_OTHERUNION_NON_NE" = "%s a un événement %s avec %s avant sa naissance.";
+"HNLOC_COHERENCE_OTHERUNION_DECEDE" = "%s a un événement %s avec %s après son décès.";
+"HNLOC_COHERENCE_OTHERUNION_BAD_AGE_CONJOINT" = "%s a %s au moment de l'événement %s avec %s.";
+"HNLOC_COHERENCE_OTHERUNION_NON_NE_CONJOINT" = "%s a un événement %s avec %s avant sa naissance.";
+"HNLOC_COHERENCE_OTHERUNION_DECEDE_CONJOINT" = "%s a un événement %s avec %s après son décès.";
+"HNLOC_COHERENCE_ENFANT_IL_DECEDE" = "Il est décédé %s avant la naissance de son enfant %s.";
+"HNLOC_COHERENCE_ENFANT_ELLE_DECEDE" = "Elle est décédée %s avant la naissance de son enfant %s.";
+"HNLOC_COHERENCE_ENFANT_IL_NON_NE" = "Il n'est pas né à la naissance de son enfant %s.";
+"HNLOC_COHERENCE_ENFANT_ELLE_NON_NE" = "Elle n'est pas née à la naissance de son enfant %s.";
+"HNLOC_COHERENCE_ENFANT_BAD_AGE" = "%s a %s à la naissance de son enfant %s.";
+"HNLOC_COHERENCE_ENFANT_IL_APRES_DECES" = "Il est né après le décès de son enfant %s.";
+"HNLOC_COHERENCE_ENFANT_ELLE_APRES_DECES" = "Elle est née après le décès de son enfant %s.";
+"HNLOC_COHERENCE_ENFANT_AGE_NON_COHERENT" = "L'écart d'âge de ses enfants n'est pas cohérent.";
+"HNLOC_COHERENCE_UNION_ECART_NON_COHERENT" = "L'écart entre ses unions n'est pas cohérent.";
+"HNLOC_COHERENCE_LIEN_NON_NE" = "Est témoin de l'événement %s de %s avant sa naissance.";
+"HNLOC_COHERENCE_LIEN_DECEDE" = "Est témoin de l'événement %s de %s après son décès.";
+"HNLOC_COHERENCE_LIEN_TEMOIN_NON_NE" = "%s a un lien avec l'événement %s de %s avant sa naissance.";
+"HNLOC_COHERENCE_LIEN_TEMOIN_DECEDE" = "%s a un lien avec l'événement %s de %s après son décès.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_PERE" = "%s a une union avec son père.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_MERE" = "%s a une union avec sa mère.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_ENFANTS_FILS" = "%s a une union avec son fils %s.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_ENFANTS_FILLE" = "%s a une union avec sa fille %s.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_GPP" = "%s a une union avec son grand-père paternel.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_GPM" = "%s a une union avec son grand-père maternel.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_GMP" = "%s a une union avec sa grand-mère paternelle.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_GMM" = "%s a une union avec sa grand-mère maternelle.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_PETITSENFANTS_FILS" = "%s a une union avec son petit-fils %s.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_PETITSENFANTS_FILLE" = "%s a une union avec sa petite-fille %s.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_ONCLE" = "%s a une union avec son oncle %s.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_TANTE" = "%s a une union avec sa tante %s.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_NEVEU" = "%s a une union avec son neveu %s.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_NIECE" = "%s a une union avec sa nièce %s.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_FRERE" = "%s a une union avec son frère %s.";
+"HNLOC_COHERENCE_UNIONINCESTUEUSE_SOEUR" = "%s a une union avec sa soeur %s.";
+
+
+//-----------------------------------------------------//
+//                       DATES                         //    
+//-----------------------------------------------------//
+"HNLOC_DATE_DIMANCHE" = "dimanche";
+"HNLOC_DATE_LUNDI"    = "lundi";
+"HNLOC_DATE_MARDI"    = "mardi";
+"HNLOC_DATE_MERCREDI" = "mercredi";
+"HNLOC_DATE_JEUDI"    = "jeudi";
+"HNLOC_DATE_VENDREDI" = "vendredi";
+"HNLOC_DATE_SAMEDI"   = "samedi";
+
+"HNLOC_DATE_SHORTDIMANCHE" = "dim";
+"HNLOC_DATE_SHORTLUNDI"    = "lun";
+"HNLOC_DATE_SHORTMARDI"    = "mar";
+"HNLOC_DATE_SHORTMERCREDI" = "mer";
+"HNLOC_DATE_SHORTJEUDI"    = "jeu";
+"HNLOC_DATE_SHORTVENDREDI" = "ven";
+"HNLOC_DATE_SHORTSAMEDI"   = "sam";
+
+"HNLOC_DATE_JANVIER"   = "janvier";
+"HNLOC_DATE_FEVRIER"   = "février";
+"HNLOC_DATE_MARS"      = "mars";
+"HNLOC_DATE_AVRIL"     = "avril";
+"HNLOC_DATE_MAI"       = "mai";
+"HNLOC_DATE_JUIN"      = "juin";
+"HNLOC_DATE_JUILLET"   = "juillet";
+"HNLOC_DATE_AOUT"      = "août";
+"HNLOC_DATE_SEPTEMBRE" = "septembre";
+"HNLOC_DATE_OCTOBRE"   = "octobre";
+"HNLOC_DATE_NOVEMBRE"  = "novembre";
+"HNLOC_DATE_DECEMBRE"  = "décembre";
+
+"HNLOC_DATE_SHORTJANVIER"   = "jan";
+"HNLOC_DATE_SHORTFEVRIER"   = "fév";
+"HNLOC_DATE_SHORTMARS"      = "mars";
+"HNLOC_DATE_SHORTAVRIL"     = "avr";
+"HNLOC_DATE_SHORTMAI"       = "mai";
+"HNLOC_DATE_SHORTJUIN"      = "juin";
+"HNLOC_DATE_SHORTJUILLET"   = "juil";
+"HNLOC_DATE_SHORTAOUT"      = "août";
+"HNLOC_DATE_SHORTSEPTEMBRE" = "sep";
+"HNLOC_DATE_SHORTOCTOBRE"   = "oct";
+"HNLOC_DATE_SHORTNOVEMBRE"  = "nov";
+"HNLOC_DATE_SHORTDECEMBRE"  = "déc";
+
+"HNLOC_DATE_AUCUN"    = "aucun";
+"HNLOC_DATE_APRES"    = "après";
+"HNLOC_DATE_AVANT"    = "avant";
+"HNLOC_DATE_ENTRE"    = "entre";
+"HNLOC_DATE_VERS"     = "vers";
+"HNLOC_DATE_CALCULEE" = "calculée";
+"HNLOC_DATE_ESTIMEE"  = "estimée";
+"HNLOC_DATE_ET"       = "et";
+"HNLOC_DATE_DE"       = "de";
+"HNLOC_DATE_A"        = "à";
+"HNLOC_DATE_DU"       = "du";
+"HNLOC_DATE_AU"       = "au";
+
+
+// Communication logiciel
+"HNLOC_COMMUNICATION_LOGICIEL_FERMER" = "Fermer";
+"HNLOC_COMMUNICATION_LOGICIEL_SAVOIR_PLUS" = "En savoir plus...";
+"HNLOC_COMMUNICATION_LOGICIEL_NE_PLUS_AFFICHER" = "Ne plus afficher ce message";
+
+
+
+//-----------------------------------------------------//
+//                     Pays					           //
+//-----------------------------------------------------//
+"HNLOC_LIEU_PAYS_ALGERIE" = "Algérie";
+"HNLOC_LIEU_PAYS_ALLEMAGNE" = "Allemagne";
+"HNLOC_LIEU_PAYS_ANDORRE" = "Andorre";
+"HNLOC_LIEU_PAYS_ARMENIE" = "Arménie";
+"HNLOC_LIEU_PAYS_AUSTRALIE" = "Australie";
+"HNLOC_LIEU_PAYS_AUTRICHE" = "Autriche";
+"HNLOC_LIEU_PAYS_BELGIQUE" = "Belgique";
+"HNLOC_LIEU_PAYS_CANADA" = "Canada";
+"HNLOC_LIEU_PAYS_DANEMARK" = "Danemark";
+"HNLOC_LIEU_PAYS_ESPAGNE" = "Espagne";
+"HNLOC_LIEU_PAYS_USA" = "États-Unis";
+"HNLOC_LIEU_PAYS_FINLANDE" = "Finlande";
+"HNLOC_LIEU_PAYS_FRANCE" = "France";
+"HNLOC_LIEU_PAYS_IRLANDE" = "Irlande";
+"HNLOC_LIEU_PAYS_ITALIE" = "Italie";
+"HNLOC_LIEU_PAYS_LIECHTENSTEIN" = "Liechtenstein";
+"HNLOC_LIEU_PAYS_LUXEMBOURG" = "Luxembourg";
+"HNLOC_LIEU_PAYS_MAROC" = "Maroc";
+"HNLOC_LIEU_PAYS_MEXIQUE" = "Mexique";
+"HNLOC_LIEU_PAYS_MONACO" = "Monaco";
+"HNLOC_LIEU_PAYS_NORVEGE" = "Norvège";
+"HNLOC_LIEU_PAYS_NOUVELLE_ZELANDE" = "Nouvelle-Zélande";
+"HNLOC_LIEU_PAYS_PAYS_BAS" = "Pays-Bas";
+"HNLOC_LIEU_PAYS_POLOGNE" = "Pologne";
+"HNLOC_LIEU_PAYS_PORTUGAL" = "Portugal";
+"HNLOC_LIEU_PAYS_ROYAUME_UNI" = "Royaume-Uni";
+"HNLOC_LIEU_PAYS_SUEDE" = "Suède";
+"HNLOC_LIEU_PAYS_SUISSE" = "Suisse";
+"HNLOC_LIEU_PAYS_TUNISIE" = "Tunisie";
+
+
+//-----------------------------------------------------//
+//                   Outil Photo			           //
+//-----------------------------------------------------//
+"HNLOC_OUTIL_PHOTO_TAB_MEDIAS" = "Médias";
+"HNLOC_OUTIL_PHOTO_TAB_RETOUCHE" = "Retouche";
+"HNLOC_OUTIL_PHOTO_TAB_INFOS" = "Infos";
+"HNLOC_OUTIL_PHOTO_TAB_IDENTIFICATION" = "Identification";
+"HNLOC_OUTIL_PHOTO_AFFICHER_ORIGINAL" = "Afficher l'original";
+"HNLOC_OUTIL_PHOTO_MASQUER_ORIGINAL" = "Masquer l'original";
+
+// Retouche
+"HNLOC_OUTIL_PHOTO_BOUTON_ROGNER" = "Rogner";
+// Identification
+"HNLOC_MEDIA_CADRE_LABEL_INDI_INCONNU" = "Individu inconnu";
+"HNLOC_MEDIA_CADRE_MENU_SUPPRIMER" = "Supprimer le cadre...";
+"HNLOC_MEDIA_CADRE_MENU_RENOMMER_IMAGE" = "Renommer l'image du cadre...";
+"HNLOC_MEDIA_CADRE_EXPORT_IMAGE_CADRE" = "Exporter l'image du cadre...";
+"HNLOC_MEDIA_CADRE_MENU_IDENTIFIER" = "Identifier...";
+"HNLOC_MEDIA_CADRE_MENU_RE_IDENTIFIER" = "Ré-identifier l'individu...";
+"HNLOC_MEDIA_CADRE_SUPPRIMER_TITLE" = "Supprimer le cadre";
+"HNLOC_MEDIA_CADRE_SUPPRIMER_INFO" = "Voulez-vous vraiment supprimer le cadre sélectionné ?";
+"HNLOC_MEDIA_CADRE_PROMPT_CREER_CADRE" = "Encadrez les personnes présentes sur la photo à l'aide de la souris.";
+"HNLOC_MEDIA_CADRE_PROMPT_IMAGE_DEJA_DECOUPEE" = "Cette image provient d'une image découpée. Vous ne pouvez pas la redécouper.";
+"HNLOC_OUTIL_PHOTO_PROMPT_IMAGE_NON_TROUVEE" = "Cette fonction n'est pas disponible car l'image est non trouvée. Recherchez l'image originale.";
+"HNLOC_OUTIL_PHOTO_PROMPT_IMAGE_AVEC_INDIS" = "Cette fonction n'est pas disponible car il y a des individus identifiés dans cette photo.";
+"HNLOC_MEDIA_CADRE_BOUTON_IDENTIFIER" = "Identifier";
+"HNLOC_MEDIA_CADRE_TITRE_IMPRESSION" = "Photo de groupe";
+
+
+//-----------------------------------------------------//
+//             Repartition geographique                //
+//-----------------------------------------------------//
+"HNLOC_REPGEO_EVENEMENTS" = "Événements %.0f %%";
+"HNLOC_REPGEO_LIEUX"      = "Lieux %.0f %%";
+"HNLOC_REPGEO_INDIVIDUS"  = "Individus %.0f %%";
+
+
+//-----------------------------------------------------//
+//                Archives en ligne                    //
+//-----------------------------------------------------//
+"HNLOC_ARCHIVES_WINDOW_DEFAULT_TITLE"       = "Archives en ligne";
+"HNLOC_ARCHIVES_MENU_FAVORIS_ADD"           = "Ajouter aux favoris";
+"HNLOC_ARCHIVES_MENU_FAVORIS_GERER"         = "Gérer les favoris..";
+"HNLOC_ARCHIVES_MENU_CAPTURE_ADD"           = "Capturer l'écran courant";
+"HNLOC_ARCHIVES_MENU_CAPTURE_LISTE"         = "Voir la liste des captures";
+"HNLOC_ARCHIVES_BOUTON_TRAITER_CAPTURE"     = "Traiter ma capture";
+"HNLOC_ARCHIVES_BOUTON_TRAITER_CAPTURES"    = "Traiter mes %d captures";
+"HNLOC_ARCHIVES_CAPTURE_WINDOW_TITLE"       = "Vous avez capturé 1 image";
+"HNLOC_ARCHIVES_CAPTURE_WINDOW_TITLE_PL"    = "Vous avez capturé %d images";
+"HNLOC_ARCHIVES_TRAITEMENT_WINDOW_TITLE"    = "Traitement de la capture";
+"HNLOC_ARCHIVES_TRAITEMENT_WINDOW_TITLE_PL" = "Traitement des %d captures";
+"HNLOC_ARCHIVES_TRAITEMENT_AJOUT_CONJOINT"  = "Créer un conjoint";
+"HNLOC_ARCHIVES_TRAITEMENT_AJOUT_EVENEMENT" = "Créer un événement";
+"HNLOC_ARCHIVES_TRAITEMENT_STR_AVEC_CONJOINT" = " - avec ";
+"HNLOC_ARCHIVES_IMAGE_ASSOCIEE_SOURCE"      = "L'image sera associée à la source";
+"HNLOC_ARCHIVES_IMAGE_ASSOCIEE_EVENEMENT"   = "L'image sera associée à l'événement";
+"HNLOC_ARCHIVES_FAVORI_EXISTE"              = "Cette adresse est déjà en favori.";
+"HNLOC_ARCHIVES_BAD_URL"                    = "L'adresse URL doit commencer par http:// ou https:// ou www.";
+"HNLOC_ARCHIVES_EMPTY_URL"                  = "L'adresse URL ne doit pas être vide.";
+"HNLOC_ARCHIVES_NEW_TAB"                    = "Nouvel onglet";
+"HNLOC_ARCHIVES_CONFIRM_AJOUT_FAVORI"       = "Le site \"%s\" a bien été ajouté à vos favoris.";
+"HNLOC_ARCHIVES_FLASH_INSTALL_TITLE_OK"     = "Installation de Adobe Flash Player";
+"HNLOC_ARCHIVES_FLASH_INSTALL_MESS_OK"      = "Heredis va se fermer et l'installation d'Adobe Flash Player va démarrer. Relancez Heredis après installation.";
+"HNLOC_ARCHIVES_FLASH_INSTALL_TITLE_FAILED" = "Impossible de télécharger le plugin Adobe Flash Player";
+"HNLOC_ARCHIVES_FLASH_INSTALL_MESS_FAILED"  = "Refermez Heredis et téléchargez Adobe Flash Player dans Safari.";
+
+
+//-----------------------------------------------------//
+//                    Publications                        //
+//-----------------------------------------------------//
+"HNLOC_PUBLICATION_PHOTO_EN_COURS" = "Cette photo est déjà en train d'être publiée.";
+"HNLOC_PUBLICATION_PAS_PHOTO" = "On ne peut ajouter que des photos aux albums.";
+"HNLOC_PUBLICATION_PHOTO_SANS_CADRE" = "Ajoutez au moins 1 cadre à la photo à publier";
+"HNLOC_PUBLICATION_PHOTO_DISPO" = "Votre photo est disponible sur Heredis Online. Voulez-vous y accéder maintenant ?";
+"HNLOC_PUBLICATION_PHOTO_TERMINEE" = "Photo envoyée";
+"HNLOC_PUBLICATION_PHOTO_PRIVEE" = "Vous allez publier une photo privée sur Heredis Online. Souhaitez-vous continuer ?";
+
+//-----------------------------------------------------//
+//                    Diaporama                        //
+//-----------------------------------------------------//
+"HNLOC_DIAPO_MENU_THEMES"           = "Thèmes";
+"HNLOC_DIAPO_MENU_CHAPITRES"        = "Chapitres";
+"HNLOC_DIAPO_THEME_ANCIEN"          = "Ancien";
+"HNLOC_DIAPO_THEME_COUTURE"         = "Couture";
+"HNLOC_DIAPO_THEME_CHALET"          = "Chalet";
+"HNLOC_DIAPO_THEME_MODERNE"         = "Moderne";
+"HNLOC_DIAPO_THEME_BASQUE"          = "Basque";
+"HNLOC_DIAPO_THEME_BOHEMIEN"        = "Bohémien";
+"HNLOC_DIAPO_THEME_JOURNAL"         = "Journal";
+"HNLOC_DIAPO_THEME_TRIBAL"          = "Tribal";
+"HNLOC_DIAPO_THEME_VOYAGE"          = "Voyage";
+
+"HNLOC_DIAPO_PLAY"                  = "Lecture";
+"HNLOC_DIAPO_PAUSE"                 = "Pause";
+"HNLOC_DIAPO_FERMER"                = "Quitter le diaporama";
+"HNLOC_DIAPO_COPYRIGHTS"            = "© Heredis - Tous droits réservés";
+"HNLOC_DIAPO_DEBUT"                 = "Début";
+"HNLOC_DIAPO_FIN"                   = "Fin";
+"HNLOC_DIAPO_ALBUM_FAMILLE_ETENDUE" = "Album de la famille étendue de";
+"HNLOC_DIAPO_VIDE_TITLE"            = "Diaporama vide";
+"HNLOC_DIAPO_VIDE_INFO"             = "Il n'y a pas d'images disponibles pour le diaporama.";
+
+"HNLOC_DIAPO_LE_LIVRE_DE"           = "L'album photo de %s";
+"HNLOC_DIAPO_CHAPITRE"              = "Chapitre ";
+"HNLOC_DIAPO_CHAPITRE_CONJOINT"     = "Le conjoint";
+"HNLOC_DIAPO_CHAPITRE_CONJOINTS"    = "Les conjoints";
+"HNLOC_DIAPO_CHAPITRE_ENFANT"       = "L'enfant";
+"HNLOC_DIAPO_CHAPITRE_ENFANTS"      = "Les enfants";
+"HNLOC_DIAPO_CHAPITRE_FRATRIE"      = "Les frères et sœurs";
+"HNLOC_DIAPO_CHAPITRE_PARENTS"      = "Les parents";
+"HNLOC_DIAPO_CHAPITRE_GRD_PARENTS"  = "Les grands-parents";
+
+"HNLOC_DIAPO_DATE_INCONNUE"         = "Date non connue";
+"HNLOC_DIAPO_NO_NOTE"               = "Pas de note";
+"HNLOC_DIAPO_LE_CONJOINT_DE"        = "Le conjoint de ";
+"HNLOC_DIAPO_LES_CONJOINTS_DE"      = "Les conjoints de ";
+"HNLOC_DIAPO_L_ENFANT_DE"           = "L'enfant de ";
+"HNLOC_DIAPO_LES_ENFANTS_DE"        = "Les enfants de ";
+"HNLOC_DIAPO_FRATRIE_DE"            = "Les frères et sœurs de ";
+"HNLOC_DIAPO_PARENTS_DE"            = "Les parents de ";
+"HNLOC_DIAPO_GRD_PARENTS_DE"        = "Les grands-parents de ";
+
+"HNLOC_DIAPO_PARAM_WINDOW_TITLE"    = "Paramètres" ;
+"HNLOC_DIAPO_PARAM_TITLE"           = "Images du diaporama" ;
+"HNLOC_DIAPO_PARAM_EXCLUDE_PRIVATE" = "Exclure les images privées" ;
+"HNLOC_DIAPO_PARAM_TOUTES"          = "Toutes" ;
+"HNLOC_DIAPO_PARAM_PRINCIPALE"      = "Principale" ;
+"HNLOC_DIAPO_PARAM_AUCUNE"          = "Aucune" ;
+
+"HNLOC_DIAPO_PARAM_CENTRAL"         = "Personnage central" ;
+"HNLOC_DIAPO_PARAM_CONJOINT"        = "Enfants/Conjoints" ;
+"HNLOC_DIAPO_PARAM_AUTRES"          = "Autres individus" ;
+"HNLOC_DIAPO_PARAM_LIEUX"           = "Lieux" ;
+"HNLOC_DIAPO_PARAM_ANNEXE"          = "Images annexes" ;
+"HNLOC_DIAPO_PARAM_EVENEMENT"       = "Évenements" ;
+"HNLOC_DIAPO_PARAM_INFO_TITLE"      = "informations du diaporama" ;
+
+"HNLOC_DIAPO_PARAM_BUTTON_CANCEL"   = "Annuler" ;
+"HNLOC_DIAPO_PARAM_BUTTON_OK"       = "OK" ;
+
+"HNLOC_DIAPO_EXPORT_TOOLTIP"        = "Exporter";
+"HNLOC_DIAPO_PARAM_TOOLTIP"         = "Options" ;
+"HNLOC_DIAPO_PARAM_PAGE"            = "pages" ;
+
+"HNLOC_DIAPO_EXPORTS_TITLE"         = "Export du diaporama" ;
+"HNLOC_DIAPO_EXPORTS_MSG"           = "Indiquez un dossier où enregistrer votre diaporama" ;
+"HNLOC_DIAPO_EXPORTS_ALERT_MSG"     = "%s existe déjà. Voulez-vous le remplacer ?" ;
+"HNLOC_DIAPO_EXPORTS_OK"            = "L'export de %s s'est bien déroulé." ;
+"HNLOC_DIAPO_EXPORTS_REMOVE_FAIL"   = "Impossible de supprimer %s. Vérifiez que votre diaporama n'est pas ouvert dans un navigateur Internet." ;
+
+//-----------------------------------------------------//
+//                 Saisie sur acte                     //
+//-----------------------------------------------------//
+"HNLOC_SAISIE_ACTE_WINDOW_TITLE"    = "Saisie d'après un acte - %s";
+"HNLOC_SAISIE_ACTE_NAISSANCE_CAP"   = "Naissance";
+"HNLOC_SAISIE_ACTE_BAPTEME_CAP"     = "Baptême";
+"HNLOC_SAISIE_ACTE_MARIAGE_CIVIL_CAP"= "Mariage civil";
+"HNLOC_SAISIE_ACTE_MARIAGE_RELI_CAP"  = "Mariage religieux";
+"HNLOC_SAISIE_ACTE_DECES_CAP"       = "Décès";
+"HNLOC_SAISIE_ACTE_SEPULTURE_CAP"   = "Sépulture";
+"HNLOC_SAISIE_ACTE_SEXE_CAP"        = "Sexe";
+"HNLOC_SAISIE_ACTE_NOM_CAP"         = "Nom";
+"HNLOC_SAISIE_ACTE_PRENOMS_CAP"     = "Prénoms";
+"HNLOC_SAISIE_ACTE_QUITTER_TITLE"   = "Confirmer";
+"HNLOC_SAISIE_ACTE_QUITTER_INFO"    = "Toutes les données saisies seront perdues, êtes-vous sûr de vouloir quitter la saisie d'après un acte ?";
+
+"HNLOC_SAISIE_ACTE_RUBRIQUE_INFOS_REGISTRE"     = "Registre";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_ACTE"               = "Acte";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_SOURCE"             = "Source";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_ENFANT_NAISSANCE"   = "Enfant";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_ENFANT_BAPTEME"     = "Enfant";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_DECLARANT"          = "Déclarant";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_DECLARANT_UN"       = "Déclarant 1";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_DECLARANT_DEUX"     = "Déclarant 2";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_DEUX_DECLARANTS"    = "Déclarants";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_PERE"               = "Père";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_MERE"               = "Mère";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_PARRAIN"            = "Parrain";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_MARRAINE"           = "Marraine";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_DEUX_PARRAINS"      = "Parrain Marraine";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_EPOUX"              = "Époux";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_PARENT_EPOUX"       = "Parents de l'époux";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_EPOUSE"             = "Épouse";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_PARENT_EPOUSE"      = "Parents de l'épouse";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_BANS"               = "Bans";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_CONTRAT_MARIAGE"    = "Contrat de mariage";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_DEFUNT"             = "Défunt";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_CONJOINT"           = "Conjoint";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_PARENT_DEFUNT"      = "Parents";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_DEFUNT_DECES"       = "Décès";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_TEMOINS"            = "Témoins";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_OFFICIER_ETAT_CIVIL" = "Officier d'état civil";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_OFFICIANT_RELIGIEUX" = "Officiant religieux";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_SIGNATURES"         = "Signatures";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_INFOS_AUTRES"       = "Infos complémentaires";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_ENFANT"             = "Enfant";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_PERE_EPOUX"         = "Père de l'époux";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_MERE_EPOUX"         = "Mère de l'époux";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_PERE_EPOUSE"        = "Père de l'épouse";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_MERE_EPOUSE"        = "Mère de l'épouse";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_PARENT_DEFUNT_LONG" = "Parents du défunt";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_PERE_DEFUNT"        = "Père du défunt";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_MERE_DEFUNT"        = "Mère du défunt";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_ETAT_CIVIL"         = "État civil";
+
+"HNLOC_SAISIE_ACTE_COLONS" = "%s : %s" ;
+
+"HNLOC_SAISIE_ACTE_RUBRIQUE_RESUME_FATHER" = "Père";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_RESUME_MOTHER" = "Mère";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_RESUME_CONJOINT" = "Conjoint";
+
+//Commun
+"HNLOC_SAISIE_ACTE_RESIDENCE"       = "Résidence";
+"HNLOC_SAISIE_ACTE_COMMUNE"         = "Commune";
+"HNLOC_SAISIE_ACTE_SUBDIVISION"     = "Subdivision";
+"HNLOC_SAISIE_ACTE_DESCRIPTION"     = "Description";
+// Registre
+"HNLOC_SAISIE_ACTE_LIEU_RELIGIEUX"  = "Lieu religieux";
+"HNLOC_SAISIE_ACTE_CELEBRATION"     = "Célébration";
+"HNLOC_SAISIE_ACTE_REGISTRE"        = "Registre";
+"HNLOC_SAISIE_ACTE_PAROISSE"        = "Paroisse";
+"HNLOC_SAISIE_ACTE_CANTON"          = "Canton";
+"HNLOC_SAISIE_ACTE_DIOCESE"         = "Diocèse";
+"HNLOC_SAISIE_ACTE_DEPARTEMENT"     = "Département";
+"HNLOC_SAISIE_ACTE_PERIODE"         = "Période";
+"HNLOC_SAISIE_ACTE_NOTE"            = "Note";
+// Acte
+"HNLOC_SAISIE_ACTE_NUMERO_ACTE"     = "Numéro";
+"HNLOC_SAISIE_ACTE_DATE_ACTE"       = "Date";
+"HNLOC_SAISIE_ACTE_HEURE_ACTE"      = "Heure";
+//Source
+"HNLOC_SAISIE_ACTE_SOURCE_TITRE"        = "Titre";
+"HNLOC_SAISIE_ACTE_SOURCE_DOCUMENT"     = "Document";
+"HNLOC_SAISIE_ACTE_SOURCE_PRIVEE"       = "Source privée";
+"HNLOC_SAISIE_ACTE_SOURCE_NATURE"       = "Nature";
+"HNLOC_SAISIE_ACTE_SOURCE_DEPOT"        = "Dépôt";
+"HNLOC_SAISIE_ACTE_SOURCE_DEPOT_ARCHIVE"= "Dépôt d'archives";
+"HNLOC_SAISIE_ACTE_SOURCE_COTE"         = "Cote";
+"HNLOC_SAISIE_ACTE_SOURCE_DATE"         = "Date";
+"HNLOC_SAISIE_ACTE_SOURCE_AUTEUR"       = "Auteur";
+"HNLOC_SAISIE_ACTE_SOURCE_EMAIL"        = "Email";
+"HNLOC_SAISIE_ACTE_SOURCE_URL"          = "Site web";
+"HNLOC_SAISIE_ACTE_SOURCE_CLASSEMENT"   = "Classement";
+"HNLOC_SAISIE_ACTE_SOURCE_CERTITUDE"    = "Certitude";
+"HNLOC_SAISIE_ACTE_SOURCE_NAISSANCE"    = "Acte de naissance de %s";
+"HNLOC_SAISIE_ACTE_SOURCE_BAPTEME"      = "Acte de baptême de %s";
+"HNLOC_SAISIE_ACTE_SOURCE_MARIAGE"      = "Acte de mariage de %s et %s";
+"HNLOC_SAISIE_ACTE_SOURCE_MAR_RELI"     = "Acte de mariage religieux de %s et %s";
+"HNLOC_SAISIE_ACTE_SOURCE_DECES"        = "Acte de décès de %s";
+"HNLOC_SAISIE_ACTE_SOURCE_SEPULTURE"    = "Acte de sépulture de %s";
+"HNLOC_SAISIE_ACTE_SOURCE_FICHE_MATRICULE_DE" = "Fiche matricule de %s";
+"HNLOC_SAISIE_ACTE_RUBRIQUE_MATRICULE_2PTS_DE" = "Fiche matricule : %s";
+//Individu
+"HNLOC_SAISIE_ACTE_TOOLTIP_SELECT_INDI" = "Sélectionner un individu existant";
+"HNLOC_SAISIE_ACTE_TOOLTIP_DOUBLON"     = "Heredis a détecté un doublon potentiel";
+"HNLOC_SAISIE_ACTE_PRESENCE"            = "Présence";
+"HNLOC_SAISIE_ACTE_PROFESSION"          = "Profession";
+"HNLOC_SAISIE_ACTE_SURNOM"              = "Surnom";
+"HNLOC_SAISIE_ACTE_TITRE"               = "Titre";
+"HNLOC_SAISIE_ACTE_MORT_NE"             = "Enfant mort-né";
+"HNLOC_SAISIE_ACTE_AGE_ACTE"            = "Âge sur acte";
+"HNLOC_SAISIE_ACTE_AGE"                 = "%s ans";
+"HNLOC_SAISIE_ACTE_CAUSE"               = "Cause";
+"HNLOC_SAISIE_ACTE_COMMENTAIRE"         = "Commentaire";
+"HNLOC_SAISIE_ACTE_DOMICILE"            = "Domicile";
+"HNLOC_SAISIE_ACTE_DOM_COMMUN_PERE"     = "Domicile commun avec le père";
+"HNLOC_SAISIE_ACTE_DOM_COMMUN_EPOUX"    = "Domicile commun avec l'époux";
+"HNLOC_SAISIE_ACTE_DOM_COMMUN_CONJOINT" = "Domicile commun avec le conjoint";
+"HNLOC_SAISIE_ACTE_INFOS_DECLARANT"     = "Déjà mentionné comme déclarant";
+"HNLOC_SAISIE_ACTE_PERE_EGAL_DECLARANT" = "Le père est le déclarant";
+"HNLOC_SAISIE_ACTE_MENU_NON_PRECISE"    = "Non précisé";
+"HNLOC_SAISIE_ACTE_MENU_PRESENT_MASC"   = "Présent";
+"HNLOC_SAISIE_ACTE_MENU_PRESENT_FEM"    = "Présente";
+"HNLOC_SAISIE_ACTE_MENU_ABSENT_MASC"    = "Absent";
+"HNLOC_SAISIE_ACTE_MENU_ABSENT_FEM"     = "Absente";
+"HNLOC_SAISIE_ACTE_MENU_DECEDE_MASC"    = "Décédé";
+"HNLOC_SAISIE_ACTE_MENU_DECEDE_FEM"     = "Décédée";
+"HNLOC_SAISIE_ACTE_AJOUT_PARENTS_TITRE" = "Ajouter les parents";
+"HNLOC_SAISIE_ACTE_AJOUT_PARENTS_INDI"  = "Voulez-vous ajouter %s à l'acte ?";
+"HNLOC_SAISIE_ACTE_AJOUT_PARENTS_CONJOINT"= "Voulez-vous ajouter %s du conjoint à l'acte ?";
+"HNLOC_SAISIE_ACTE_AJOUT_PARENTS"       = "les parents";
+"HNLOC_SAISIE_ACTE_AJOUT_PERE"          = "le père";
+"HNLOC_SAISIE_ACTE_AJOUT_MERE"          = "la mère";
+"HNLOC_SAISIE_ACTE_A_SIGNE"             = "A signé l'acte";
+"HNLOC_SAISIE_ACTE_ONT_SIGNE"           = "Ont signé l'acte";
+"HNLOC_SAISIE_ACTE_SAIT_SIGNER"         = "Sait signer";
+"HNLOC_SAISIE_ACTE_VEUF"                = "Veuf";
+"HNLOC_SAISIE_ACTE_VEUVE"               = "Veuve";
+"HNLOC_SAISIE_ACTE_VEUF_AU_MARIAGE"     = "Veuf d'un précédent conjoint au moment du mariage";
+"HNLOC_SAISIE_ACTE_VEUVE_AU_MARIAGE"    = "Veuve d'un précédent conjoint au moment du mariage";
+"HNLOC_SAISIE_ACTE_CONJOINT_DECEDE"     = "Conjoint décédé";
+"HNLOC_SAISIE_ACTE_CONJOINT_EPOUX_DECEDE"  = "Conjoint décédé de l'époux";
+"HNLOC_SAISIE_ACTE_CONJOINT_EPOUSE_DECEDE" = "Conjoint décédé de l'épouse";
+"HNLOC_SAISIE_ACTE_DIT_SURNOM"          = "dit %s";
+"HNLOC_SAISIE_ACTE_MODIF_PERE"          = "%s a déjà un père";
+"HNLOC_SAISIE_ACTE_MODIF_PERE_ASK"      = "Êtes-vous sûr de vouloir le changer ?";
+"HNLOC_SAISIE_ACTE_MODIF_MERE"          = "%s a déjà une mère";
+"HNLOC_SAISIE_ACTE_MODIF_MERE_ASK"      = "Êtes-vous sûr de vouloir la changer ?";
+
+//Evenements
+"HNLOC_SAISIE_ACTE_TEMOIN"              = "Témoin";
+"HNLOC_SAISIE_ACTE_NOTAIRE"             = "Notaire";
+"HNLOC_SAISIE_ACTE_DATE_UN"             = "Date 1";
+"HNLOC_SAISIE_ACTE_DATE_DEUX"           = "Date 2";
+"HNLOC_SAISIE_ACTE_A_HEURE"             = " à ";
+"HNLOC_SAISIE_ACTE_PAS_DE_CONTRAT"      = "Pas de contrat de mariage";
+"HNLOC_SAISIE_ACTE_BANS_COMMUNE_1"      = "Bans commune 1";
+"HNLOC_SAISIE_ACTE_BANS_COMMUNE_2"      = "Bans commune 2";
+"HNLOC_SAISIE_ACTE_DATE_BANS_1"         = "Date 1";
+"HNLOC_SAISIE_ACTE_DATE_BANS_2"         = "Date 2";
+"HNLOC_SAISIE_ACTE_DATE_BANS_3"         = "Date 3";
+"HNLOC_SAISIE_ACTE_LIEU"                = "Lieu";
+"HNLOC_SAISIE_ACTE_EVENEMENT_PRIVE"     = "Événement privé";
+"HNLOC_SAISIE_ACTE_SUBDIVISION_REGION"  = "Subdivision de région";
+
+// Autre
+"HNLOC_SAISIE_ACTE_REGISTRE_MATRICULE_RECRUTEMENT_LIEU_COMMUNE" = "Bureau de recrutement (commune)";
+"HNLOC_SAISIE_ACTE_REGISTRE_MATRICULE_RECRUTEMENT_COMMUNE" = "Bureau de recrutement";
+"HNLOC_SAISIE_ACTE_REGISTRE_MATRICULE_RECRUTEMENT_NUMBER" = "N° de matricule de recrutement";
+"HNLOC_SAISIE_ACTE_REGISTRE_MATRICULE_RECRUTEMENT_CLASSE" = "Classe de mobilisation";
+"HNLOC_REG_MATRICULE_PANEL_REGISTRE_NUMERO_TIRAGE"  = "Numéro de tirage au sort" ;
+
+//Validation
+// --> Naissance-baptême
+"HNLOC_SAISIE_ACTE_ENFANT_NON_RENSEIGNE" = "Enfant non renseigné";
+"HNLOC_SAISIE_ACTE_VALIDE_NAISSANCE" = "Pour valider la saisie de la naissance, vous devez mentionner au moins le nom de l'enfant et sa date de naissance.";
+"HNLOC_SAISIE_ACTE_VALIDE_BAPTEME" = "Pour valider la saisie du baptême, vous devez mentionner au moins le nom de l'enfant et sa date de baptême.";
+"HNLOC_SAISIE_ACTE_VALIDE_NOM_ENFANT" = "Vous devez indiquer le nom de l'enfant.";
+"HNLOC_SAISIE_ACTE_VALIDE_DATE_NAISSANCE" = "Vous devez mentionner la date de naissance de l'enfant.";
+"HNLOC_SAISIE_ACTE_VALIDE_DATE_BAPTEME" = "Vous devez mentionner la date de baptême de l'enfant.";
+// --> Décès-sépulture
+"HNLOC_SAISIE_ACTE_DECES_NON_RENSEIGNE"     = "Décès non renseigné";
+"HNLOC_SAISIE_ACTE_DEFUNT_NON_RENSEIGNE"    = "Défunt non renseigné";
+"HNLOC_SAISIE_ACTE_SEPULTURE_NON_RENSEIGNEE" = "Sépulture non renseignée";
+"HNLOC_SAISIE_ACTE_VALIDE_DECES"            = "Pour valider la saisie du décès, vous devez mentionner au moins le nom du défunt et la date du décès.";
+"HNLOC_SAISIE_ACTE_VALIDE_SEPULTURE"        = "Pour valider la saisie de la sépulture, vous devez mentionner au moins le nom du défunt et la date de la sépulture.";
+"HNLOC_SAISIE_ACTE_VALIDE_NOM_DEFUNT"       = "Vous devez indiquer le nom du défunt.";
+"HNLOC_SAISIE_ACTE_VALIDE_DATE_DECES"       = "Vous devez mentionner la date de décès.";
+"HNLOC_SAISIE_ACTE_VALIDE_DATE_SEPULTURE"   = "Vous devez mentionner la date de sépulture.";
+// --> Unions
+"HNLOC_SAISIE_ACTE_VALIDE_DATE_NON_RENSEIGNEE" = "Date non renseignée";
+"HNLOC_SAISIE_ACTE_VALIDE_CONJOINTS_NON_RENSEIGNES" = "Époux non renseignés";
+"HNLOC_SAISIE_ACTE_VALIDE_EPOUX_NON_RENSEIGNE" = "Époux non renseigné";
+"HNLOC_SAISIE_ACTE_VALIDE_EPOUSE_NON_RENSEIGNE" = "Épouse non renseignée";
+"HNLOC_SAISIE_ACTE_VALIDE_DATE_MARIAGE"     = "Vous devez indiquer la date de mariage.";
+"HNLOC_SAISIE_ACTE_VALIDE_NOM_EPOUX"        = "Vous devez indiquer le nom de l'époux.";
+"HNLOC_SAISIE_ACTE_VALIDE_NOM_EPOUSE"       = "Vous devez indiquer le nom de l'épouse.";
+"HNLOC_SAISIE_ACTE_VALIDE_NOM_CONJOINTS"    = "Vous devez indiquer le nom des conjoints.";
+// Registre matricule
+"HNLOC_SAISIE_ACTE_VALIDE_REGISTRE_MATRICULE_2PTS_DE" = "Fiche matricule : %s";
+"HNLOC_SAISIE_ACTE_VALIDE_REGISTRE_MATRICULE_SOLDAT_NON_RENSEIGNE" = "Soldat non renseigné";
+"HNLOC_SAISIE_ACTE_VALIDE_REGISTRE_MATRICULE_SOLDAT_NOM_SOLDAT" = "Pour valider la saisie de la fiche matricule, vous devez indiquer le nom du soldat.";
+
+// --> Enregistrement
+"HNLOC_SAISIE_ACTE_POPUP_CHOIX_TOOLTIP"     = "Veuillez choisir l'information qui sera conservée dans votre fichier";
+"HNLOC_SAISIE_ACTE_AFFECTE_SOURCE_CHOISIR"  = "< Choisir à quels événements affecter la source >";
+"HNLOC_SAISIE_ACTE_AFFECTE_SOURCE_MAIN_EVT" = "Affecter la source à l'événement %s";
+"HNLOC_SAISIE_ACTE_AFFECTE_SOURCE_MAIN_EVT_INDIVIDU" = "Affecter la source à l'événement %s de %s";
+"HNLOC_SAISIE_ACTE_AFFECTE_SOURCE_MAIN_EVTS_ET_RUBRIQUES_INDIVIDU" = "Affecter la source aux événements et rubriques personnelles de %s";
+"HNLOC_SAISIE_ACTE_AFFECTE_SOURCE_INDIVIDU" = "Affecter la source à l'individu %s";
+"HNLOC_SAISIE_ACTE_AFFECTE_SOURCE_TOUS"     = "Affecter la source aux événements des individus concernés";
+"HNLOC_SAISIE_ACTE_ALERT_CHOIX_SOURCE"      = "Vous avez choisi d'utiliser une source existante, veuillez l'indiquer.";
+"HNLOC_SAISIE_ACTE_ALERT_AFFECTATION_SOURCE"= "Veuillez choisir à quels événements affecter la source.";
+
+"HNLOC_SAISIE_ACTE_DECES_EXISTANT_TITLE" = "Il existe déjà un événement Décès.";
+"HNLOC_SAISIE_ACTE_DECES_EXISTANT_MESSAGE" = "Voulez-vous en créer un autre ?";
+
+"HNLOC_SAISIE_ACTE_EVENT_SURCHARGE_RECENSEMENT" = "Recensement militaire";
+
+"HNLOC_SAISIE_ACTE_ACTION_CHOISIR" = "Choisir";
+
+"HNLOC_SAISIE_ACTE_CHECKBOX_STRING_VALUE_YES" = "Oui";
+"HNLOC_SAISIE_ACTE_CHECKBOX_STRING_VALUE_NO" = "Non";
+"HNLOC_SAISIE_ACTE_CHECKBOX_STRING_VALUE_DECEASED_M" = "Décédé";
+"HNLOC_SAISIE_ACTE_CHECKBOX_STRING_VALUE_DECEASED_F" = "Décédée";
+
+"HNLOC_SAISIE_ACTE_RESUME_DOCUMENT_REGISTRE_MATRICULE" = "Fiche signalétique individuelle de recensement militaire";
+"HNLOC_SAISIE_ACTE_RESUME_EVENEMENT_DATE" = "Date : %s";
+"HNLOC_SAISIE_ACTE_RESUME_LIEU_COMMUNE" = "Commune : %s";
+"HNLOC_SAISIE_ACTE_RESUME_LIEU_CANTON" = "Canton : %s";
+"HNLOC_SAISIE_ACTE_RESUME_PARENTS_DOMICILE" = "Domicile des parents";
+"HNLOC_SAISIE_ACTE_RESUME_LOCALITES_HABITEES" = "Localités habitées";
+
+//-----------------------------------------------------//
+//                 Multicritères                       //
+//-----------------------------------------------------//
+
+// RECHERCHE
+"HNLOC_CRIT_PROGRESS_SEARCH_TITLE"              = "Recherche intelligente";
+"HNLOC_CRIT_PROGRESS_SEARCH_INFO"               = "Recherche en cours...";
+"HNLOC_CRIT_ALERT_CHAMP_VIDE_TITLE"             = "La zone de saisie pour le texte à rechercher est vide.";
+"HNLOC_CRIT_ALERT_CHAMP_VIDE_INFO"              = "Veuillez la remplir.";
+
+// OPTIONS
+"HNLOC_CRIT_OPTION_VARIANTES"                   = "Chercher dans les variantes";
+"HNLOC_CRIT_OPTION_REDACTION"                   = "Afficher la rédaction";
+
+// MENU "Tout les criteres"
+"HNLOC_CRIT_OPTION_TOUTLESCRITERES_TOUS" 		= "tous les critères";
+"HNLOC_CRIT_OPTION_TOUTLESCRITERES_UN" 			= "un des critères";
+
+// MENU "Rechercher dans"
+"HNLOC_CRIT_OPTION_RECHERCHERDANS_TOUTLEFICHIER" = "tout le fichier";
+"HNLOC_CRIT_OPTION_RECHERCHERDANSS_SOSA" 		= "la lignée Sosa";
+"HNLOC_CRIT_OPTION_RECHERCHERDANS_ASCENDANCE" 	= "l'ascendance";
+"HNLOC_CRIT_OPTION_RECHERCHERDANS_DESCENDANCE" 	= "la descendance";
+"HNLOC_CRIT_OPTION_RECHERCHERDANS_ARBRE" 	= "l'arbre";
+
+//  MENUS DÉROULANTS
+// --> Catégories de critères
+"HNLOC_CRIT_CATEGORIE_INDIVIDUS"                = "Individus";
+"HNLOC_CRIT_CATEGORIE_RELATIONS"                = "Relations";
+"HNLOC_CRIT_CATEGORIE_UNIONS"                   = "Unions";
+"HNLOC_CRIT_CATEGORIE_EVENEMENTS"               = "Événements";
+"HNLOC_CRIT_CATEGORIE_FAITS"                    = "Rubriques personnelles";
+
+// --> Sous-catégories de critères
+"HNLOC_CRIT_SOUS_CATEGORIE_INDIS_IDENTITE"          = "Identité";
+"HNLOC_CRIT_CRITERE_RELATION_ASC_CONNUE"            = "Ascendance";
+"HNLOC_CRIT_CRITERE_RELATION_DESC_CONNUE"           = "Descendance";
+"HNLOC_CRIT_CRITERE_RELATION_FAMILLE_MONO"          = "Famille monoparentale";
+"HNLOC_CRIT_CRITERE_RELATION_SANS_PARENTE"          = "Sans lien de parenté";
+"HNLOC_CRIT_SOUS_CATEGORIE_EVENTS_UN_DES"           = "Un des événements";
+"HNLOC_CRIT_SOUS_CATEGORIE_EVENTS_UN_DES_MAJEURS"   = "Un des événements majeurs";
+"HNLOC_CRIT_SOUS_CATEGORIE_EVENTS_UN_DES_TYPES"     = "%s : un des événements";
+"HNLOC_CRIT_SOUS_CATEGORIE_EVENTS_INDI"             = "Événements individuels";
+"HNLOC_CRIT_SOUS_CATEGORIE_EVENTS_UN_DES_INDI"      = "Un des événements individuels";
+"HNLOC_CRIT_SOUS_CATEGORIE_EVENTS_NAISSANCE_BAPTEME" = "Naissance ou baptême";
+"HNLOC_CRIT_SOUS_CATEGORIE_EVENTS_DECES_INHUMATION" = "Décès ou inhumation";
+"HNLOC_CRIT_SOUS_CATEGORIE_EVENTS_UNION"            = "Événements d'union";
+"HNLOC_CRIT_SOUS_CATEGORIE_EVENTS_UNIONS"           = "Un des événements majeurs d'union";
+"HNLOC_CRIT_SOUS_CATEGORIE_EVENTS_UN_DES_UNION"     = "Un des événements d'union";
+"HNLOC_CRIT_SOUS_CATEGORIE_EVENTS_NO_EVENT"         = "Sans événement";
+"HNLOC_CRIT_SOUS_CATEGORIE_RUB_PERSO_UN_DES"        = "Une des rubriques personnelles";
+"HNLOC_CRIT_SOUS_CATEGORIE_RUB_PERSO_NO_RUB"        = "Sans rubrique personnelle";
+"HNLOC_CRIT_SOUS_CATEGORIE_RUB_PERSO_UN_DES_TYPES"  = "%s : une des rubriques personnelles";
+
+// --> Critères communs
+"HNLOC_CRIT_CRITERE_EXISTE"                     = "Existe";
+"HNLOC_CRIT_CRITERE_TOUT_CHAMP_TEXTE"           = "Un des champs texte ci-dessus";
+"HNLOC_CRIT_CRITERE_NOM"                        = "Nom";
+"HNLOC_CRIT_CRITERE_PRENOM"                     = "Prénoms";
+"HNLOC_CRIT_CRITERE_SEXE"                       = "Sexe";
+"HNLOC_CRIT_NOMBRE_ENFANTS"                     = "Nombre d'enfants";
+"HNLOC_CRIT_NOMBRE_UNIONS"                      = "Nombre d'unions";
+"HNLOC_CRIT_CRITERE_PRIVATE"                    = "Privé";
+"HNLOC_CRIT_CRITERE_DATE"                       = "Date";
+"HNLOC_CRIT_CRITERE_DATE_CREATION"              = "Date de création";
+"HNLOC_CRIT_CRITERE_DATE_MODIF"                 = "Date de modification";
+"HNLOC_CRIT_CRITERE_ROLE"                       = "Rôle";
+"HNLOC_CRIT_CRITERE_COMMENTAIRE"                = "Commentaire";
+"HNLOC_CRIT_CRITERE_NOTE"                       = "Note";
+"HNLOC_CRIT_CRITERE_TRANSCRIPTION"              = "Transcription";
+"HNLOC_CRIT_CRITERE_NOTE_RECHERCHE"             = "Note de recherche";
+"HNLOC_CRIT_CRITERE_NOTE_PRIVEE"                = "Privée";
+"HNLOC_CRIT_CRITERE_MEDIA"                      = "Média";
+"HNLOC_CRIT_CRITERE_PERSONNE_LIEE"              = "Personne liée";
+"HNLOC_CRIT_CRITERE_FAMILY_SEARCH_LINKED"       = "Lié à FamilySearch";
+"HNLOC_CRIT_CRITERE_TEMOIN"                     = "Témoin";
+// --> Critères indi
+"HNLOC_CRIT_CRITERE_INDI_TOUS"                  = "Tous les individus";
+"HNLOC_CRIT_CRITERE_INDI_PREFIXE"               = "Qualité";
+"HNLOC_CRIT_CRITERE_INDI_SUFFIXE"               = "Suffixe";
+"HNLOC_CRIT_CRITERE_INDI_SURNOM"                = "Surnom";
+"HNLOC_CRIT_CRITERE_INDI_PROFESSION"            = "Profession";
+"HNLOC_CRIT_CRITERE_INDI_TITRE"                 = "Titre";
+"HNLOC_CRIT_CRITERE_INDI_NUM_UTILISATEUR"       = "Numéro personnel";
+"HNLOC_CRIT_CRITERE_INDI_NOTES"                 = "Notes";
+"HNLOC_CRIT_CRITERE_INDI_RUBRIQUES_PERSO"       = "Rubriques personnelles";
+"HNLOC_CRIT_CRITERE_INDI_FILIATION"             = "Filiation";
+"HNLOC_CRIT_CRITERE_INDI_SIGNATURE"             = "Signature";
+"HNLOC_CRIT_CRITERE_INDI_MARQUE"                = "Marqué";
+"HNLOC_CRIT_CRITERE_INDI_CONFIDENTIEL"          = "Confidentiel";
+"HNLOC_CRIT_CRITERE_INDI_SECONDAIRE"            = "Secondaire";
+"HNLOC_CRIT_CRITERE_INDI_SANS_DESCENDANCE"      = "Sans descendance";
+"HNLOC_CRIT_CRITERE_INDI_SANS_UNION"            = "Sans union";
+"HNLOC_CRIT_CRITERE_INDI_NOTE_INDIVIDUELLE"     = "Note individuelle";
+"HNLOC_CRIT_CRITERE_INDI_NOTE_RECHERCHE"        = "Note de recherche";
+"HNLOC_CRIT_CRITERE_INDI_UNE_DES_NOTES"         = "Une des notes";
+"HNLOC_CRIT_CRITERE_INDI_UNE_DES_RUBRIQUES"     = "Une des rubriques";
+"HNLOC_CRIT_CRITERE_INDI_TEMOIN"                = "Témoin";
+"HNLOC_CRIT_CRITERE_INDI_EST_TEMOIN"            = "Est témoin";
+"HNLOC_CRIT_CRITERE_INDI_EST_INDI_LIE"          = "Est une personne liée";
+"HNLOC_CRIT_CRITERE_INDI_PRENOM_USUEL"          = "Prénom usuel";
+
+"HNLOC_CRIT_CRITERE_INDI_COHERENT"              = "Cohérent";
+"HNLOC_CRIT_CRITERE_INDI_NOTE_COHERENT"         = "Déclaré cohérent";
+"HNLOC_CRIT_CRITERE_INDI_COMPLET"               = "Complet";
+"HNLOC_CRIT_CRITERE_INDI_NOTE_COMPLET"          = "Déclaré complet";
+"HNLOC_CRIT_CRITERE_INDI_NOMBRE_DIVORCES"       = "Nombre de divorces";
+"HNLOC_CRIT_CRITERE_INDI_EN_VIE"                = "Supposé en vie";
+"HNLOC_CRIT_CRITERE_INDI_CONCU_HORS_MARIAGE"    = "Enfant conçu avant le mariage";
+"HNLOC_CRIT_CRITERE_INDI_JUMEAUX"               = "Nés le même jour";
+"HNLOC_CRIT_CRITERE_INDI_AGE_MARIAGE"           = "Âge à l'union";
+"HNLOC_CRIT_CRITERE_INDI_AGE_DECES"             = "Âge au décès";
+// --> Critères relations
+"HNLOC_CRIT_CRITERE_RELATION_PERE"              = "Père";
+"HNLOC_CRIT_CRITERE_RELATION_MERE"              = "Mère";
+"HNLOC_CRIT_CRITERE_RELATION_CONJOINT"          = "Conjoint";
+"HNLOC_CRIT_CRITERE_RELATION_ENFANT"            = "Enfant";
+"HNLOC_CRIT_CRITERE_RELATION_FRATRIE"           = "Frère/Sœur";
+"HNLOC_CRIT_CRITERE_RELATION_INDI_ISOLE"        = "Individu isolé";
+"HNLOC_CRIT_CRITERE_RELATION_TEMOIN"            = "Témoin";
+"HNLOC_CRIT_CRITERE_ASC_CONNUE_0_PARENT"        = "Aucun parent connu";
+"HNLOC_CRIT_CRITERE_ASC_CONNUE_1_PARENT"        = "Un seul parent connu";
+"HNLOC_CRIT_CRITERE_ASC_CONNUE_2_PARENTS"       = "Deux parents connus";
+"HNLOC_CRIT_CRITERE_DESC_CONNUE_NON"            = "Aucun enfant connu";
+"HNLOC_CRIT_CRITERE_DESC_CONNUE_OUI"            = "Au moins un enfant connu";
+// --> Critères événement
+"HNLOC_CRIT_CRITERE_EVENT_NOM"                  = "Nom de l'événement";
+"HNLOC_CRIT_CRITERE_EVENT_RUB_PERSO"            = "Nom de la rubrique";
+"HNLOC_CRIT_CRITERE_EVENT_LIEU"                 = "Lieu";
+"HNLOC_CRIT_CRITERE_EVENT_HEURE"                = "Heure";
+"HNLOC_CRIT_CRITERE_EVENT_AGE_ACTE"             = "Âge sur acte";
+"HNLOC_CRIT_CRITERE_EVENT_SUBDIVISION"          = "Subdivision";
+"HNLOC_CRIT_CRITERE_EVENT_CAUSE"                = "Description/Cause";
+"HNLOC_CRIT_CRITERE_EVENT_DESCRIPTION"          = "Description";
+"HNLOC_CRIT_CRITERE_EVENT_ETAT_RECHERCHE"       = "État des recherches";
+"HNLOC_CRIT_CRITERE_EVENT_PARTAGE"              = "Partagé";
+"HNLOC_CRIT_CRITERE_EVENT_SOURCE"               = "Source";
+"HNLOC_CRIT_CRITERE_EVENT_SOURCE_TITRE"         = "Titre";
+"HNLOC_CRIT_CRITERE_EVENT_SOURCE_DOCUMENT"      = "Document";
+"HNLOC_CRIT_CRITERE_EVENT_SOURCE_DEPOT"         = "Dépôt d'archives";
+"HNLOC_CRIT_CRITERE_EVENT_SOURCE_REF_COTE"      = "Référence/Cote";
+"HNLOC_CRIT_CRITERE_EVENT_SOURCE_NATURE"        = "Nature";
+"HNLOC_CRIT_CRITERE_EVENT_SOURCE_TYPE"          = "Type";
+"HNLOC_CRIT_CRITERE_EVENT_SOURCE_AUTEUR"        = "Auteur";
+"HNLOC_CRIT_CRITERE_EVENT_SOURCE_MAIL"          = "Email";
+"HNLOC_CRIT_CRITERE_EVENT_SOURCE_URL"           = "Site Web";
+"HNLOC_CRIT_CRITERE_EVENT_SOURCE_CLASSEMENT"    = "Classement";
+"HNLOC_CRIT_CRITERE_EVENT_SOURCE_CERTITUDE"     = "Certitude";
+"HNLOC_CRIT_CRITERE_EVENT_SOURCE_PRIVEE"        = "Privée";
+
+// --> Critères citation
+"HNLOC_CRIT_CRITERE_CITATION_COMMENTAIRE"       = "Commentaire";
+"HNLOC_CRIT_CRITERE_CITATION_QUALITE_PREUVE"    = "Preuve";
+"HNLOC_CRIT_CRITERE_CITATION_PREUVE_DIRECTE"    = "Directe" ;
+"HNLOC_CRIT_CRITERE_CITATION_PREUVE_INDIRECTE"  = "Indirecte" ;
+"HNLOC_CRIT_CRITERE_CITATION_PREUVE_NEGATIVE"   = "Négative" ;
+"HNLOC_CRIT_CRITERE_CITATION_PREUVE_UNKNOWN"    = "Non connue" ;
+
+// --> Critères union
+"HNLOC_CRIT_CRITERE_UNION_TOUS"                 = "Toutes les unions";
+"HNLOC_CRIT_CRITERE_UNION_STATUT"               = "Statut";
+"HNLOC_CRIT_CRITERE_UNION_ECART_AGE"            = "Écart d'âge entre époux";
+"HNLOC_CRIT_CRITERE_UNION_PREMIERE_UNION"       = "Première union";
+"HNLOC_CRIT_CRITERE_UNION_TOUTES_UNIONS"        = "Toutes unions";
+
+
+// --> Sous-critères
+"HNLOC_CRIT_SS_CRITERE_LIEU_VILLE"              = "Ville";
+"HNLOC_CRIT_SS_CRITERE_LIEU_CODE"               = "Code lieu";
+"HNLOC_CRIT_SS_CRITERE_LIEU_DEPARTEMENT"        = "Département";
+"HNLOC_CRIT_SS_CRITERE_LIEU_REGION"             = "Région";
+"HNLOC_CRIT_SS_CRITERE_LIEU_PAYS"               = "Pays";
+"HNLOC_CRIT_SS_CRITERE_LIEU_TOUS"               = "Un des champs ci-dessus";
+"HNLOC_CRIT_SS_CRITERE_LIEU_LATITUDE"           = "Latitude";
+"HNLOC_CRIT_SS_CRITERE_LIEU_LONGITUDE"          = "Longitude";
+
+// --> Recherche texte
+"HNLOC_CRIT_RECHERCHE_TEXTE_VIDE"               = "Est vide";
+"HNLOC_CRIT_RECHERCHE_TEXTE_NON_VIDE"           = "N'est pas vide";
+"HNLOC_CRIT_RECHERCHE_TEXTE_COMMENCE"           = "Commence par";
+"HNLOC_CRIT_RECHERCHE_TEXTE_CONTIENT"           = "Contient";
+"HNLOC_CRIT_RECHERCHE_TEXTE_CONTIENT_PAS"       = "Ne contient pas";
+"HNLOC_CRIT_RECHERCHE_TEXTE_CONTIENT_EXACT"     = "Est exactement";
+"HNLOC_CRIT_RECHERCHE_TEXTE_CONTIENT_MOT"       = "Contient le mot";
+// --> Recherche booléene
+"HNLOC_CRIT_RECHERCHE_BOOL_OUI"                 = "Oui";
+"HNLOC_CRIT_RECHERCHE_BOOL_NON"                 = "Non";
+// --> Recherche comparaison nombre
+"HNLOC_CRIT_RECHERCHE_NUM_EGAL"                 = "Égal à";
+"HNLOC_CRIT_RECHERCHE_NUM_DIFFERENT"            = "Différent de";
+"HNLOC_CRIT_RECHERCHE_NUM_INFERIEUR"            = "Inférieur à";
+"HNLOC_CRIT_RECHERCHE_NUM_INFERIEUR_EGAL"       = "Inférieur ou égal à";
+"HNLOC_CRIT_RECHERCHE_NUM_SUPERIEUR"            = "Supérieur à";
+"HNLOC_CRIT_RECHERCHE_NUM_SUPERIEUR_EGAL"       = "Supérieur ou égal à";
+// --> Recherche date
+"HNLOC_CRIT_RECHERCHE_DATE_EGAL"                = "Égale à";
+"HNLOC_CRIT_RECHERCHE_DATE_DIFFERENT"           = "Différente de";
+"HNLOC_CRIT_RECHERCHE_DATE_INFERIEUR"           = "Inférieure à";
+"HNLOC_CRIT_RECHERCHE_DATE_INFERIEUR_EGAL"      = "Inférieure ou égale à";
+"HNLOC_CRIT_RECHERCHE_DATE_SUPERIEUR"           = "Supérieure à";
+"HNLOC_CRIT_RECHERCHE_DATE_SUPERIEUR_EGAL"      = "Supérieure ou égale à";
+"HNLOC_CRIT_RECHERCHE_DATE_ENTRE"               = "Entre/Du";
+"HNLOC_CRIT_RECHERCHE_DATE_ET"                  = "et/au";
+"HNLOC_CRIT_RECHERCHE_DATE_PRECISE"             = "Précise";
+"HNLOC_CRIT_RECHERCHE_DATE_INCOMPLETE"          = "Incomplète";
+"HNLOC_CRIT_RECHERCHE_DATE_INCERTAINE"          = "Incertaine";
+"HNLOC_CRIT_RECHERCHE_DATE_GREGORIENNE"         = "Grégorienne";
+"HNLOC_CRIT_RECHERCHE_DATE_JULIENNE"            = "Julienne";
+"HNLOC_CRIT_RECHERCHE_DATE_HEBRAIQUE"           = "Hébraïque";
+"HNLOC_CRIT_RECHERCHE_DATE_REPUBLICAINE"        = "Républicaine";
+"HNLOC_CRIT_RECHERCHE_DATE_AUJOURDHUI"          = "Aujourd'hui";
+"HNLOC_CRIT_RECHERCHE_DATE_SEMAINE_DERNIERE"    = "Il y a moins d'une semaine";
+"HNLOC_CRIT_RECHERCHE_DATE_MOIS_DERNIER"        = "Il y a moins d'un mois";
+"HNLOC_CRIT_RECHERCHE_DATE_ANNEE_DERNIERE"      = "Il y a moins d'un an";
+// --> Recherche heure
+"HNLOC_CRIT_RECHERCHE_HEURE_EGAL"               = "Égale à";
+"HNLOC_CRIT_RECHERCHE_HEURE_INFERIEUR"          = "Inférieure à";
+"HNLOC_CRIT_RECHERCHE_HEURE_INFERIEUR_EGAL"     = "Inférieure ou égale à";
+"HNLOC_CRIT_RECHERCHE_HEURE_SUPERIEUR"          = "Supérieure à";
+"HNLOC_CRIT_RECHERCHE_HEURE_SUPERIEUR_EGAL"     = "Supérieure ou égale à";
+// --> Media
+"HNLOC_CRIT_MEDIA_NOM"                          = "Nom";
+"HNLOC_CRIT_MEDIA_PRIVE"                        = "Privé";
+
+// --> Saisie
+"HNLOC_CRIT_SAISIE_MOT_LIAISON"                 = "et";
+
+// MODELES
+"HNLOC_CRIT_MODELES_ENREGISTRES"                = "Modèles de recherche enregistrés";
+"HNLOC_CRIT_MODELES_CHOISIR"                    = "< Choisir un modèle de recherche >";
+"HNLOC_CRIT_MODELE_GERER_FAVORIS"               = "Gérer les modèles de recherche enregistrés";
+"HNLOC_CRIT_MODELE_SAVE_TITLE"                  = "Enregistrement du modèle de recherche";
+"HNLOC_CRIT_MODELE_SAVE_INFO"                   = "Voulez-vous enregistrer les modifications du modèle '%s' ou créer un nouveau modèle ?";
+"HNLOC_CRIT_MODELE_SAVE_BTN_MODIFS"             = "Enregistrer les modifications";
+"HNLOC_CRIT_MODELE_SAVE_BTN_NEW"                = "Nouveau modèle de recherche";
+"HNLOC_CRIT_MODELE_XML_ERREUR_TITLE"            = "Erreur lors du chargement du modèle";
+"HNLOC_CRIT_MODELE_XML_NON_VALIDE_INFOS"        = "Le modèle enregistré n'est pas valide.";
+"HNLOC_CRIT_MODELE_XML_INCOMPLET_INFOS"         = "Le modèle enregistré est incomplet.";
+"HNLOC_CRIT_MODELE_EXISTE_DEJA"                 = "Le modèle '%s' existe déjà.";
+"HNLOC_CRIT_MODELE_ECHEC_ENREGITREMENT"         = "L'enregistrement du modèle a échoué.";
+"HNLOC_CRIT_SURCHARGE_EVT_INCONNUE"             = "Le type d'événement '%s (%s)' n'existe pas dans votre généalogie.";
+"HNLOC_CRIT_CRITERE_NON_GERE"                   = "Un critère de ce modèle n'est pas géré par cette version de Heredis.";
+"HNLOC_CRIT_CRITERE_XML_NON_VALIDE"             = "Un critère du modèle enregistré n'est pas valide.";
+"HNLOC_CRIT_RUBRIQUE_PERSO_INCONNUE"            = "La rubrique personnelle '%s' n'est pas active dans votre généalogie.";
+"HNLOC_CRIT_SURCHARGE_ROLE_INCONNUE"            = "Le rôle '%s' n'existe pas dans votre généalogie.";
+"HNLOC_CRIT_MODELE_SUPPRESSION_TITLE"           = "Suppression d'un modèle de recherche";
+"HNLOC_CRIT_MODELE_SUPPRESSION_INFO"            = "Voulez-vous réellement supprimer le modèle de recherche '%s' ?";
+"HNLOC_CRIT_MODELE_ERREUR_SUPPRESSION"          = "Une erreur est survenue, le modèle de recherche n'a pas pu être supprimé.";
+"HNLOC_CRIT_MODELE_ERREUR_RENOMMAGE"            = "Une erreur est survenue, le modèle de recherche n'a pas pu être renommé.";
+"HNLOC_CRIT_RENOMMAGE_DOUBLON_TITLE"            = "Renommage du modèle impossible";
+"HNLOC_CRIT_RENOMMAGE_DOUBLON_INFO"             = "Le modèle '%s' existe déjà. Veuillez choisir un autre nom.";
+"HNLOC_CRIT_MODELE_SAVE_NAME_INFO"              = "Veuillez choisir un nom pour enregistrer le modèle.";
+// --> Modèles par défaut
+"HNLOC_CRIT_PRESET_CONTEMPORAIN_SANS_MEDIA"     = "Contemporains sans média individuel";
+"HNLOC_CRIT_PRESET_PERSONNE_LIEE_ONCLE"         = "Personnes liées comme oncle ou neveu";
+"HNLOC_CRIT_PRESET_JUMEAUX"                     = "Naissances multiples le même jour (jumeaux)";
+"HNLOC_CRIT_PRESET_INDI_CONCU_HORS_MARIAGE"     = "Enfants conçus avant le mariage";
+"HNLOC_CRIT_PRESET_UNION_SANS_ENFANT"           = "Unions sans descendance";
+"HNLOC_CRIT_PRESET_EVT_INTROUVABLE"             = "Événements signalés introuvables";
+"HNLOC_CRIT_PRESET_EVT_SANS_LIEU"               = "Événements sans lieu";
+"HNLOC_CRIT_MODELES_PAR_DEFAUT_TITLE"           = "Restauration des modèles de recherche Heredis";
+"HNLOC_CRIT_MODELES_PAR_DEFAUT_INFO"            = "Vos modèles existants ne seront ni supprimés ni modifiés. Seuls les modèles Heredis manquants seront ajoutés.";
+
+"HNLOC_TRAITEMENT_TITRE_INDIS"                  = "Traitement des individus sélectionnés";
+"HNLOC_TRAITEMENT_TITRE_UNIONS"                 = "Traitement des unions sélectionnées";
+"HNLOC_TRAITEMENT_TITRE_EVENTS"                 = "Traitement des événements sélectionnés";
+"HNLOC_TRAITEMENT_TITRE_FACTS"                  = "Traitement des rubriques personnelles sélectionnées";
+"HNLOC_TRAITEMENT_DECLARER_MARQUES"             = "Déclarer marqués";
+"HNLOC_TRAITEMENT_DECLARER_NON_MARQUES"         = "Déclarer non marqués";
+"HNLOC_TRAITEMENT_TOUT_NON_MARQUES"             = "Déclarer tout le fichier non marqué";
+"HNLOC_TRAITEMENT_DECLARER_CONDIDENTIEL"        = "Déclarer confidentiels";
+"HNLOC_TRAITEMENT_DECLARER_NON_CONDIDENTIEL"    = "Déclarer non confidentiels";
+"HNLOC_TRAITEMENT_TOUT_NON_CONDIDENTIEL"        = "Déclarer tout le fichier non confidentiel";
+"HNLOC_TRAITEMENT_DECLARER_SECONDAIRE"          = "Déclarer secondaires";
+"HNLOC_TRAITEMENT_DECLARER_NON_SECONDAIRE"      = "Déclarer non secondaires";
+"HNLOC_TRAITEMENT_TOUT_NON_SECONDAIRE"          = "Déclarer tout le fichier non secondaire";
+"HNLOC_TRAITEMENT_PRIVE"                        = "Déclarer privé";
+"HNLOC_TRAITEMENT_NON_PRIVE"                    = "Déclarer non privé";
+"HNLOC_TRAITEMENT_DECLARER_SANS_UNION"          = "Déclarer 'Sans union'";
+"HNLOC_TRAITEMENT_ENLEVER_SANS_UNION"           = "Ne plus déclarer 'Sans union'";
+"HNLOC_TRAITEMENT_DECLARER_SANS_DESCENDANCE"    = "Déclarer 'Sans descendance'";
+"HNLOC_TRAITEMENT_ENLEVER_SANS_DESCENDANCE"     = "Ne plus déclarer 'Sans descendance'";
+"HNLOC_TRAITEMENT_DECLARER_NOTE_COHERENT"       = "Déclarer 'Cohérent'";
+"HNLOC_TRAITEMENT_ENLEVER_NOTE_COHERENT"        = "Ne plus déclarer 'Cohérent'";
+"HNLOC_TRAITEMENT_DECLARER_NOTE_COMPLET"        = "Déclarer 'Complet'";
+"HNLOC_TRAITEMENT_ENLEVER_NOTE_COMPLET"         = "Ne plus déclarer 'Complet'";
+"HNLOC_TRAITEMENT_CONFIRMATION_INDI_PL"         = "Voulez-vous modifier les %d individus sélectionnés ?";
+"HNLOC_TRAITEMENT_CONFIRMATION_INDI"            = "Voulez-vous modifier l'individu sélectionné ?";
+"HNLOC_TRAITEMENT_CONFIRMATION_UNION_PL"        = "Voulez-vous modifier les %d unions sélectionnées ?";
+"HNLOC_TRAITEMENT_CONFIRMATION_UNION"           = "Voulez-vous modifier l'union sélectionnée ?";
+"HNLOC_TRAITEMENT_CONFIRMATION_EVENT_PL"        = "Voulez-vous modifier les %d événements sélectionnés ?";
+"HNLOC_TRAITEMENT_CONFIRMATION_EVENT"           = "Voulez-vous modifier l'événement sélectionné ?";
+"HNLOC_TRAITEMENT_CONFIRMATION_FACT_PL"         = "Voulez-vous modifier les %d rubriques personnelles sélectionnées ?";
+"HNLOC_TRAITEMENT_CONFIRMATION_FACT"            = "Voulez-vous modifier la rubrique personnelle sélectionnée ?";
+
+"HNLOC_TRAITEMENT_CONFIRMATION_TOUT_MARQUE"     = "Voulez-vous déclarer non marqués tous les individus du fichier ?";
+"HNLOC_TRAITEMENT_CONFIRMATION_TOUT_SECONDAIRE" = "Voulez-vous déclarer non secondaires tous les individus du fichier ?";
+"HNLOC_TRAITEMENT_CONFIRMATION_TOUT_CONFIDENTIEL"= "Voulez-vous déclarer non confidentiels tous les individus du fichier ?";
+"HNLOC_TRAITEMENT_INDIS_EXISTEDEJA"             = "Il y a déjà des individus %s dans le fichier.";
+"HNLOC_TRAITEMENT_INDIS_FLAG_MARQUES"           = "marqués";
+"HNLOC_TRAITEMENT_INDIS_FLAG_SECONDAIRE"        = "secondaires";
+"HNLOC_TRAITEMENT_INDIS_FLAG_CONFIDENTIELLES"   = "confidentiels";
+"HNLOC_TRAITEMENT_INDIS_FLAG_EXISTEDEJA_MSG"    = "Précisez quelle action vous souhaitez appliquer aux individus résultant de votre recherche :\n- Ajouter aux individus déjà %s dans le fichier \n- Remplacer les individus %s existants par ceux-ci \n- Annuler.";
+
+"HNLOC_TRAITEMENT_SANS_UNION_MESSAGE_X_DES"     = "%d des %d individus sélectionnés n'ont pas été traités car ils ont au moins une union.";
+"HNLOC_TRAITEMENT_SANS_UNION_MESSAGE_UN_DES"    = "Un des %d individus sélectionnés n'a pas été traité car il a au moins une union.";
+"HNLOC_TRAITEMENT_SANS_UNION_MESSAGE"           = "L'individu sélectionné n'a pas été traité car il a au moins une union.";
+"HNLOC_TRAITEMENT_SANS_UNION_MESSAGE_PL"        = "Les individus sélectionnés n'ont pas été traités car ils ont au moins une union.";
+"HNLOC_TRAITEMENT_SANS_DESCENDANCE_MESSAGE_X_DES"   = "%d des %d individus sélectionnés n'ont pas été traités car ils ont au moins un enfant.";
+"HNLOC_TRAITEMENT_SANS_DESCENDANCE_MESSAGE_UN_DES"  = "Un des %d individus sélectionnés n'a pas été traité car il a au moins un enfant.";
+"HNLOC_TRAITEMENT_SANS_DESCENDANCE_MESSAGE"         = "L'individu sélectionné n'a pas été traité car il a au moins un enfant.";
+"HNLOC_TRAITEMENT_SANS_DESCENDANCE_MESSAGE_PL"      = "Les individus sélectionnés n'ont pas été traités car ils ont au moins un enfant.";
+"HNLOC_TRAITEMENT_SUPPR_DECUJUS_MESSAGE"        = "%s n'a pas été supprimé car il est le Personnage racine de votre généalogie.";
+"HNLOC_TRAITEMENT_SUPPR_1INDI_TITLE"            = "Vous allez supprimer définitivement %s de votre généalogie.";
+"HNLOC_TRAITEMENT_SUPPR_1INDI_MESSAGE"          = "L'ensemble des informations et des liens le concernant vont être supprimés.";
+"HNLOC_TRAITEMENT_SUPPR_INDIS_TITLE"            = "Vous allez supprimer définitivement %d individus de votre généalogie.";
+"HNLOC_TRAITEMENT_SUPPR_INDIS_MESSAGE"          = "L'ensemble des informations et des liens les concernant vont être supprimés.";
+"HNLOC_TRAITEMENT_EVENT_SHARE_MESSAGE_X_DES"    = "%d des %d événements sélectionnés n'ont pas été traités car ils ne sont pas partageables.";
+"HNLOC_TRAITEMENT_EVENT_SHARE_MESSAGE_UN_DES"   = "Un des %d événements sélectionnés n'a pas été traité car il n'est pas partageable.";
+"HNLOC_TRAITEMENT_EVENT_SHARE_MESSAGE"          = "L'événement sélectionné n'a pas été traité car il n'est pas partageable.";
+"HNLOC_TRAITEMENT_EVENT_SHARE_MESSAGE_PL"       = "Les événements sélectionnés n'ont pas été traités car ils ne sont pas partageables.";
+"HNLOC_TRAITEMENT_EVENT_1TYPE_TITLE"            = "Impossible de modifier la sélection. Les événements sélectionnés dans la liste des résultats ne sont pas tous du même type.";
+"HNLOC_TRAITEMENT_FACT_1TYPE_TITLE"             = "Impossible de modifier la sélection. Les rubriques personnelles sélectionnées dans la liste des résultats ne sont pas toutes du même type.";
+"HNLOC_TRAITEMENT_EVENT_1TYPE_MESSAGE"          = "Veuillez modifier vos critères et/ou votre sélection et réessayer.";
+"HNLOC_TRAITEMENT_EVENT_TYPE_MESSAGE"           = "Un événement n'a pas été traité car il est partagé et le type '%s' n'est pas partageable.";
+"HNLOC_TRAITEMENT_EVENT_TYPE_MESSAGE_PL"        = "%d événements n'ont pas été traités car ils sont partagés et le type '%s' n'est pas partageable.";
+"HNLOC_TRAITEMENT_SAISIE_NOTE_TITRE_INDI"       = "Compléter ou créer la note individuelle";
+"HNLOC_TRAITEMENT_SAISIE_NOTE_TITRE_RECHERCHE"  = "Compléter ou créer la note de recherche";
+"HNLOC_TRAITEMENT_SAISIE_NOTE_TITRE_UNION"      = "Compléter ou créer la note d'union";
+"HNLOC_TRAITEMENT_SAISIE_NOTE_TITRE_EVENT"      = "Compléter ou créer la note d'événement/rubrique personnelle";
+"HNLOC_TRAITEMENT_SAISIE_NOTE_1"                = "Votre texte sera ajouté à la suite de la note existante sinon une nouvelle note sera créée avec votre saisie.";
+"HNLOC_TRAITEMENT_SAISIE_CITATION_TITRE"        = "Compléter ou créer la citation de la source";
+"HNLOC_TRAITEMENT_SAISIE_CITATION_1"            = "Votre texte sera ajouté à la suite de la citation existante sinon une nouvelle citation sera créée avec votre saisie.";
+
+"HNLOC_TRAITEMENT_BTN_TYPE_EVENT"               = "Changer le type";
+
+//-----------------------------------------------------//
+//               Rédaction multicritères               //
+//-----------------------------------------------------//
+
+// --> Général
+"HNLOC_CRIT_REDAC_AUCUN_CRITERE"                = "Aucun critère saisi.";
+"HNLOC_CRIT_REDAC_KEYWORD_ET"                   = " et ";
+"HNLOC_CRIT_REDAC_KEYWORD_ET_2_PTS"             = " et :";
+"HNLOC_CRIT_REDAC_KEYWORD_VIRGULE"              = ", ";
+"HNLOC_CRIT_REDAC_KEYWORD_UN_DES_CRITERES"      = "et ";
+"HNLOC_CRIT_REDAC_KEYWORD_FIN_LIGNE_LISTE"      = " ;";
+"HNLOC_CRIT_REDAC_NEGATION_ADJECTIF"            = "non ";
+"HNLOC_CRIT_REDAC_JE_CHERCHE"                   = "Je cherche ";
+"HNLOC_CRIT_REDAC_MAIN_INDIS"                   = "les individus %s";
+"HNLOC_CRIT_REDAC_MAIN_UNIONS"                  = "les unions ";
+"HNLOC_CRIT_REDAC_MAIN_EVENTS"                  = "les événements %1$s %2$s";
+"HNLOC_CRIT_REDAC_MAIN__RUB_PERSO"              = "les rubriques personnelles %s %s";
+"HNLOC_CRIT_REDAC_TOUS_INDIS"                   = "tous les individus %s";
+"HNLOC_CRIT_REDAC_TOUTES_UNIONS"                = "toutes les unions %s";
+"HNLOC_CRIT_REDAC_TOUS_EVENTS"                  = "tous les événements %1$s %2$s";
+"HNLOC_CRIT_REDAC_TOUS_EVENTS_ADJECTIFS"        = "tous les événements %1$s %2$s";
+"HNLOC_CRIT_REDAC_TOUTES__RUB_PERSO"            = "toutes les rubriques personnelles %s %s";
+"HNLOC_CRIT_REDAC_PORTEE_FICHIER"               = "dans tout le fichier ";
+"HNLOC_CRIT_REDAC_PORTEE_SOSA"                  = "dans la lignée Sosa";
+"HNLOC_CRIT_REDAC_PORTEE_ASCENDANCE"            = "dans l'ascendance %s";
+"HNLOC_CRIT_REDAC_PORTEE_DESCENDANCE"           = "dans la descendance %s";
+"HNLOC_CRIT_REDAC_PORTEE_ARBRE"           		= "dans l'arbre";
+
+// --> Commun
+"HNLOC_CRIT_REDAC_NB_ENFANTS"                   = "le nombre d'enfants %s";
+
+// --> Individus
+"HNLOC_CRIT_REDAC_INDI_NOM"                     = "le nom %s"; // %s pour par ex. le nom du père dans le cas d'une relation.
+"HNLOC_CRIT_REDAC_INDI_PRENOM"                  = "le prénom %s";
+"HNLOC_CRIT_REDAC_INDI_SEXE"                    = "le sexe %s";
+"HNLOC_CRIT_REDAC_INDI_QUALITE"                 = "la qualité %s";
+"HNLOC_CRIT_REDAC_INDI_SUFFIXE"                 = "le suffixe %s";
+"HNLOC_CRIT_REDAC_INDI_SURNOM"                  = "le surnom %s";
+"HNLOC_CRIT_REDAC_INDI_PROFESSION"              = "la profession %s";
+"HNLOC_CRIT_REDAC_INDI_TITRE"                   = "le titre %s";
+"HNLOC_CRIT_REDAC_INDI_NUMERO"                  = "le numéro personnel %s";
+"HNLOC_CRIT_REDAC_INDI_1_DES_RUB_PERSO"         = "une rubrique personnelle %s";
+"HNLOC_CRIT_REDAC_INDI_LA_RUB_PERSO"            = "la rubrique personnelle \"%s\" %s";
+"HNLOC_CRIT_REDAC_INDI_1_CHAMP_TEXTE"           = "un des champs texte %s";
+"HNLOC_CRIT_REDAC_INDI_FILIATION"               = "la filiation %s";
+"HNLOC_CRIT_REDAC_INDI_SIGNATURE"               = "la signature %s";
+"HNLOC_CRIT_REDAC_INDI_SECONDAIRE"              = "secondaire";
+"HNLOC_CRIT_REDAC_INDI_SECONDAIRE_F"            = "secondaire";
+"HNLOC_CRIT_REDAC_INDI_SECONDAIRE_PL"           = "secondaires";
+"HNLOC_CRIT_REDAC_INDI_MARQUE"                  = "marqué";
+"HNLOC_CRIT_REDAC_INDI_MARQUE_F"                = "marquée";
+"HNLOC_CRIT_REDAC_INDI_MARQUE_PL"               = "marqués";
+"HNLOC_CRIT_REDAC_INDI_CONFIDENTIEL"            = "confidentiel";
+"HNLOC_CRIT_REDAC_INDI_CONFIDENTIEL_F"          = "confidentielle";
+"HNLOC_CRIT_REDAC_INDI_CONFIDENTIEL_PL"         = "confidentiels";
+"HNLOC_CRIT_REDAC_INDI_SANS_UNION"              = "déclaré \"Sans union\"";
+"HNLOC_CRIT_REDAC_INDI_SANS_UNION_F"            = "déclarée \"Sans union\"";
+"HNLOC_CRIT_REDAC_INDI_SANS_UNION_PL"           = "déclarés \"Sans union\"";
+"HNLOC_CRIT_REDAC_INDI_SANS_DESCENDANCE"        = "déclaré \"Sans descendance\"";
+"HNLOC_CRIT_REDAC_INDI_SANS_DESCENDANCE_F"      = "déclarée \"Sans descendance\"";
+"HNLOC_CRIT_REDAC_INDI_SANS_DESCENDANCE_PL"     = "déclarés \"Sans descendance\"";
+"HNLOC_CRIT_REDAC_INDI_COMPLET"                 = "complet";
+"HNLOC_CRIT_REDAC_INDI_COMPLET_F"               = "complète";
+"HNLOC_CRIT_REDAC_INDI_COMPLET_PL"              = "complets";
+"HNLOC_CRIT_REDAC_INDI_DECLARE_COMPLET"         = "déclaré \"Complet\"";
+"HNLOC_CRIT_REDAC_INDI_DECLARE_COMPLET_F"       = "déclarée \"Complet\"";
+"HNLOC_CRIT_REDAC_INDI_DECLARE_COMPLET_PL"      = "déclarés \"Complet\"";
+"HNLOC_CRIT_REDAC_INDI_COHERENT"                = "cohérent";
+"HNLOC_CRIT_REDAC_INDI_COHERENT_F"              = "cohérente";
+"HNLOC_CRIT_REDAC_INDI_COHERENT_PL"             = "cohérents";
+"HNLOC_CRIT_REDAC_INDI_DECLARE_COHERENT"        = "déclaré \"Cohérent\"";
+"HNLOC_CRIT_REDAC_INDI_DECLARE_COHERENT_F"      = "déclarée \"Cohérent\"";
+"HNLOC_CRIT_REDAC_INDI_DECLARE_COHERENT_PL"     = "déclarés \"Cohérent\"";
+"HNLOC_CRIT_REDAC_INDI_NB_UNIONS"               = "le nombre d'unions %s";
+"HNLOC_CRIT_REDAC_INDI_NB_DIVORCES"             = "le nombre de divorces %s";
+"HNLOC_CRIT_REDAC_INDI_AGE_DECES"               = "l'âge au décès %s";
+"HNLOC_CRIT_REDAC_INDI_AGE_1RE_UNION"           = "l'âge à la première union %s";
+"HNLOC_CRIT_REDAC_INDI_AGE_UNION"               = "l'âge à l'union %s";
+"HNLOC_CRIT_REDAC_INDI_SUPPOSE_EN_VIE"          = "supposé en vie";
+"HNLOC_CRIT_REDAC_INDI_SUPPOSE_EN_VIE_F"        = "supposée en vie";
+"HNLOC_CRIT_REDAC_INDI_SUPPOSE_EN_VIE_PL"       = "supposés en vie";
+"HNLOC_CRIT_REDAC_INDI_CONCU_HORS_MARIAGE"      = "conçu avant le mariage";
+"HNLOC_CRIT_REDAC_INDI_CONCU_HORS_MARIAGE_F"    = "conçue avant le mariage";
+"HNLOC_CRIT_REDAC_INDI_CONCU_HORS_MARIAGE_PL"   = "conçus avant le mariage";
+"HNLOC_CRIT_REDAC_INDI_TEMOIN_OUI"              = "qui est témoin";
+"HNLOC_CRIT_REDAC_INDI_TEMOIN_NON"              = "qui n'est pas témoin";
+"HNLOC_CRIT_REDAC_INDI_TEMOIN_OUI_PL"           = "qui sont témoins";
+"HNLOC_CRIT_REDAC_INDI_TEMOIN_NON_PL"           = "qui ne sont pas témoins";
+"HNLOC_CRIT_REDAC_INDI_TEMOIN_ROLE_COMM"        = "qui est témoin et %s";
+"HNLOC_CRIT_REDAC_INDI_TEMOIN_ROLE_COMM_PL"     = "qui sont témoins et %s";
+"HNLOC_CRIT_REDAC_INDI_TEMOIN_COMMENTAIRE"      = "le commentaire lié à l'événement";
+"HNLOC_CRIT_REDAC_INDI_TEMOIN_ROLE"             = "le rôle";
+"HNLOC_CRIT_REDAC_INDI_LIE_OUI"                 = "qui est une personne liée";
+"HNLOC_CRIT_REDAC_INDI_LIE_NON"                 = "qui n'est pas une personne liée";
+"HNLOC_CRIT_REDAC_INDI_LIE_OUI_PL"              = "qui sont des personnes liées";
+"HNLOC_CRIT_REDAC_INDI_LIE_NON_PL"              = "qui ne sont pas des personnes liées";
+"HNLOC_CRIT_REDAC_INDI_LIE_FS"                  = "lié à FamilySearch";
+"HNLOC_CRIT_REDAC_INDI_LIE_FS_F"                = "liée à FamilySearch";
+"HNLOC_CRIT_REDAC_INDI_LIE_FS_PL"               = "liés à FamilySearch";
+"HNLOC_CRIT_REDAC_INDI_LIE_ROLE_COMM"           = "qui est une personne liée et %s";
+"HNLOC_CRIT_REDAC_INDI_LIE_ROLE_COMM_PL"        = "qui sont des personnes liées et %s";
+"HNLOC_CRIT_REDAC_INDI_LIE_COMMENTAIRE"         = "le commentaire du lien individuel";
+
+// --> Relations
+"HNLOC_CRIT_REDAC_RELATION_AYANT"               = "ayant %1$s %2$s";
+"HNLOC_CRIT_REDAC_AVEC_PERE"                    = "avec un père %1$s %2$s ";
+"HNLOC_CRIT_REDAC_AVEC_MERE"                    = "avec une mère %1$s %2$s ";
+"HNLOC_CRIT_REDAC_AVEC_CONJOINT"                = "avec un conjoint %1$s %2$s ";
+"HNLOC_CRIT_REDAC_AVEC_FRERE"                   = "avec un frère ou une sœur %1$s %2$s ";
+"HNLOC_CRIT_REDAC_AVEC_JUMEAUX"                 = "nés le même jour ";
+"HNLOC_CRIT_REDAC_AVEC_ENFANT"                  = "avec un enfant %1$s %2$s ";
+"HNLOC_CRIT_REDAC_AVEC_TEMOIN"                  = "avec un témoin %1$s %2$s ";
+"HNLOC_CRIT_REDAC_AVEC_PERSONNE_LIEE"           = "avec une personne liée %1$s %2$s ";
+"HNLOC_CRIT_REDAC_SANS_PERE"                    = "sans père ";
+"HNLOC_CRIT_REDAC_SANS_MERE"                    = "sans mère ";
+"HNLOC_CRIT_REDAC_SANS_CONJOINT"                = "sans conjoint ";
+"HNLOC_CRIT_REDAC_SANS_FRERE"                   = "sans frère ni sœur ";
+"HNLOC_CRIT_REDAC_SANS_ENFANT"                  = "sans enfant ";
+"HNLOC_CRIT_REDAC_SANS_TEMOIN"                  = "sans témoin ";
+"HNLOC_CRIT_REDAC_SANS_PERSONNE_LIEE"           = "sans personne liée ";
+//"HNLOC_CRIT_REDAC_RELATION_HORS_MARIAGE_M"      = "dont %s a été conçu avant le mariage";
+//"HNLOC_CRIT_REDAC_RELATION_HORS_MARIAGE_F"      = "dont %s a été conçue avant le mariage";
+"HNLOC_CRIT_REDAC_RELATION_0_PARENT_OUI"        = "avec aucun parent connu";
+"HNLOC_CRIT_REDAC_RELATION_0_PARENT_NON"        = "avec au moins un parent connu";
+"HNLOC_CRIT_REDAC_RELATION_1_PARENT_OUI"        = "avec un seul parent connu";
+"HNLOC_CRIT_REDAC_RELATION_1_PARENT_NON"        = "avec zéro ou deux parents connus";
+"HNLOC_CRIT_REDAC_RELATION_2_PARENT_OUI"        = "avec deux parents connus";
+"HNLOC_CRIT_REDAC_RELATION_2_PARENT_NON"        = "avec zéro ou un parent connu";
+"HNLOC_CRIT_REDAC_RELATION_DESC_CONNUE_NON"     = "sans enfant connu";
+"HNLOC_CRIT_REDAC_RELATION_DESC_CONNUE_OUI"     = "avec au moins un enfant connu";
+"HNLOC_CRIT_REDAC_RELATION_FAMILLE_MONO"        = "avec un enfant de conjoint inconnu";
+"HNLOC_CRIT_REDAC_RELATION_LIEN_PARENTE_OUI"    = "avec lien de parenté";
+"HNLOC_CRIT_REDAC_RELATION_LIEN_PARENTE_NON"    = "sans lien de parenté";
+"HNLOC_CRIT_REDAC_RELATION_ISOLE_OUI"           = "n'ayant aucun lien avec d'autres individus";
+"HNLOC_CRIT_REDAC_RELATION_ISOLE_NON"           = "ayant au moins un lien avec un autre individu";
+
+// --> Unions
+"HNLOC_CRIT_REDAC_UNION_AYANT"                  = "ayant une union %s";
+"HNLOC_CRIT_REDAC_UNION_STATUT"                 = "le statut";
+"HNLOC_CRIT_REDAC_UNION_ECART_AGE"              = "l'écart d'âge entre époux %s";
+
+// --> Evénements
+"HNLOC_CRIT_REDAC_ERROR_TYPE_EVTS"              = "Vos critères ne retournent aucun résultat.<br>Construisez votre requête en utilisant des critères \"Individus\"";
+"HNLOC_CRIT_REDAC_EVENT_AYANT"                  = "ayant un %s";
+"HNLOC_CRIT_REDAC_EVENT_AYANT_VOWEL"            = "ayant un %s";
+"HNLOC_CRIT_REDAC_EVENT_AYANT_POST"             = "événement %1$s %2$s";
+"HNLOC_CRIT_REDAC_RUB_PERSO_AYANT_POST"         = "rubrique personnelle %1$s %2$s";
+"HNLOC_CRIT_REDAC_EVENT_AYANT_ADJECTIF"         = "événement %1$s %2$s";
+"HNLOC_CRIT_REDAC_RUB_PERSO_AYANT_ADJECTIF"     = "rubrique personnelle %1$s %2$s";
+"HNLOC_CRIT_REDAC_RUB_PERSO_AYANT"              = "ayant une %s";
+"HNLOC_CRIT_REDAC_EVENT_TOUS_INDIS_N_AYANT_PAS" = "tous les individus n'ayant pas d'événement %s %s";
+"HNLOC_CRIT_REDAC_RUB_PERSO_TOUS_INDIS_N_AYANT_PAS"= "tous les individus n'ayant pas de rubrique personnelle %s %s";
+"HNLOC_CRIT_REDAC_EVENT_N_AYANT_PAS"            = "n'ayant pas d'événement %s";
+"HNLOC_CRIT_REDAC_RUB_PERSO_N_AYANT_PAS"        = "n'ayant pas de rubrique personnelle %s";
+"HNLOC_CRIT_REDAC_EVENT_INDIVIDUEL_ADJECTIF"    = "individuel";
+"HNLOC_CRIT_REDAC_EVENT_INDIVIDUEL_ADJECTIF_PL" = "individuels";
+"HNLOC_CRIT_REDAC_EVENT_MAJEUR_ADJECTIF"        = "majeur";
+"HNLOC_CRIT_REDAC_EVENT_MAJEUR_ADJECTIF_PL"     = "majeurs";
+"HNLOC_CRIT_REDAC_EVENT_UNION_ADJECTIF"         = "d'union";
+"HNLOC_CRIT_REDAC_EVENT_UNION_MAJEURS"          = "majeurs d'union";
+"HNLOC_CRIT_REDAC_EVENT_PARTAGE"                = "partagé";
+"HNLOC_CRIT_REDAC_EVENT_PARTAGE_PL"             = "partagés";
+"HNLOC_CRIT_REDAC_EVENT_PRIVE"                  = "privé";
+"HNLOC_CRIT_REDAC_EVENT_PRIVE_PL"               = "privés";
+"HNLOC_CRIT_REDAC_EVENT_STATUT"                 = "l'état des recherches";
+"HNLOC_CRIT_REDAC_EVENT_NOM"                    = "le nom %s";
+"HNLOC_CRIT_REDAC_EVENT_SUBDIVISION"            = "la subdivision %s";
+"HNLOC_CRIT_REDAC_EVENT_CAUSE"                  = "la description/cause %s";
+"HNLOC_CRIT_REDAC_EVENT_DESCRIPTION"            = "la description %s";
+"HNLOC_CRIT_REDAC_EVENT_AGE_ACTE"               = "l'âge sur acte %s";
+"HNLOC_CRIT_REDAC_EVENT_HEURE"                  = "l'heure";
+"HNLOC_CRIT_REDAC_EVENT_TEMOIN_OUI"             = "avec un témoin";
+"HNLOC_CRIT_REDAC_EVENT_TEMOIN_NON"             = "sans témoin";
+"HNLOC_CRIT_REDAC_EVENT_TEMOIN_OUI_ET"          = "avec un témoin %s";
+"HNLOC_CRIT_REDAC_EVENT_TEMOIN_NOM"             = "le nom";
+"HNLOC_CRIT_REDAC_EVENT_TEMOIN_PRENOM"          = "le prénom";
+"HNLOC_CRIT_REDAC_EVENT_TEMOIN_ROLE"            = "le rôle";
+"HNLOC_CRIT_REDAC_EVENT_TEMOIN_COMMENTAIRE"     = "le commentaire lié à l'événement";
+
+// --> Recherche textuelle
+"HNLOC_CRIT_REDAC_TEXT_COMMENCE_PAR"            = "dont %1$s commence par \"%2$s\"";
+"HNLOC_CRIT_REDAC_TEXT_EST_EXACTEMENT"          = "dont %1$s est exactement \"%2$s\"";
+"HNLOC_CRIT_REDAC_TEXT_CONTIENT"                = "dont %1$s contient \"%2$s\"";
+"HNLOC_CRIT_REDAC_TEXT_CONTIENT_LE_MOT"         = "dont %1$s contient le mot \"%2$s\"";
+"HNLOC_CRIT_REDAC_TEXT_NE_CONTIENT_PAS"         = "dont %1$s ne contient pas \"%2$s\"";
+"HNLOC_CRIT_REDAC_TEXT_EST_VIDE"                = "dont %s est vide";
+"HNLOC_CRIT_REDAC_TEXT_N_EST_PAS_VIDE"          = "dont %s n'est pas vide";
+
+// --> Recherche égal différent
+"HNLOC_CRIT_REDAC_EST_EGAL_M"                   = "dont %1$s est \"%2$s\"";
+"HNLOC_CRIT_REDAC_EST_EGAL_F"                   = "dont %1$s est \"%2$s\"";
+"HNLOC_CRIT_REDAC_EST_DIFFERENT_M"              = "dont %1$s est différent de \"%2$s\"";
+"HNLOC_CRIT_REDAC_EST_DIFFERENT_F"              = "dont %1$s est différente de \"%2$s\"";
+
+// --> Recherche comparaison numérique
+"HNLOC_CRIT_REDAC_NUM_EGAL_M"                   = "dont %1$s est égal à %2$s";
+"HNLOC_CRIT_REDAC_NUM_EGAL_F"                   = "dont %1$s est égale à %2$s";
+"HNLOC_CRIT_REDAC_NUM_DIFFERENT_M"              = "dont %1$s est différent de %2$s";
+"HNLOC_CRIT_REDAC_NUM_DIFFERENT_F"              = "dont %1$s est différente de %2$s";
+"HNLOC_CRIT_REDAC_NUM_SUPERIEUR_M"              = "dont %1$s est supérieur à %2$s";
+"HNLOC_CRIT_REDAC_NUM_SUPERIEUR_F"              = "dont %1$s est supérieure à %2$s";
+"HNLOC_CRIT_REDAC_NUM_SUPERIEUR_EGAL_M"         = "dont %1$s est supérieur ou égal à %2$s";
+"HNLOC_CRIT_REDAC_NUM_SUPERIEUR_EGAL_F"         = "dont %1$s est supérieure ou égale à %2$s";
+"HNLOC_CRIT_REDAC_NUM_INFERIEUR_M"              = "dont %1$s est inférieur à %2$s";
+"HNLOC_CRIT_REDAC_NUM_INFERIEUR_F"              = "dont %1$s est inférieure à %2$s";
+"HNLOC_CRIT_REDAC_NUM_INFERIEUR_EGAL_M"         = "dont %1$s est inférieur ou égal à %2$s";
+"HNLOC_CRIT_REDAC_NUM_INFERIEUR_EGAL_F"         = "dont %1$s est inférieure ou égale à %2$s";
+
+// --> Recherche est/n'est pas
+"HNLOC_CRIT_REDAC_EST"                          = "dont %1$s est %2$s";
+"HNLOC_CRIT_REDAC_N_EST_PAS"                    = "dont %1$s n'est pas %2$s";
+
+// --> Recherche date
+"HNLOC_CRIT_REDAC_DATE"                         = "la date";
+"HNLOC_CRIT_REDAC_DATE_GREGORIENNE"             = "grégorienne";
+"HNLOC_CRIT_REDAC_DATE_REPUBLICAINE"            = "républicaine";
+"HNLOC_CRIT_REDAC_DATE_JULIENNE"                = "julienne";
+"HNLOC_CRIT_REDAC_DATE_HEBRAIQUE"               = "hébraïque";
+"HNLOC_CRIT_REDAC_DATE_PRECISE"                 = "précise";
+"HNLOC_CRIT_REDAC_DATE_INCOMPLETE"              = "incomplète";
+"HNLOC_CRIT_REDAC_DATE_INCERTAINE"              = "incertaine";
+"HNLOC_CRIT_REDAC_DATE_ENTRE_ET"                = "dont %s est entre %s et %s";
+
+// --> Recherche date modif-création
+"HNLOC_CRIT_REDAC_INDI_DATE_MODIF"              = "modifié %s";
+"HNLOC_CRIT_REDAC_INDI_DATE_CREATION"           = "créé %s";
+"HNLOC_CRIT_REDAC_INDI_DATE_MODIF_F"            = "modifiée %s";
+"HNLOC_CRIT_REDAC_INDI_DATE_CREATION_F"         = "créée %s";
+"HNLOC_CRIT_REDAC_INDI_DATE_MODIF_PL"           = "modifiés %s";
+"HNLOC_CRIT_REDAC_INDI_DATE_CREATION_PL"        = "créés %s";
+"HNLOC_CRIT_REDAC_INDI_DATE_MODIF_PHRASE"       = "la date de modification %s";
+"HNLOC_CRIT_REDAC_INDI_DATE_CREATION_PHRASE"    = "la date de création %s";
+"HNLOC_CRIT_REDAC_INDI_DATE_MODIF_TODAY"        = "aujourd'hui";
+"HNLOC_CRIT_REDAC_INDI_DATE_MODIF_MOINS_1_WEEK" = "il y a moins d'une semaine";
+"HNLOC_CRIT_REDAC_INDI_DATE_MODIF_MOINS_1_MONTH"= "il y a moins d'un mois";
+"HNLOC_CRIT_REDAC_INDI_DATE_MODIF_MOINS_1_YEAR" = "il y a moins d'un an";
+//"HNLOC_CRIT_REDAC_INDI_DATE_MODIF_DONT_M"       = "dont %s a été modifié %s";
+//"HNLOC_CRIT_REDAC_INDI_DATE_MODIF_DONT_F"       = "dont %s a été modifiée %s";
+//"HNLOC_CRIT_REDAC_INDI_DATE_CREATION_DONT_M"    = "dont %s a été créé %s";
+//"HNLOC_CRIT_REDAC_INDI_DATE_CREATION_DONT_F"    = "dont %s a été créée %s";
+
+// --> Recherche sexe
+"HNLOC_CRIT_REDAC_SEXE_M"                       = "masculin";
+"HNLOC_CRIT_REDAC_SEXE_F"                       = "féminin";
+"HNLOC_CRIT_REDAC_SEXE_?"                       = "indéterminé";
+
+
+// --> Recherche note
+"HNLOC_CRIT_REDAC_NOTE"                         = "la note";
+"HNLOC_CRIT_REDAC_NOTE_INDIVIDUELLE"            = "la note individuelle %s";
+"HNLOC_CRIT_REDAC_NOTE_RECHERCHE"               = "la note de recherche %s";
+"HNLOC_CRIT_REDAC_NOTE_INDI_UNE_DES_DEUX"       = "la note individuelle ou la note de recherche %s";
+"HNLOC_CRIT_REDAC_NOTE_PRIVEE"                  = "privée";
+
+// --> Recherche lieu
+"HNLOC_CRIT_REDAC_LIEU_VILLE"                   = "la ville";
+"HNLOC_CRIT_REDAC_LIEU_CODE"                    = "le code lieu";
+"HNLOC_CRIT_REDAC_LIEU_DEPARTEMENT"             = "le département";
+"HNLOC_CRIT_REDAC_LIEU_REGION"                  = "la région";
+"HNLOC_CRIT_REDAC_LIEU_PAYS"                    = "le pays";
+"HNLOC_CRIT_REDAC_LIEU_LATITUDE"                = "la latitude";
+"HNLOC_CRIT_REDAC_LIEU_LONGITUDE"               = "la longitude";
+"HNLOC_CRIT_REDAC_LIEU_UN_DES"                  = "une zone du lieu";
+"HNLOC_CRIT_REDAC_LIEU_EXISTE_OUI"              = "dont le lieu existe";
+"HNLOC_CRIT_REDAC_LIEU_EXISTE_NON"              = "dont le lieu n'est pas renseigné";
+
+// --> Recherche source
+"HNLOC_CRIT_REDAC_SOURCE"                       = "une source";
+"HNLOC_CRIT_REDAC_SOURCE_TITRE"                 = "le titre de la source";
+"HNLOC_CRIT_REDAC_SOURCE_DOCUMENT"              = "le document de la source";
+"HNLOC_CRIT_REDAC_SOURCE_DEPOT"                 = "le dépôt d'archives de la source";
+"HNLOC_CRIT_REDAC_SOURCE_REF_COTE"              = "la référence/cote de la source";
+"HNLOC_CRIT_REDAC_SOURCE_AUTEUR"                = "l'auteur de la source";
+"HNLOC_CRIT_REDAC_SOURCE_EMAIL"                 = "l'email de la source";
+"HNLOC_CRIT_REDAC_SOURCE_URL"                   = "le site Web de la source";
+"HNLOC_CRIT_REDAC_SOURCE_CLASSEMENT"            = "le classement de la source";
+"HNLOC_CRIT_REDAC_SOURCE_UN_CHAMP_TEXTE"        = "un des champs texte de la source";
+"HNLOC_CRIT_REDAC_SOURCE_EXISTE_OUI"            = "avec une source";
+"HNLOC_CRIT_REDAC_SOURCE_EXISTE_NON"            = "sans source";
+"HNLOC_CRIT_REDAC_SOURCE_TYPE"                  = "le type de la source";
+"HNLOC_CRIT_REDAC_SOURCE_NATURE"                = "la nature de la source";
+"HNLOC_CRIT_REDAC_SOURCE_CERTITUDE"             = "la certitude de la source";
+"HNLOC_CRIT_REDAC_SOURCE_CERTITUDE_0"           = "incertaine";
+"HNLOC_CRIT_REDAC_SOURCE_CERTITUDE_1"           = "peu certaine";
+"HNLOC_CRIT_REDAC_SOURCE_CERTITUDE_2"           = "plutôt certaine";
+"HNLOC_CRIT_REDAC_SOURCE_CERTITUDE_3"           = "certaine";
+"HNLOC_CRIT_REDAC_SOURCE_NOTE"                  = "la note de la source";
+"HNLOC_CRIT_REDAC_SOURCE_TRANSCRIPTION"         = "la transcription de la source";
+"HNLOC_CRIT_REDAC_SOURCE_PRIVEE"                = "privée";
+"HNLOC_CRIT_REDAC_SOURCE_DATE"                  = "la date de la source";
+"HNLOC_CRIT_REDAC_SOURCE_COMMENTAIRE"           = "le commentaire de la source";
+"HNLOC_CRIT_REDAC_SOURCE_PREUVE"                = "la preuve de la source";
+
+// Recherche média
+"HNLOC_CRIT_REDAC_MEDIA_EXISTE_OUI"             = "avec média";
+"HNLOC_CRIT_REDAC_MEDIA_EXISTE_NON"             = "sans média";
+"HNLOC_CRIT_REDAC_MEDIA_PRIVE_EXISTE_OUI"       = "avec un média privé";
+"HNLOC_CRIT_REDAC_MEDIA_PRIVE_EXISTE_NON"       = "avec un média non privé";
+"HNLOC_CRIT_REDAC_MEDIA_NOTE"                   = "la note du média";
+"HNLOC_CRIT_REDAC_MEDIA_NOM"                    = "le nom du média";
+"HNLOC_CRIT_REDAC_MEDIA_DATE"                   = "la date du média";
+
+//-----------------------------------------------------//
+//               Rechercher/Remplacer                  //
+//-----------------------------------------------------//
+"HNLOC_FIND_REPLACE_PLACEHOLDER_VIDE"       = "Est vide";
+"HNLOC_FIND_REPLACE_NOTE_UNION"             = "Note familiale";
+"HNLOC_FIND_REPLACE_NOTE_EVENT"             = "Note";
+"HNLOC_FIND_REPLACE_NOTE_RUB_PERSO"         = "Note";
+"HNLOC_FIND_REPLACE_RUB_PERSO_SUBDIVISION"  = "Subdivision";
+"HNLOC_FIND_REPLACE_RESULTS_TITLE"          = "Correspondances (%d)";
+"HNLOC_FIND_REPLACE_NO_RESULTS_TITLE"       = "Correspondances";
+"HNLOC_FIND_REPLACE_REPLACEMENTS_TITLE"     = "Remplacer (%d)";
+"HNLOC_FIND_REPLACE_NO_REPLACEMENTS_TITLE"  = "Remplacer";
+"HNLOC_FIND_REPLACE_CONFIRM_1_INDI"         = "Voulez-vous remplacer le texte pour l'individu sélectionné ?";
+"HNLOC_FIND_REPLACE_CONFIRM_INDIS"          = "Voulez-vous remplacer le texte pour les %d individus sélectionnés ?";
+"HNLOC_FIND_REPLACE_CONFIRM_1_UNION"        = "Voulez-vous remplacer le texte pour l'union sélectionnée ?";
+"HNLOC_FIND_REPLACE_CONFIRM_UNIONS"         = "Voulez-vous remplacer le texte pour les %d unions sélectionnées ?";
+"HNLOC_FIND_REPLACE_CONFIRM_1_EVENT"        = "Voulez-vous remplacer le texte pour l'événement sélectionné ?";
+"HNLOC_FIND_REPLACE_CONFIRM_EVENTS"         = "Voulez-vous remplacer le texte pour les %d événements sélectionnés ?";
+"HNLOC_FIND_REPLACE_CONFIRM_1_RUB_PERSO"    = "Voulez-vous remplacer le texte pour la rubrique personnelle sélectionnée ?";
+"HNLOC_FIND_REPLACE_CONFIRM_RUB_PERSO"      = "Voulez-vous remplacer le texte pour les %d rubriques personnelles sélectionnées ?";
+"HNLOC_FIND_REPLACE_CONFIRM_TEXTE_VIDE"     = "Attention, le texte de remplacement est vide.";
+
+"HNLOC_DASHBOARD_WINDOW_TITLE"              = "Tableau de bord";
+//-----------------------------------------------------//
+//                Synchronisation                      //
+//-----------------------------------------------------//
+"HNLOC_SYNCHRO_ANCIEN" 	 = "Attention, le fichier distant est plus ancien.";
+"HNLOC_SYNCHRO_RECENT" 	 = "Le fichier distant est plus recent.";
+"HNLOC_SYNCHRO_METTRE_A_JOUR" = "Le fichier %s sur %s est plus récent. Voulez-vous le recevoir ?";
+"HNLOC_SHARE_SHARE" = "Partager" ;
+"HNLOC_SHARE_UNSHARE" = "Ne plus partager" ;
+"HNLOC_SHARE_FOLDER" = "Indiquez un dossier où enregistrer votre généalogie" ;
+"HNLOC_SHARE_INFORMATION_RECEIVE" = "Le fichier sur %s est plus récent que sur cet appareil. Si vous choisissez Recevoir, le fichier sera mis à jour sur cet appareil." ;
+"HNLOC_SHARE_INFORMATION_DONT_RECEIVE" = "Le fichier sur %s est plus ancien que sur cet appareil. Si vous choisissez Recevoir, votre fichier sera remplacé sur cet appareil. Nous vous conseillons de ne rien faire." ;
+"HNLOC_SHARE_INFO_SHARE" = "Cliquez sur le bouton 'Partager' pour lier votre généalogie à cet appareil. Si votre généalogie n'est pas connue sur l'appareil distant, celle-ci sera alors téléchargée. Vous serez ensuite informé à chaque modification de cette généalogie." ;
+"HNLOC_SHARE_INFO_UNSHARE" = "Cliquez sur le bouton 'Ne plus partager' pour délier votre généalogie de l'appareil distant. Vous pouvez à tout moment réactiver ce partage en cliquant sur le bouton 'Partager'." ;
+"HNLOC_SHARE_INFO_UNAVAILABLE" = "L'appareil distant n'est pas accessible. Veuillez vérifier sur vos appareils les autorisations de Heredis dans les pare-feux et les versions de Heredis.";
+"HNLOC_SHARE_INFO_NOTFOUND" = "Aucun appareil trouvé. Allumez les appareils sur votre réseau local et lancez Heredis." ;
+"HNLOC_SHARE_INFO_FOUND" = "Sélectionnez une machine distante pour partager ou ne plus partager votre généalogie." ;
+"HNLOC_SHARE_INFO_OPENHEREDIS" = "Heredis n'est pas ouvert sur l'appareil %s." ;
+"HNLOC_SHARE_NAME" = "Partager sur le réseau local";
+"HNLOC_SHARE_TITLE" = "Partager %s" ;
+"HNLOC_SHARE_INFO_MY" = "Mon ordinateur %s" ;
+"HNLOC_SHARE_INFO_ASKED" = "Demande en cours. Veuillez accepter ou refuser le partage sur l'autre appareil.";
+
+//-----------------------------------------------------//
+//                Tableau de bord                      //
+//-----------------------------------------------------//
+
+"HNLOC_CITATION_TITRE" = "Source : " ;
+"HNLOC_CITATION_DETAIL" = "Détail de la citation : " ;
+"HNLOC_CITATION_TEXT" = "Contenu de la citation : " ;
+"HNLOC_CITATION_LINK" = "Lien : " ;
+"HNLOC_CITATION_NOTE" = "Note de la citation : " ;
+"HNLOC_EVENTFORSOURCE" = "Source individuelle" ;
+"HNLOC_EVENTFORSOURCEFAM" = "Source familiale" ;
+"HNLOC_CITATION_REFERENCE" = "Note de référence : " ;
+"HNLOC_CITATION_QUALITY" = "Qualité : " ;
+"HNLOC_CITATION_QUALITYNOTE" = "Note de la qualité : " ;
+
+"HNLOC_SOURCE_NOTE" = "Note : " ;
+"HNLOC_SOURCE_REPOSITORY" = "Dépôt :  " ;
+"HNLOC_SOURCE_PUBLISHER" = "Éditeur : " ;
+"HNLOC_SOURCE_SOURCE" = "Source : " ;
+"HNLOC_DEMO_LIMIT_REACHED" = "La limite de 50 individus de la version Démo de Heredis est dépassée, cette fonctionnalité n'est plus disponible pour ce fichier." ;
+
+
+
+//-----------------------------------------------------//
+//                       GEDCOM                        //
+//-----------------------------------------------------//
+
+"desc_gTAG_RELI" = 	"Religion" ;
+"desc_gTAG_RESI" = 	"Domicile" ;
+"desc_gTAG_REPO" = 	"Dépositaire" ;
+"desc_gTAG_RFN" = 	"Numéro d'enregistrement" ;
+"desc_gTAG_RIN" = 	"Identifiant automatique" ;
+"desc_gTAG_ROLE" = 	"Rôle" ;
+"desc_gTAG_SLGC" = 	"Lien parent/enfant LDS4" ;
+"desc_gTAG_SIGN" = 	"Signature" ;
+"desc_gTAG_SOUR" = 	"Source" ;
+"desc_gTAG_SPFX" = 	"Particule" ;
+"desc_gTAG_SSN" = 	"Numéro de Sécurité Sociale" ;
+"desc_gTAG_STAE" = 	"Région" ;
+"desc_gTAG_STAT" = 	"Situation" ;
+"desc_gTAG_SUBM" = 	"Submitter" ;
+"desc_gTAG_SUBN" = 	"Submission" ;
+"desc_gTAG_TEMP" = 	"Temple" ;
+"desc_gTAG_TEXT" = 	"Texte"; 
+"desc_gTAG_LEGA" = 	"Légataire" ;
+"desc_gTAG_MEDI" = 	"Média" ;
+"desc_gTAG_NATI" = 	"Nationalité" ;
+"desc_gTAG_NICK" = 	"Surnom" ;
+"desc_gTAG_NPFX" = 	"Préfixe du nom" ;
+"desc_gTAG_NSFX" = 	"Suffixe du nom" ;
+"desc_gTAG_OBJE" = 	"Objet" ;
+"desc_gTAG_PAGE" = 	"Référence extérieure" ;
+"desc_gTAG_PEDI" = 	"Lignée" ;
+"desc_gTAG_PHON" = 	"Téléphone" ;
+"desc_gTAG_PLAC" = 	"Lieu" ;
+"desc_gTAG_POST" = 	"Code postal" ;
+"desc_gTAG_PROP" = 	"Propriété" ;
+"desc_gTAG_PUBL" = 	"Publication" ;
+"desc_gTAG_QUAY" = 	"Qualité des données" ;
+"desc_gTAG_RELA" = 	"Type de relation" ;
+"desc_gTAG_CORP" = 	"Institution" ;
+"desc_gTAG_CTRY" = 	"Pays" ;
+"desc_gTAG_DATA" = 	"Données" ;
+"desc_gTAG_DATE" = 	"Date" ;
+"desc_gTAG_DESC" = 	"Descendants" ;
+"desc_gTAG_DESI" = 	"Intérêt porté aux descendants" ;
+"desc_gTAG_DEST" = 	"Destination" ;
+"desc_gTAG_DSCR" = 	"Description physique" ;
+"desc_gTAG_EDUC" = 	"Instruction" ;
+"desc_gTAG_FAMF" = 	"Family File" ;
+"desc_gTAG_FILE" = 	"Fichier" ;
+"desc_gTAG_FORM" = 	"Format" ;
+"desc_gTAG_GIVN" = 	"Nom de baptême" ;
+"desc_gTAG_HEAL" = 	"Santé" ;
+"desc_gTAG_IDNO" = 	"Numéro d'identification" ;
+"desc_gTAG_LANG" = 	"Langue" ;
+"desc_gTAG_ADDR" = 	"Adresse" ; 
+"desc_gTAG_ADR1" = 	"Adresse 1" ;
+"desc_gTAG_ADR2" = 	"Adresse 2" ;
+"desc_gTAG_AFN" = 	"Numéro identifiant du fichier" ;
+"desc_gTAG_AGE" = 	"Age" ;
+"desc_gTAG_AGNC" = 	"Organisme" ;
+"desc_gTAG_ANCE" = 	"Ancêtres" ;
+"desc_gTAG_ANCI" = 	"Intérêt porté aux ancêtres" ;
+"desc_gTAG_AUTH" = 	"Auteur" ;
+"desc_gTAG_ASSO" = 	"Lien" ;
+"desc_gTAG_BLOB" = 	"Objet binaire" ;
+"desc_gTAG_CALN" = 	"Identifiant" ;
+"desc_gTAG_CAUS" = 	"Cause" ;
+"desc_gTAG_CHAN" = 	"Modification" ;
+"desc_gTAG_CITY" = 	"Ville" ;
+"desc_gTAG_COPR" = 	"Copyright" ;
+"desc_gTAG_NAMR" = 	"Nom religieux" ;
+"desc_gTAG_CAST" = 	"Caste" ;
+
+//-----------------------------------------------------//
+//                    GUI GEDCOM                       //
+//-----------------------------------------------------//
+
+
+"HNLOC_GEDCOM_IMPORT_TITLE" 		= "Import GEDCOM" ;
+"HNLOC_GEDCOM_IMPORT_OPTS_TITLE"	= "Options d'import Gedcom" ;
+"HNLOC_GEDCOM_IMPORT_FROM" 			= "Source" ;
+"HNLOC_GEDCOM_IMPORT_TO" 			= "Destination" ;
+
+"HNLOC_GEDCOM_IMPORT_OPTS_CAPTION"  = "Options d'import : ";
+
+"HNLOC_GEDCOM_IMPORT_OPTS_MEDIA"	= "Importer les médias" ;
+"HNLOC_GEDCOM_IMPORT_OPTS_SOURCES"	= "Importer les sources" ;
+
+"HNLOC_GEDCOM_IMPORT_QUOTE_CAPTION"	= "Traiter les prénoms entre guillemets comme : " ;
+
+"HNLOC_GEDCOM_IMPORT_QUOTE_NICK"	= "Surnom" ;
+"HNLOC_GEDCOM_IMPORT_QUOTE_USUAL"	= "Prénom usuel" ;
+
+//-----------------------------------------------------//
+
+"HNLOC_GEDCOM_EXPORT_TITLE" 		= "Export GEDCOM" ;
+
+"HNLOC_HEREDIS_EXPORT_TITLE" 		= "Export Heredis" ;
+"HNLOC_HEREDIS_EXPORT_OPERATION"     = "L'export Heredis s'est bien déroulé.";
+"HNLOC_HEREDIS_IMPORT_TITLE" 		= "Import Heredis" ;
+"HNLOC_HEREDIS_IMPORT_OPTS_TITLE"	= "Options d'import Heredis" ;
+"HNLOC_HEREDIS_IMPORT_VERSION_ANTERIEURE" = "Vous essayez d'importer un fichier d'une version antérieure. Convertissez ce fichier au préalable." ;
+
+"HNLOC_QUESTION_OUVRIR_EXPLORER"	= "Voulez-vous ouvrir le dossier contenant votre fichier ?" ;
+
+//-----------------------------------------------------//
+//                  ERREURS GEDCOM                     //
+//-----------------------------------------------------//
+
+"HNLOC_GEDCOM_ERROR_TITLE" 			= "Import GEDCOM" ;
+"HNLOC_GEDCOM_ERROR_UNKNOWN" 		= "Erreur inconnue" ;
+"HNLOC_GEDCOM_ERROR_PARSING" 		= "Erreur d'interprétation" ;
+"HNLOC_GEDCOM_ERROR_ENCODING" 		= "Votre fichier utilise un encodage non pris en charge par Heredis.\n Encodage detecté : %s \n Encodages pris en charge : %s" ;
+"HNLOC_GEDCOM_FATAL_ERROR"          = "Erreur Fatale <%d>: %s \nLigne %d '%s'\n" ;
+"HNLOC_GEDCOM_CANCELLED"			= "Opération interrompue." ;
+"HNLOC_GEDCOM_FAIL"					= "L'import GEDCOM a échoué." ;
+
+"HNLOC_GEDCOM_IMPORT_SUBTITLE"		= "Veuillez patienter pendant l'opération." ;
+"HNLOC_IMPORTTOOMANYUSERTAG_NONE" 	= "Vous ne pouvez pas assigner de nouvelles rubriques personnelles.\nPar contre, vous pouvez créer autant d'événements que vous souhaitez." ;
+"HNLOC_IMPORTTOOMANYUSERTAG_ONE" 	= "Vous ne pouvez assigner qu'une seule rubrique personnelle.\nPar contre, vous pouvez créer autant d'événements que vous souhaitez." ;
+"HNLOC_IMPORTTOOMANYUSERTAG_MANY" 	= "Vous ne pouvez assigner que %d rubriques personnelles.\nPar contre, vous pouvez créer autant d'événements que vous souhaitez." ;
+"HNLOC_GEDCOM_IMPORT_ANALYSING"		= "Analyse du fichier GEDCOM" ;
+"HNLOC_GEDCOM_IMPORT_PREPARSE_MSG"	= "Veuillez patienter pendant que Heredis analyse votre fichier. " ;
+
+// Restes des listes, utilisés pour les docs
+"HNLOC_FILTRE_SELECTION_PATRONYME" = "Sélectionner un nom";
+"HNLOC_LISTES_COLONNE_INDIVIDU_NUMERO_COURT" = "N°";
+"HNLOC_LISTES_LISTEINDIVIDUS" = "Liste d'individus";
+"HNLOC_LISTES_LISTEUNIONS" = "Liste d'unions";
+"HNLOC_LISTES_LISTEEVENEMENTS" = "Liste d'événements";
+"HNLOC_LISTES_LISTEFACTS" = "Liste des rubriques personnelles par types";
+"HNLOC_LISTES_LISTEFACTS_UCD" = "Liste des rubriques personnelles par types"; 
+
+//----------------------------------------------//
+//                  WARNINGS                     //
+//----------------------------------------------//
+
+"HNLOC_IMPORTS_WARNING" = "Attention, vous allez importer une généalogie dans un fichier existant. Cette opération est irréversible. Voulez-vous continuer ?" ;
+"HNLOC_EXPORTS_WARNING" = "Attention, ce fichier existe déjà. Voulez-vous le remplacer ?" ;
+
+
+
+//----------------------------------------------//
+//                  INTERFACE                   //
+//----------------------------------------------//
+
+"HNLOC_IMPORTS_NEXT" = "Suivant" ;
+"HNLOC_IMPORTS_PREV" = "Précédent" ;
+
+"HNLOC_IMPORTS_CANCEL" = "Annuler" ;
+"HNLOC_IMPORTS_END" = "Terminé" ;
+
+
+//-----------------------------------------------------//
+//                FAMILLE ETENDUE                      //
+//-----------------------------------------------------//
+"HNLOC_EXTENDEDFAMILY_SHOW" = "Afficher" ;
+"HNLOC_EXTENDEDFAMILY_SHOW_GREATGRANDPARENTS" = "Les arrière-grands-parents" ;
+"HNLOC_EXTENDEDFAMILY_SHOW_STEPPARENTS" = "Les autres conjoints des ascendants du personnage central" ;
+"HNLOC_EXTENDEDFAMILY_SHOW_SIBLINGS" = "Les frères et sœurs du personnage central et de ses ascendants" ;
+"HNLOC_EXTENDEDFAMILY_SHOW_STEPCHILDREN" = "Les enfants sans lien de sang avec le personnage central" ;
+"HNLOC_EXTENDEDFAMILY_SHOW_COUSINS" = "La descendance des cousins et cousines" ;
+"HNLOC_EXTENDEDFAMILY_SHOW_GRANDCHILDREN" = "Les petits-enfants" ;
+"HNLOC_EXTENDEDFAMILY_SHOW_PREVIEW" = "Afficher la miniature de navigation" ;
+"HNLOC_EXTENDEDFAMILY_HIDE_PREVIEW" = "Masquer la miniature de navigation" ;
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW" = "Exporter en PDF pour impression" ;
+
+"HNLOC_EXTENDEDFAMILY_ZOOM_IN_TOOLTIP" = "Zoom avant";
+"HNLOC_EXTENDEDFAMILY_ZOOM_OUT_TOOLTIP" = "Zoom arrière";
+
+"HNLOC_EXTENDEDFAMILY_ADD_FIRST" = "Créer la première personne" ;
+"HNLOC_EXTENDEDFAMILY_ADD_FATHER" = "Ajouter le père" ;
+"HNLOC_EXTENDEDFAMILY_ADD_MOTHER" = "Ajouter la mère" ;
+
+"HNLOC_EXTENDEDFAMILY_UNKNOWN_SPOUSE_MALE" = "Non cité" ;
+"HNLOC_EXTENDEDFAMILY_UNKNOWN_SPOUSE_FEMALE" = "Non citée" ;
+	
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_ACTION_SHOW_PAGE_PREVIEW" = "Afficher les pages" ;
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_ACTION_HIDE_PAGE_PREVIEW" = "Masquer les pages" ;
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_ACTION_ENABLE_LINK_ZONE" = "Activer le recouvrement" ;
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_ACTION_DISABLE_LINK_ZONE" = "Supprimer le recouvrement" ;
+
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_PAPER_FORMATS_LABEL" = "Format d'impression :" ;
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_PAPER_WIDTH_LABEL" = "Largeur :" ;
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_PAPER_HEIGHT_LABEL" = "Hauteur :" ;
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_PAPER_ORIENTATION_LABEL" = "Orientation :" ;
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_PAPER_ORIENTATION_PORTRAIT" = "Portrait" ;
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_PAPER_ORIENTATION_LANDSCAPE" = "Paysage" ;
+
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_EXPORT_PDF" = "Export PDF" ;
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_EXPORT_PDF_TITLE" = "Famille étendue de" ;
+
+// NB Actuelement la liste des format d'impression est dependante de l'unité de mesure
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_PAPER_FORMATS_METERS_VALUES" = "A4,A3,A2,A1,A0" ;
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_PAPER_FORMATS_INCHES_VALUES" = "Letter,Ledger,Demy,Double Demy,Quad Demy" ;
+"HNLOC_EXTENDEDFAMILY_PRINT_PREVIEW_PAPER_FORMATS_CUSTOM_VALUE" = "Personnalisé" ;
+
+//chaines de caractères des cases de l'arbre
+
+"HNLOC_EXTENDEDFAMILY_CASE_PC_AGE" = "Âge : ";
+
+
+//-----------------------------------------------------//
+//                NOYAU CONTEXT MENU                   //
+//-----------------------------------------------------//
+"HNLOC_CORE_CONTEXT_MENU_INDIVIDU" = "Individu" ;
+"HNLOC_CORE_CONTEXT_MENU_INDIVIDU_SET_CENTRAL" = "Placer en personnage central" ;
+"HNLOC_CORE_CONTEXT_MENU_INDIVIDU_PRINT_INDIVIDU" = "Imprimer la fiche individuelle..." ;
+"HNLOC_CORE_CONTEXT_MENU_INDIVIDU_PRINT_UNION" = "Imprimer la fiche familiale..." ;
+"HNLOC_CORE_CONTEXT_MENU_INDIVIDU_SET_ROOT" = "Définir comme personnage racine..." ;
+"HNLOC_CORE_CONTEXT_MENU_INDIVIDU_ADD_FAVORITE" = "Ajouter aux favoris" ;
+
+"HNLOC_CORE_CONTEXT_MENU_KINDSHIP" = "Parenté" ;
+"HNLOC_CORE_CONTEXT_MENU_KINDSHIP_GREATPARENTS" = "Grands-parents" ;
+"HNLOC_CORE_CONTEXT_MENU_KINDSHIP_PARENTS" = "Parents" ;
+"HNLOC_CORE_CONTEXT_MENU_KINDSHIP_STEPPARENTS" = "Beaux-parents" ;
+"HNLOC_CORE_CONTEXT_MENU_KINDSHIP_SPOUSES" = "Conjoints" ;
+"HNLOC_CORE_CONTEXT_MENU_KINDSHIP_PARENTS_SIBLINGS" = "Oncles et tantes" ;
+"HNLOC_CORE_CONTEXT_MENU_KINDSHIP_SIBLINGS" = "Frères et sœurs" ;
+"HNLOC_CORE_CONTEXT_MENU_KINDSHIP_CHILDREN" = "Enfants" ;
+"HNLOC_CORE_CONTEXT_MENU_KINDSHIP_NEPHEWS" = "Neveux et nièces" ;
+"HNLOC_CORE_CONTEXT_MENU_KINDSHIP_CONSINS" = "Cousins et cousines" ;
+"HNLOC_CORE_CONTEXT_MENU_KINDSHIP_GRANDCHILDREN" = "Petits-enfants" ;
+
+//-----------------------------------------------------//
+//                CITATION DE SOURCE                   //
+//-----------------------------------------------------//
+"HNLOC_CITATION_QUALITY_SOURCE"     = "Originale : la source est dans sa forme originale.\nDérivée : la source a été extraite, transcrite, traduite ou dérivée de l'originale." ;
+"HNLOC_CITATION_QUALITY_INFO"       = "Primaire : la source provient d'une personne ayant eu une connaissance directe de l'événement ou de l'individu.\nSecondaire : la source provient d'une personne n'ayant pas connu directement l'événement ou l'individu (histoire locale, tradition, histoire familiale...)." ;
+"HNLOC_CITATION_QUALITY_EVIDENCE"   = "Directe : la source répond à la question de la recherche par elle-même.\nIndirecte : la source est pertinente, mais nécessite des informations supplémentaires.\nNégative : la source est pertinente par l'absence des informations qu'elle devrait contenir.";
+"HNLOC_TOOLTIP_BTN_EDIT_CITATION_COMPLET"   = "Modifier la citation sélectionnée";
+"HNLOC_TOOLTIP_BTN_EDIT_CITATION_SIMPLE"    = "Modifier la source sélectionnée";
+"HNLOC_CITATION_EVIDENCE_DIRECT_SHORT"      = "Directe" ;
+"HNLOC_CITATION_EVIDENCE_INDIRECT_SHORT"    = "Indirecte" ;
+"HNLOC_CITATION_EVIDENCE_NEGATIVE_SHORT"    = "Négative" ;
+"HNLOC_CITATION_EVIDENCE_UNKNOWN_SHORT"     = "?" ;
+"HNLOC_QUALITY_SOURCE_WITH_LABEL_ORIGINAL"  = "Source : originale";
+"HNLOC_QUALITY_SOURCE_WITH_LABEL_DERIVATIVE"= "Source : dérivée";
+"HNLOC_QUALITY_SOURCE_WITH_LABEL_UNKNOWN"   = "Source : ?";
+"HNLOC_QUALITY_INFOS_WITH_LABEL_PRIMARY"    = "Information : primaire";
+"HNLOC_QUALITY_INFOS_WITH_LABEL_SECONDARY"  = "Information : secondaire";
+"HNLOC_QUALITY_INFOS_WITH_LABEL_UNKNOWN"    = "Information : ?";
+"HNLOC_QUALITY_EVIDENCE_WITH_LABEL_DIRECT"  = "Preuve : directe";
+"HNLOC_QUALITY_EVIDENCE_WITH_LABEL_INDIRECT"= "Preuve : indirecte";
+"HNLOC_QUALITY_EVIDENCE_WITH_LABEL_NEGATIVE"= "Preuve : négative";
+"HNLOC_QUALITY_EVIDENCE_WITH_LABEL_UNKNOWN" = "Preuve : ?";
+"HNLOC_CITATION_TITRE_PANEL"                = "Citation de source";
+"HNLOC_CITATION_MEDIAS_ASSOCIES"            = " média(s) associé(s)";
+"HNLOC_CITATION_NO_MEDIA"					= "Pas de média associé";
+"HNLOC_CITATION_COMMENTAIRE"         		= "Commentaire";
+"HNLOC_CITATION_QUALITE"					= "Qualité";
+"HNLOC_CITATION_PAS_DE_NOTE"				= "Pas de note pour cette citation";
+"HNLOC_CITATION_PAS_DE_TRANSCRIPTION"		= "Pas de transcription pour cette citation";
+
+//-----------------------------------------------------//
+//                   REPOSITORIES                      //
+//-----------------------------------------------------//
+"HNLOC_REPO_NOM_VIDE"     = "?" ;
+"HNLOC_REPO_MULTI_DELETE_CONFIRME"				= "Au moins l'un de ces dépôts d'archives est utilisé.\nÊtes-vous sûr de vouloir les supprimer?";
+"HNLOC_REPO_MULTI_DELETE_UNUSED_CONFIRME"		= "Êtes-vous sûr de vouloir supprimer ces dépôts d'archives?";
+"HNLOC_REPO_MULTI_REMPLACE_LES_DEPOTS"			= "Voulez-vous remplacer les dépôts d'archives sélectionnés par\nle dépôt d'archives '%s' ?";
+//"HNLOC_REPO_HINT_SUPPRIME_UN"					= "Supprimer le dépôt d'archives";			// Affectés par erreur, inusités
+//"HNLOC_REPO_HINT_SUPPRIME_PLUSIEURS"			= "Supprimer les dépôts d'archives";		//
+//"HNLOC_REPO_HINT_REMPLACE_UN"					= "Remplacer le dépôt d'archives";			//
+//"HNLOC_REPO_HINT_REMPLACE_PLUSIEURS"			= "Remplacer les dépôts d'archives";		//
+"HNLOC_REPO_HINT_SUPPRIME_MULTI"				= "Supprimer le(s) dépôt(s) d'archives sélectionné(s)";
+"HNLOC_REPO_HINT_REMPLACE_MULTI"				= "Remplacer le(s) dépôt(s) d'archives sélectionné(s) par un autre";
+"HNLOC_REPO_TITRE_REMPLACE"						= "Remplacer";
+"HNLOC_REPO_REMPLACE_ACTIVITE"					= "Remplacement en cours, veuillez patienter";
+"HNLOC_REPO_DELETE_ACTIVITE"					= "Suppression en cours, veuillez patienter";
+
+//-----------------------------------------------------//
+//                   RUBRIQUES PERSONNELLES            //
+//-----------------------------------------------------//
+"HNLOC_RUBPERSO_TITRE"							= "Rubrique personnelle";
+"HNLOC_RUBPERSO_EDITER"							= "Éditer la rubrique personnelle";
+"HNLOC_RUBPERSO_SOUSTITRE"						= "Vous pouvez changer le type et le titre";
+"HNLOC_RUBPERSO_SUPRESSION_TITRE"				= "Suppression de rubrique personnelle";
+"HNLOC_RUBPERSO_SUPRESSION_MSG"					= "Voulez-vous réellement supprimer la rubrique sélectionnée ?";
+"HNLOC_RUBPERSO_SUPRESSION_SOURCE"				= "Voulez-vous réellement supprimer la source\n '%s' ?";
+"HNLOC_RUBPERSO_SUPRESSION_SOURCE_TITRE"		= "Rubriques personnelles - Suppression d'une source";
+"HNLOC_RUBPERSO_NOUVEAU_LIEU"					= "Créer un nouveau lieu";
+"HNLOC_RUBPERSO_PERSONNALISER"					= "Personnaliser les rubriques personnelles";
+"HNLOC_RUBPERSO_GESTION"						= "Gestion des rubriques personnelles déjà utilisées";
+"HNLOC_RUBPERSO_AFFICHER_OU_MASQUER"			= "Afficher ou masquer ces rubriques personnelles dans la liste, modifier les types ou les intitulés";
+"HNLOC_RUBPERSO_BUTTON_HINT"					= "Éditer le type et le titre de la rubrique personnelle sélectionnée";
+"HNLOC_RUBPERSO_AUNLIEN"						= " a un lien ";
+"HNLOC_RUBPERSO_AVEC"							= " avec la rubrique personnelle ";
+"HNLOC_RUBPERSO_EVT"							= "Événements / Rub. perso.";
+"HNLOC_RUBPERSO_EVT_LONG"						= "Événements / Rubriques personnelles";
+
+//-----------------------------------------------------//
+//                   GRILLES SAISIE                    //
+//-----------------------------------------------------//
+"HNLOC_ACT_INPUT_SAVE_RESUME_LABEL"                 = "Enregistrer dans :" ;
+"HNLOC_ACT_INPUT_SAVE_RESUME_NONE"                  = "Ne pas enregistrer";
+"HNLOC_ACT_INPUT_SAVE_RESUME_NOTE"                  = "Note de la source";
+"HNLOC_ACT_INPUT_SAVE_RESUME_TRANSCRIPTION"         = "Transcription de la source";
+//-----------------------------------------------------//
+//                   REGISTRE MATRICULE                //
+//-----------------------------------------------------//
+"HNLOC_SAISIE_ACTE_RESUME_DOCUMENT_REGISTRE_MATRICULE" = "Fiche signalétique individuelle de recensement militaire";
+"HNLOC_REG_MATRICULE_WIN_TITLE"                     = "Fiche matricule" ;
+// Titres des rubriques
+"HNLOC_REG_MATRICULE_PANEL_IDENTITY_TITLE_LONG"     = "État civil" ;
+//"HNLOC_REG_MATRICULE_PANEL_PARENTS_TITLE_LONG"    = "Parents et conjoint" ;
+"HNLOC_REG_MATRICULE_PANEL_PARENTS_DOMICILE_ENFANT" = "Domicile commun avec le conscrit";
+"HNLOC_REG_MATRICULE_PANEL_REGISTRE_TITLE_LONG"     = "Registre" ;
+"HNLOC_REG_MATRICULE_PANEL_SOURCE_TITLE_LONG"       = "Source" ;
+"HNLOC_REG_MATRICULE_PANEL_SIGNALEMENT_TITLE_LONG"  = "Signalement" ;
+"HNLOC_REG_MATRICULE_PANEL_LOCALITES_TITLE_LONG"    = "Localités successivement habitées" ;
+"HNLOC_REG_MATRICULE_PANEL_CONSEIL_TITLE_LONG"      = "Décision du conseil de révision et motifs" ;
+"HNLOC_REG_MATRICULE_PANEL_MILITAIRE_TITLE_LONG"    = "Données militaires ou civiles" ;
+"HNLOC_REG_MATRICULE_PANEL_INFOS_TITLE_LONG"        = "Informations complémentaires" ;
+"HNLOC_REG_MATRICULE_PANEL_IDENTITY_TITLE_SHORT"    = "État civil" ;
+"HNLOC_REG_MATRICULE_PANEL_PARENTS_TITLE_SHORT"     = "Parents/Conjoint" ;
+"HNLOC_REG_MATRICULE_PANEL_REGISTRE_TITLE_SHORT"    = "Registre" ;
+"HNLOC_REG_MATRICULE_PANEL_SOURCE_TITLE_SHORT"      = "Source" ;
+"HNLOC_REG_MATRICULE_PANEL_SIGNALEMENT_TITLE_SHORT" = "Signalement" ;
+"HNLOC_REG_MATRICULE_PANEL_LOCALITES_TITLE_SHORT"   = "Localités habitées" ;
+"HNLOC_REG_MATRICULE_PANEL_CONSEIL_TITLE_SHORT"     = "Conseil de révision" ;
+"HNLOC_REG_MATRICULE_PANEL_MILITAIRE_TITLE_SHORT"   = "Données militaires" ;
+"HNLOC_REG_MATRICULE_PANEL_INFOS_TITLE_SHORT"       = "Infos complémentaires" ;
+
+"HNLOC_REG_MATRICULE_ACTION_ECLAT"          = "Action d'éclat" ;
+"HNLOC_REG_MATRICULE_BLESSURE"              = "Blessure" ;
+"HNLOC_REG_MATRICULE_CAMPAGNE"              = "Campagne" ;
+"HNLOC_REG_MATRICULE_CERTIFICAT_CONDUITE"   = "Certificat de bonne conduite" ;
+"HNLOC_REG_MATRICULE_COMDAMNATION"          = "Condamnation" ;
+"HNLOC_REG_MATRICULE_CORPS_AFFECTATION"     = "Corps d'affectation" ;
+"HNLOC_REG_MATRICULE_DECISION_REFORME"      = "Décision de réforme" ;
+"HNLOC_REG_MATRICULE_DECORATION"            = "Décoration" ;
+"HNLOC_REG_MATRICULE_DEMOBILISATION"        = "Démobilisation" ;
+"HNLOC_REG_MATRICULE_EXEMPTION"             = "Exemption" ;
+"HNLOC_REG_MATRICULE_GRADE"                 = "Grade" ;
+"HNLOC_REG_MATRICULE_INCORPORATION"         = "Incorporation" ;
+"HNLOC_REG_MATRICULE_MALADIE"               = "Maladie" ;
+"HNLOC_REG_MATRICULE_MOBILISATION"          = "Mobilisation" ;
+"HNLOC_REG_MATRICULE_MORT_POUR_LA_FRANCE"   = "Mort pour la France" ;
+"HNLOC_REG_MATRICULE_PERIODE_EXERCICE"      = "Période d'exercice" ;
+"HNLOC_REG_MATRICULE_PERMISSION"            = "Permission" ;
+"HNLOC_REG_MATRICULE_PRISONNIER_GUERRE"     = "Prisonnier de guerre" ;
+
+"HNLOC_REG_MATRICULE_DESCRIPTION_UNE_RUBRIQUE"   = "Créer une rubrique personnelle unique" ;
+"HNLOC_REG_MATRICULE_DESCRIPTION_DES_RUBRIQUES"   = "Créer une rubrique personnelle par champ renseigné" ;
+"HNLOC_REG_MATRICULE_DESCRIPTION_PHYSIQUE"  = "Description physique";
+"HNLOC_REG_MATRICULE_DESCRIPTION_PRIVATE"   = "Privée" ;
+"HNLOC_REG_MATRICULE_HAIR"                  = "Cheveux" ;
+"HNLOC_REG_MATRICULE_EYEBROW"               = "Sourcils" ;
+"HNLOC_REG_MATRICULE_EYES"                  = "Yeux" ;
+"HNLOC_REG_MATRICULE_FOREHEAD"              = "Front" ;
+"HNLOC_REG_MATRICULE_NOSE"                  = "Nez" ;
+"HNLOC_REG_MATRICULE_MOUTH"                 = "Bouche" ;
+"HNLOC_REG_MATRICULE_CHIN"                  = "Menton" ;
+"HNLOC_REG_MATRICULE_FACE"                  = "Visage" ;
+"HNLOC_REG_MATRICULE_HEIGHT"                = "Taille" ;
+"HNLOC_REG_MATRICULE_COLOURING"             = "Teint" ;
+"HNLOC_REG_MATRICULE_INFORMATION"           = "Renseignements complémentaires" ;
+"HNLOC_REG_MATRICULE_SIGNALEMENT_MILITAIRE" = "Signalement militaire" ;
+"HNLOC_REG_MATRICULE_DEGRE_INSTRUCTION"     = "Degré d'instruction" ;
+"HNLOC_REG_MATRICULE_INSTRUCTION_PRIVATE"   = "Privé" ;
+"HNLOC_REG_MATRICULE_NIVEAU_INSTRUCTION_GENERALE" = "Générale" ;
+"HNLOC_REG_MATRICULE_INSTRUCTION_MILI_PRIVATE" = "Privé" ;
+"HNLOC_REG_MATRICULE_NIVEAU_INSTRUCTION_MILI" = "Militaire" ;
+"HNLOC_REG_MATRICULE_INSTRUCTION_NOT_SET"   = "Non renseigné";
+"HNLOC_REG_MATRICULE_INSTRUCTION_0"         = "0 - illettré (ne sait pas signer)";
+"HNLOC_REG_MATRICULE_INSTRUCTION_1"         = "1 - sait lire (ne sait pas signer)";
+"HNLOC_REG_MATRICULE_INSTRUCTION_2"         = "2 - sait lire et écrire (sait signer)";
+"HNLOC_REG_MATRICULE_INSTRUCTION_3"         = "3 - possède une instruction primaire (sait signer)";
+"HNLOC_REG_MATRICULE_INSTRUCTION_4"         = "4 - brevet de l’enseignement primaire (sait signer)";
+"HNLOC_REG_MATRICULE_INSTRUCTION_5"         = "5 - bachelier ou diplômé de l’enseignement primaire (sait signer)";
+"HNLOC_REG_MATRICULE_INSTRUCTION_GENERALE"  = "Instruction générale";
+"HNLOC_REG_MATRICULE_INSTRUCTION_MILITAIRE" = "Instruction militaire";
+
+
+//-----------------------------------------------------//
+//                   API STATS                //
+//-----------------------------------------------------//
+"HNLOC_STAT_INCLASSABLE" = "inclassable" ;
+"HNLOC_PREUVE" = "Preuve de la citation :" ;
+
+//-----------------------------------------------------//
+//                     Medias en ligne                 //
+//-----------------------------------------------------//
+"HNLOC_MEDIAS_ONLINE_TITLE" = "Vos photos en ligne";
+"HNLOC_MEDIAS_ONLINE_EXPLAIN" = "Retrouvez vos photos en haute qualité dans Heredis Online. Gérez vos options dans les Préférences Heredis et les paramètres de vos publications.";
+
+// Fichier en ligne - Fichier trop volumineux - Fichier en erreur - Fichier en attente d'envoi - Format de fichier interdit - Fichier manquant - Non connecté à Heredis Online
+
+"HNLOC_MEDIAS_ONLINE_STATUS_NOTCHECKED" 	= "Fichier non vérifié" ;
+"HNLOC_MEDIAS_ONLINE_STATUS_NOFILE" 		= "Fichier manquant" ;
+"HNLOC_MEDIAS_ONLINE_STATUS_TOOBIG" 		= "Fichier trop volumineux" ;
+"HNLOC_MEDIAS_ONLINE_STATUS_BADFORMAT" 		= "Format de fichier interdit" ;
+"HNLOC_MEDIAS_ONLINE_STATUS_HASHERROR" 		= "Fichier en erreur" ;
+
+"HNLOC_MEDIAS_ONLINE_STATUS_OK" 			= "Non connecté à Heredis Online" ;
+
+"HNLOC_MEDIAS_ONLINE_STATUS_ONLINE" 	= "Fichier en ligne" ;
+"HNLOC_MEDIAS_ONLINE_STATUS_PENDING" 	= "Fichier en attente d'envoi" ;
+"HNLOC_MEDIAS_ONLINE_STATUS_UPLOADING"	= "Fichier en cours d'envoi" ;
+
+"HNLOC_MEDIAS_ONLINE_STATUS_TEXT" 		= "Statut : %s" ;
+
+
+"HNLOC_MEDIAS_ONLINE_LBL_UTILISATION_PERCENT" = "Utilisation";
+"HNLOC_MEDIAS_ONLINE_LBL_UTILISATION_CUSTOM" = "Débit ( Ko/s )";
+
+
+//-----------------------------------------------------//
+//               Dictionnaire des lieux                //
+//-----------------------------------------------------//
+
+"HNLOC_DICO_LIEUX_UPDATE_REGION_TITLE" = "Modifier les noms des régions..." ;
+"HNLOC_DICO_LIEUX_UPDATE_REGION_TITLE2" = "Modifier les noms des régions" ;
+"HNLOC_DICO_LIEUX_UPDATE_REGION_MESSAGE" = "Heredis a détecté %d lieux à modifier.\nÊtes-vous sûr de vouloir remplacer les régions françaises de votre généalogie par les nouveaux noms de région ?" ;
+"HNLOC_DICO_LIEUX_UPDATE_REGION_MESSAGE_ZERO" = "Heredis n'a détecté aucun lieu à modifier." ;
+
+
+
+//-----------------------------------------------------//
+//                  Noms alternatifs                   //
+//-----------------------------------------------------//
+"HNLOC_ALTNAME_ALIAS" = "Alias";
+"HNLOC_ALTNAME_BIRTH" = "Nom de naissance";
+"HNLOC_ALTNAME_IMMIGRANT_NAME" = "Nom d'immigration";
+"HNLOC_ALTNAME_MAIDEN_NAME" = "Nom de jeune fille";
+"HNLOC_ALTNAME_MARRIAGE_NAME" = "Nom de mariage";
+"HNLOC_ALTNAME_OTHER" = "Autre";
+"HNLOC_ALTNAME_ALERT_DELETION_ALTNAME_TITLE" = "Suppression d'un autre nom";
+"HNLOC_ALTNAME_ALERT_DELETION_ALTNAME" = "Voulez-vous réellement supprimer le nom \"%1\" ?";

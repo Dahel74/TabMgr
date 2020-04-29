@@ -1,0 +1,115 @@
+.clCMEvent{position:absolute; z-index:300; width:100%; height:100%; clip:rect(0,100%,100%,0); left:0; top:0; visibility:hidden}
+.clCMAbs{position:absolute; width:10; height:10; left:0; top:0; visibility:hidden}
+.clT,.clTover,.clS,.clSover,.clS2,.clS2over{position:absolute; overflow:hidden; width:130; height:25; cursor:pointer; cursor:hand}
+.clT,.clTover{padding:4px; font-size:12px; font-weight:bold}
+.clS,.clSover{padding:2px; font-size:11px; font-weight:bold}
+.clB{position:absolute; visibility:hidden; z-index:300}
+.clBar{position:absolute; width:10; height:10; visibility:hidden; }
+.clT
+{
+    color:#FF8080;
+}
+.clTover
+{
+    color:#FF80FF;
+}
+.clS
+{
+    color:#FF8000;
+    background-color:#FFFFB9;
+    layer-background-color:#FFFFB9;
+}
+.clSover
+{
+    color:#FF80FF;
+}
+.clSover,.clTover,.clB,.clBar
+{
+    layer-background-color:#FFFF91;
+    background-color:#FFFF91;
+}
+.menu2
+{
+	font-size:12px;
+	font-weight:bold;
+    color:#006699;
+    background-color:#FFFFB9;
+    layer-background-color:#FFFFB9;
+}
+BODY
+{
+    font-family:Times New Roman, Times, serif;
+font-size:x-small;
+font-weight:bold;
+    color:#808080;
+    background-color:#FFFFFF;
+}
+TD, DIV
+{
+    font-family:Times New Roman, Times, serif;
+font-size:x-small;
+font-weight:bold;
+    color:#808080;
+}
+.titre
+{
+    font-family:Times New Roman, Times, serif;
+font-weight:bold;
+font-size:x-large;
+    color:#61C100;
+}
+.sstitre
+{
+    font-family:Times New Roman, Times, serif;
+	font-weight:bold;
+	font-size:large;
+    color:#808080;
+}
+.titretab
+{
+    font-family:Times New Roman, Times, serif;
+	font-weight:bold; font-size:small;
+    color:#61C100;
+    background-color:#FFFF91;
+}
+.tab
+{
+    font-family:Times New Roman, Times, serif;
+	font-weight:bold; font-size:x-small;
+    color:#FFFF91;
+}
+.baspage
+{
+    font-family:Times New Roman, Times, serif;
+	font-size:xx-small;
+	font-weight:bold;
+    color:#808080;
+}
+a:link
+{
+    color:#FF0080;
+text-decoration: none;
+}
+a:visited
+{
+    color:#FF0080;
+text-decoration: none;
+}
+a:hover
+{
+    color:#FF77FF;
+text-decoration: underline;
+    background-color:#FFFF93;
+}
+a:active
+{
+    color:#FF0000;
+text-decoration: underline;
+}
+
+.InsideTable
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCCCCC;
+}

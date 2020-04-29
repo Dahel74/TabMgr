@@ -1,0 +1,148 @@
+@import url("reset.css");
+
+body {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #434343;
+	margin:4px 8px;
+}
+
+a {
+	color: #000;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	color:#7d7e7d;
+	text-align:center;
+	font-size: 13px;
+	background: #ffffff;	
+	font-weight:lighter;
+	padding: 0 4px 4px 4px;
+	margin: 0 0 4px 0;	
+	border-bottom: 4px solid #cecece;
+}
+
+.SousTitre {
+	background: #A9A9A9 url("css-sous-titre.jpg") top left repeat-x;
+	font-weight:bold;
+	border-bottom: 1px solid #BEBFC2;
+	text-align: left;
+	padding: 2px 20px;
+}
+
+/*.SousTitre {
+	color:#FFFFFF;
+	text-align:center;
+	font-size: 12px;
+	background: #2f7cd5;	
+	font-weight:lighter;
+	
+	padding:15px 0;
+	-moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px;
+	margin-bottom:5px;
+	
+}*/
+
+.SousTitre div, .SousTitre p {	padding: 2px 40px; }
+
+h2 {
+	
+	border-top:1px solid #b2b2b2;
+	padding: 7px 4px 4px 20px;
+	color: #000;
+	position:relative;
+	font-weight:bold;
+}
+
+h2 a{
+	position:absolute;
+	right:4px;
+	top:7px;
+}
+
+.Ligne, .LigneHomme, .LigneFemme, .LigneInconnue, .LigneEvenement {
+	position: relative;
+	padding: 2px;
+}
+
+.Symbole {
+	position: absolute;
+	top:2px;
+	left:0;
+	width: 12px;
+	text-align: center;
+}
+
+.Description { padding-left: 20px; }
+
+.DescriptionBis { padding-left: 20px; }
+
+.Description span {
+    color: #000;
+}
+
+.LigneHomme, .LigneHomme a {
+	color: #2671d5;
+	text-decoration: none;
+}
+
+.LigneFemme, .LigneFemme a {
+	color: #bb48c5;
+	text-decoration: none;
+}
+
+.LigneInconnue, .LigneInconnue a {
+	color: #93dd57;
+	text-decoration: none;
+}
+
+.LigneCouple, .LigneCouple a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.LigneEvenement, .LigneEvenement a {
+    color: #97593d;
+    text-decoration: none;
+}
+
+.LigneHomme a:hover, .LigneFemme a:hover,  .LigneInconnue a:hover, .LigneCouple a:hover, .LigneEvenement a:hover {
+    text-decoration: underline;
+}
+
+p.Secondaire {
+	padding: 20px;
+	font-style: italic;
+}
+
+.no-border-top {
+	border-top:0 !important;
+}
+
+p {
+	padding: 2px 5px 2px 20px;
+	line-height: 1.3em;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.BlocSourceTitres{
+margin-left:5px;
+float:left;
+width:90px;
+color:#bbb;
+}
+.BlocSourceDonnees{
+}
+
+.complet {float:right;margin-left:3px;margin-right:15px;margin-top:5px;}
+.complet > img {margin-right:1px;}

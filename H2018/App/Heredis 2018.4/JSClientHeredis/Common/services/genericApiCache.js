@@ -1,0 +1,1 @@
+function GenericApiCache(ajaxController,apiCall){var mApiCache={},mAjaxController=ajaxController,mApiCall=apiCall;this.load=function(argumentsMap){return mApiCall.call(mAjaxController,argumentsMap).done(function(data){Object.keys(data).forEach(function(key){mApiCache[key]=data[key]},this)})},this.get=function(key){return mApiCache[key]}}

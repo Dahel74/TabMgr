@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Heredis 9</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="style_panneaux.css" type="text/css">
+<!-- 
+
+<$CSS$>
+
+-->
+</STYLE>
+</head>
+<body oncontextmenu="return false;">
+<div class="document">
+<h1><img src="$ImageFS$">&nbsp;&nbsp;&nbsp;<img src="$ImageEtat$">&nbsp;&nbsp;$Nom$</h1>
+
+<p>$FSID$</p>
+
+<p>$EvenementsPrincipaux$</p>
+
+<div id='altName'>
+    <h2>$TitreAutresNoms$</h2>
+    <p>$AutresNoms$</p>
+</div>
+
+<h2>$TitreParents$</h2>
+<p>$Parents$</p>
+
+<h2>$TitreConjoints$</h2>
+<p>$Conjoints$</p>
+
+<h2>$TitreEnfants$</h2>
+<p>$Enfants$</p>
+
+</div>
+</body>
+</html>

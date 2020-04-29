@@ -1,0 +1,3 @@
+# Ce fichier contiens les modules que chromium ne dois pas charger
+# pour commenter une ligne utilisez #
+npvlc.dll

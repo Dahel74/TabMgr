@@ -1,0 +1,170 @@
+<div id="searchFormFields" data-bind="events: { keyup: keypress }">
+    <div id="searchFormPC" class="container-fluid">
+        <div class="container" style="margin-top:5px; width: 100%;">
+
+            <!-- LIGNE PC + OPTIONS -->
+            <div id="containerPC_options" class="row">
+                
+                <!-- Formulaire Personnage central -->
+                <div id="containerPC" style="margin-top:5px">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <span data-bind="text: pcSectionText"></span>
+                        </div>
+                        <div id="searchPC_flexPC" class="panel-body pc">
+                                           
+                            <!-- Première colonne -->
+                            <div id="searchPcFirstCol">
+                                <div class="form-group has-feedback has-clear">
+                                    <label data-bind="text: surnameLabel" for="surname"></label>
+                                    <input data-bind="value:surname" placeholder="" id="surname" name="surname" type="text" class="form-control"  tabindex="1"/>
+                                    <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                                </div>
+                                <div class="form-group has-feedback has-clear">
+                                    <label data-bind="text: birthDateLabel" for="birthDate"></label>
+                                    <input data-bind="value:birthDate" placeholder="" id="birthDate" name="birthDate" type="text" class="form-control" tabindex="4" />
+                                    <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                                </div>
+                                <div class="form-group has-feedback has-clear">
+                                    <label data-bind="text: deathDateLabel" for="deathDate"></label>
+                                    <input data-bind="value:deathDate" placeholder="" id="deathDate" name="deathDate" type="text" class="form-control" tabindex="6" />
+                                    <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                                </div>
+
+                            </div>
+                                                       
+                            <!-- Deuxième colonne -->
+                            <div id="searchPcSecondCol">
+                                <div id="searchPC_flexPrenomSexe">
+                                    <div id="searchPC_divPrenoms" class="form-group has-feedback has-clear">
+                                        <label data-bind="text: givenNameLabel" for="givenName"></label>
+                                        <input data-bind="value:givenName" placeholder="" id="givenName" name="givenName" type="text" class="form-control" tabindex="2" />
+                                        <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                                    </div>
+                                    <div id="searchPC_divSexe" class="has-feedback has-clear">
+                                        <label data-bind=" text:sexChoiceLabel" for="sexChoice"></label>
+                                        <input id="sexChoice" data-role="dropdownlist" data-auto-bind="false" data-text-field="text" data-value-field="value" data-bind="value: selectedSexe,
+                                                                                                    source: dataSexeIndi,
+                                                                                                    events: {
+                                                                                                        change: onChangeDropDownList
+                                                                                                    }" tabindex="3" />
+                                    </div>
+                                </div>
+
+                                <div class="form-group has-feedback has-clear">
+                                    <label data-bind="text: birthPlaceLabel" for="birthPlace">
+                                    </label>
+                                    <input data-bind="value:birthPlace" placeholder="" id="birthPlace" name="birthPlace" type="text" class="form-control" tabindex="5" />
+                                    <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                                </div>
+
+                                <div class="form-group has-feedback has-clear">
+                                    <label data-bind="text: deathPlaceLabel" for="deathPlace"></label>
+                                    <input data-bind="value:deathPlace" placeholder="" id="deathPlace" name="deathPlace" type="text" class="form-control" tabindex="7" />
+                                    <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Boutons Reset et Plus de critères -->
+                <div id="boutons">
+                    <button data-bind="text: ButtonFormPickerText, click: ButtonFormPickerAction" id="formPicker" class="btn btn-default btn-sm active"></button>
+                    <button id="resetForm" data-bind="text: ButtonResetFormText,click: ButtonResetFormAction" class="btn btn-default btn-sm active">
+                    </button>
+                </div>
+            </div>
+ 
+
+            <!-- PARENTS - CONJOINT -->
+            <div class="row" id="containerPlusCriteres">
+                <!-- Parents -->
+                
+                <div id="containerParents" style="margin-top:5px">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <span data-bind="text: parentsSectionText"></span>
+                        </div>
+                        <div class="panel-body pere">
+                            <div class="form-group has-feedback has-clear searchPaddingRight">
+                                <label data-bind="text: fatherSurnameLabel" for="fatherSurname"></label>
+                                <input data-bind="value:fatherSurname" placeholder="" id="fatherSurname" name="fatherSurname" type="text" class="form-control" tabindex="8"
+                                />
+                                <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                            </div>
+                            <div class="form-group has-feedback has-clear searchPaddingLeft">
+                                <label data-bind="text: fatherGivenNameLabel" for="fatherGivenName"></label>
+                                <input data-bind="value:fatherGivenName" placeholder="" id="fatherGivenName" name="fatherGivenName" type="text" class="form-control" tabindex="9"
+                                />
+                                <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                            </div>
+                        </div>
+                        <div class="panel-body mere">
+                            <div class="form-group has-feedback has-clear searchPaddingRight">
+                                <label data-bind="text: motherSurnameLabel" for="motherSurname"></label>
+                                <input data-bind="value:motherSurname" placeholder="" id="motherSurname" name="motherSurname" type="text" class="form-control" tabindex="10"
+                                />
+                                <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                            </div>
+                            <div class="form-group has-feedback has-clear searchPaddingLeft">
+                                <label data-bind="text: motherGivenNameLabel" for="motherGivenName"></label>
+                                <input data-bind="value:motherGivenName" placeholder="" id="motherGivenName" name="motherGivenName" type="text" class="form-control" tabindex="11"
+                                />
+                                <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Conjoint -->
+                <div id="containerConjoint" style="margin-top:5px">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <span data-bind="text: spouseSectionText"></span>
+                        </div>
+                        <div class="panel-body spouse">
+                            <div class="form-group has-feedback has-clear searchPaddingRight">
+                                <label data-bind="text: surnameLabel" for="spouseSurname"></label>
+                                <input data-bind="value:spouseSurname" placeholder="" id="spouseSurname" name="spouseSurname" type="text" class="form-control" tabindex="12" />
+                                <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                            </div>
+                            <div class="form-group has-feedback has-clear searchPaddingLeft">
+                                <label data-bind="text: givenNameLabel" for="spouseGivenName"></label>
+                                <input data-bind="value:spouseGivenName" placeholder="" id="spouseGivenName" name="spouseGivenName" type="text" class="form-control" tabindex="13" />
+                                <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                            </div>
+                        </div>
+                        <div class="panel-body spouse">
+                            <div class="form-group has-feedback has-clear searchPaddingRight">
+                                <label data-bind="text: weddingDateLabel" for="weddingDate"></label>
+                                <input data-bind="value:weddingDate" placeholder="" id="weddingDate" name="weddingDate" type="text" class="form-control" tabindex="14" />
+                                <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                            </div>
+                            <div class="form-group has-feedback has-clear searchPaddingLeft">
+                                <label data-bind="text: weddingPlaceLabel" for="weddingPlace"></label>
+                                <input data-bind="value:weddingPlace" placeholder="" id="weddingPlace" name="weddingPlace" type="text" class="form-control" tabindex="15" />
+                                <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!-- BOUTON RECHERCHER -->
+            <div class="row">
+                <div class="col-12" id="searchDivSearchButton">
+                    <button id="searchByPC" class="btn btn-primary" tabindex="16" data-bind="text: ButtonSearchText, enabled: isEnabled, click: ButtonSearchAction"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+    <!-- ZONE D'AFFICHAGE DES RÉSULTATS -->
+    <div id="searchResults">
+    </div>
+
+
+</div>

@@ -1,0 +1,13 @@
+
+CREATE TABLE HOLMedias (
+	Hash 			integer NOT NULL,
+	Account 		integer NOT NULL,
+	IdPublication 	integer NOT NULL,
+	
+	Status			integer,
+	
+	FilePath		text NOT NULL,
+	FileSize		integer,
+	
+	UNIQUE( Hash, Account )
+);

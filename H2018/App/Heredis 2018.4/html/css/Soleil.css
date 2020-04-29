@@ -1,0 +1,44 @@
+.clCMEvent{position:absolute; z-index:300; width:100%; height:100%; clip:rect(0,100%,100%,0); left:0; top:0; visibility:hidden}
+.clCMAbs{position:absolute; width:10; height:10; left:0; top:0; visibility:hidden}
+
+.clT,.clTover,.clS,.clSover,.clS2,.clS2over{position:absolute; overflow:hidden; width:130; height:25; cursor:pointer; cursor:hand}
+.clT,.clTover{padding:4px; font-size:12px; font-weight:bold}
+.clT{color:white; }   
+.clTover{color:#FFFFFF;}
+.clS,.clSover{padding:2px; font-size:11px; font-weight:bold}
+.clS
+{color:#EF9D0D; background-color:#FFFFFF; layer-background-color:#FFFFFF;
+}
+.clSover{color:#FFFFFF;}
+.clSover,.clTover,.clB,.clBar{layer-background-color:#EF9D0D; background-color:#EF9D0D;}
+.clB{position:absolute; visibility:hidden; z-index:300}
+.clBar{position:absolute; width:10; height:10; visibility:hidden; }
+
+.menu2{ font-size:11px; font-weight:bold; color:#EF9D0D; background-color:#FFFFFF; layer-background-color:#FFFFFF;}
+
+BODY {font-family:Verdana, sans-serif; font-size:x-small; font-weight:bold; color:#000000; background-color:#FFFFFF;
+SCROLLBAR-3DLIGHT-COLOR:    #FFFFFF;
+SCROLLBAR-HIGHLIGHT-COLOR:  #FFFFFF;
+SCROLLBAR-FACE-COLOR:       #EF9D0D;
+SCROLLBAR-SHADOW-COLOR:     #000000;
+SCROLLBAR-DARKSHADOW-COLOR: #EF9D0D;
+}
+TD, DIV {font-family:Verdana, sans-serif; font-size:x-small; font-weight:bold; color:#000000;  }
+.titre{font-family:Verdana, sans-serif; font-weight:bold; font-size:x-large; color:#EF9D0D }
+.sstitre{font-family:Verdana, sans-serif; font-weight:bold; font-size:large; color:#000000 }
+.tab {font-family:Verdana, sans-serif; font-weight:bold; font-size:x-small; color:#EF9D0D }
+.titretab {font-family:Verdana, sans-serif; font-weight:bold; font-size:small; color:#FFFFFF; background-color:#EF9D0D }
+.baspage {font-family:Verdana, sans-serif; font-size:xx-small; font-weight:bold; color=#000000 }
+.level1 {font-family:Verdana, sans-serif; font-size:x-small; font-weight: bold; }
+.level2 {font-family:Verdana, sans-serif; font-size:x-small; font-weight: bold; clip:   rect(   )}
+a:link {color: #EF9D0D; text-decoration: none}
+a:visited {color: #EF9D0D; text-decoration: none}
+a:hover {color: #0000FF; text-decoration: underline; background-color:#FFFFFF }
+a:active {color: #FF0000; text-decoration: underline}
+
+.InsideTable
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCCCCC;
+}

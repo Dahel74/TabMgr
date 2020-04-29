@@ -1,0 +1,30 @@
+<div id="progressionContainer" >
+    <table>
+        <tr>
+            <td>
+                <span data-bind="text: labelindiNameField"></span>
+            </td>
+            <td>
+                <span class="nameContainer" data-bind="text: indiName"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span data-bind="text: labelNumberImportedPersonField"></span>
+            </td>
+            <td>
+                <span data-bind="text: numberImportedPerson"></span>
+            </td>
+        </tr>
+    </table>
+    <div id="buttonContainerWindowProgress" style="width: 100%;text-align: center;">
+        <button class="btn btn-primary" data-bind="click: cancelAction, text:cancelTextButton, , enabled: isCancelEnabled, visible: isCancelVisible"></button>
+        <!--<button class="btn btn-primary" data-bind="click: continueAction, text:continueTextButton, , visible: isContinueVisible"></button>-->
+    </div> 
+    <div id="spin" data-bind="visible:isSpinVisible" style="width:50px;height:50px;background-color:grey;margin:20px auto;margin-bottom: 10px;"></div>
+    <div data-bind="visible: isProgressMsgVisible" class="alert alert-info" style="margin-top:50px">
+            <strong data-bind="text: logContainer"></strong>
+    </div>
+    <div data-bind="visible:isLoadingVisible" id="loadingContainer"></div>
+    <button class="btn btn-primary" data-bind="click:closeAction, visible: isCloseVisible, text:closeTextButton" id="closeProgressWindow" ></button>
+</div>

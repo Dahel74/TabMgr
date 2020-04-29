@@ -1,0 +1,45 @@
+<html>
+
+<head>
+	<title>Heredis 10</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="style_panneaux.css" type="text/css">
+</head>
+
+<body>
+	<div class="document">
+		
+		<h1>$Titre$</h1>
+
+		<p>
+			$TacheRealisee$
+			<br>
+			$Priorite$
+		</p>
+		
+		<h2>Dates</h2>
+	
+		<p>
+			<span class="libelle">Date de création : </span>$DateCreation$ <br>
+			<span class="libelle">Date d'échéance : </span>$DateEcheance$ <br>
+			<span class="libelle">Date d'alerte : </span>$DateAlerte$ <br>
+		</p>
+		
+		$EnteteDescription$
+		$Description$
+		
+		<h2>Individus liés <a href="?GOImprimeIndisLies:$IdTache$">$PrintIndiLies$</a></h2>
+		<p>
+			$LesIndisLies$
+		</p>
+		
+		<h2>Personnes à contacter</h2>
+		<p>
+			$LAdrLiee$
+		</p>
+	
+	</div>
+	
+</body>
+
+</html>

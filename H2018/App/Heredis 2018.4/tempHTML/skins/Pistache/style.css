@@ -1,0 +1,47 @@
+.hommeStyle  { font: 10px Geneva, Arial, Helvetica, sans-serif}
+.femmeStyle {  font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal}
+.sexeStyle {  font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal}
+.unionStyle {  font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal}
+.documentStyle {  font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal}
+.Titre  { color: #ffffff; font-size: 10px; font-family: Geneva, Arial, Helvetica, sans-serif; font-style: normal; font-weight: bold; background-color: #999}
+.Listes   { color: #434343; font-size: 10px; font-family: Geneva, Arial, Helvetica, sans-serif; font-style: normal; line-height: 10px }
+.Nom  { color: #fff; font-size: 14px; font-family: Geneva, Arial, Helvetica, sans-serif; font-style: normal; font-weight: bold; background-color: #666; background-position: 1em 0; text-align: center }
+.Prenom   { color: #434343; font-size: 14px; font-family: Geneva, Arial, Helvetica, sans-serif; font-style: normal; font-weight: bold; font-stretch: normal }
+.Sosa  { color: #903; font-size: 10px; font-family: Geneva, Arial, Helvetica, sans-serif }
+.Generation {  font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; color: #3049E0}
+.NumeroUser {  font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; color: #3049E0}
+.Naissance {  font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; color: #1F4055}
+.Deces {  font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; color: #1F4055}
+.Evenements  { color: #434343; font-size: 10px; font-family: Geneva, Arial, Helvetica, sans-serif }
+.Parents  { color: #434343; font-size: 10px; font-family: Geneva, Arial, Helvetica, sans-serif; line-height: 15px; background-color: transparent }
+.Conjoints{  font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; color: #477B77}
+.Enfants{  font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; color: #477B77}
+.Lieu {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #294B91}
+.Categories {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 12px; color: #294B91; text-align: center}
+.Redaction  { color: #000; font-size: 12px; font-family: Geneva, Arial, Helvetica, sans-serif; font-style: italic; }
+.RedactionRedigee { color: black; font-size: 12px; font-family: Geneva, Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; font-stretch: normal;text-overflow: ellipsis; overflow: hidden; }
+.RedactionNoteRedigee  { color: #666; font-size: 12px; font-family: Geneva, Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; font-stretch: normal; text-overflow: ellipsis; overflow: hidden; }
+.RedactionSources   { color: #666; font-size: 12px; font-family: Geneva, Arial, Helvetica, sans-serif; font-style: italic; font-weight: normal; font-stretch: normal; text-overflow: ellipsis;overflow: hidden;   }
+.RedactionPremierIndividu  { color: #000; font-size: 14px; font-family: Geneva, Arial, Helvetica, sans-serif; font-style: normal; font-weight:bold}
+
+img {float:left; border:5px solid #bdcca7;margin-right:20px;}
+
+.FonteCouleurHomme { color: #2671d5;}
+.FonteCouleurFemme { color: #bb48c5;}
+.FonteCouleurInconnu { color: #93dd57;}
+
+a {	text-decoration: none;}
+a:hover { text-decoration:underline; }
+body {
+	background: #ffffff url("fond.jpg") no-repeat bottom right;
+	height: 100%;
+}
+.blue {background-color:#bdcca7;background-image:none !important;}
+
+
+.paper {width:775px;background: url("Papertexture.png") center center repeat-y;margin:0 auto;min-height:725px; }
+.paperContent {padding: 0 40px;}
+
+.paper-top {width:775px;height:99px;background: #FFFFFF url("Papertexture-top.png") top left repeat;margin:0 auto;}
+
+.paper-bottom {width:775px;height:71px;background: #FFFFFF url("Papertexture-bottom.png") top left no-repeat;margin:0 auto;}

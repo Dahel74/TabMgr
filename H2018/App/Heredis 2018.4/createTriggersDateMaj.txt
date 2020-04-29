@@ -1,0 +1,343 @@
+/*------------------------------------------------------------------------------------------------------
+ * 			ATTENTION : Les triggers ont été modifié afin de séparer la mise à jour des donné précalculé et
+ *						les dates de modification. Tous les triggers sur les dates doivent commencer par le mot
+ *						MajDate... afin qu'ils puissent être identifié facilement
+ *						Dans ce fichier on ne doit pas toucher que aux DateModification avec ces triggers.
+ *						Ces alterations seront faites par les triggers regroupés dans "createTiggersCompute"
+ *------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------
+ * Triggers pour le champs précalculé du nombre d'enfant pour père 
+ *----------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDatePereInsert"
+AFTER INSERT ON Individus
+FOR EACH ROW
+WHEN NEW.CodePere != 0
+BEGIN
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.CodePere ;
+END;
+
+CREATE TRIGGER "MajDatePereUpdate"
+AFTER UPDATE OF CodePere ON Individus
+FOR EACH ROW
+WHEN OLD.CodePere != NEW.CodePere
+BEGIN
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=OLD.CodePere ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.CodePere ;
+END;
+
+CREATE TRIGGER "MajDatePereDelete"
+AFTER DELETE ON Individus
+FOR EACH ROW
+WHEN OLD.CodePere != 0
+BEGIN
+    UPDATE Individus SET DateModification=datetime('now') WHERE Individus.CodeID=OLD.CodePere ;
+END;
+
+/*------------------------------------------------------------------------------------------------------
+ * Triggers pour le champs précalculé du nombre d'enfant pour la mère 
+ *----------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDateMereInsert"
+AFTER INSERT ON Individus
+FOR EACH ROW
+WHEN NEW.CodeMere != 0
+BEGIN
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.CodeMere ;
+END;
+
+CREATE TRIGGER "MajDateMereUpdate"
+AFTER UPDATE OF CodePere ON Individus
+FOR EACH ROW
+WHEN OLD.CodeMere != NEW.CodeMere
+BEGIN
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=OLD.CodeMere ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.CodeMere ;
+END;
+
+CREATE TRIGGER "MajDateMereDelete"
+AFTER DELETE ON Individus
+FOR EACH ROW
+WHEN OLD.CodeMere != 0
+BEGIN
+    UPDATE Individus SET DateModification=datetime('now') WHERE Individus.CodeID=OLD.CodeMere ;
+END;
+
+/*------------------------------------------------------------------------------------------------------
+* Triggers pour le champs précalculé du nombre de médias 
+*----------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDateMediasInsert"
+AFTER INSERT ON LiensMedias
+FOR EACH ROW
+BEGIN
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.XrefProprietaire ;
+    UPDATE Evenements SET DateModification=MAX(NEW.DateModification, Evenements.DateModification) WHERE Evenements.CodeID=NEW.XrefProprietaire ;
+    UPDATE Unions SET DateModification=MAX(NEW.DateModification, Unions.DateModification) WHERE Unions.CodeID=NEW.XrefProprietaire ;
+END;
+
+CREATE TRIGGER "MajDateMediasUpdate"
+AFTER UPDATE OF XrefProprietaire ON LiensMedias
+FOR EACH ROW
+WHEN OLD.XrefProprietaire != NEW.XrefProprietaire
+BEGIN
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=OLD.XrefProprietaire ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.XrefProprietaire ;
+    
+    UPDATE Evenements SET DateModification=MAX(NEW.DateModification, Evenements.DateModification) WHERE Evenements.CodeID=OLD.XrefProprietaire ;
+    UPDATE Evenements SET DateModification=MAX(NEW.DateModification, Evenements.DateModification) WHERE Evenements.CodeID=NEW.XrefProprietaire ;
+    
+    UPDATE Unions SET DateModification=MAX(NEW.DateModification, Unions.DateModification) WHERE Unions.CodeID=OLD.XrefProprietaire ;
+    UPDATE Unions SET DateModification=MAX(NEW.DateModification, Unions.DateModification) WHERE Unions.CodeID=NEW.XrefProprietaire ;
+END;
+
+CREATE TRIGGER "MajDateMediasDelete"
+AFTER DELETE ON LiensMedias
+FOR EACH ROW
+BEGIN
+    UPDATE Individus SET DateModification=datetime('now') WHERE Individus.CodeID=OLD.XrefProprietaire ;
+    UPDATE Evenements SET DateModification=datetime('now') WHERE Evenements.CodeID=OLD.XrefProprietaire ;
+    UPDATE Unions SET DateModification=datetime('now') WHERE Unions.CodeID=OLD.XrefProprietaire ;
+END;
+
+/*------------------------------------------------------------------------------------------------------*
+ * Triggers pour le champs précalculé du nombre d'unions pour un individu                               *
+ *------------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDateUnionsInsert"
+AFTER INSERT ON Unions
+FOR EACH ROW
+BEGIN
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID = NEW.Epoux OR Individus.CodeID = NEW.Epouse ;
+END;
+
+CREATE TRIGGER "MajDateUnionsUpdate"
+AFTER UPDATE ON Unions
+FOR EACH ROW
+BEGIN
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID = OLD.Epoux OR Individus.CodeID = OLD.Epouse ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID = NEW.Epoux OR Individus.CodeID = NEW.Epouse ;
+END;
+
+CREATE TRIGGER "MajDateUnionsDelete"
+AFTER DELETE ON Unions
+FOR EACH ROW
+BEGIN
+    UPDATE Individus SET DateModification=datetime('now') WHERE Individus.CodeID = OLD.Epoux OR Individus.CodeID = OLD.Epouse ;
+END;
+
+/*------------------------------------------------------------------------------------------------------
+ * Triggers pour le codeID de la note
+*----------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDateNoteUpdate"
+AFTER UPDATE ON Notes
+FOR EACH ROW
+BEGIN
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=OLD.CodeProprietaire ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.CodeProprietaire ;
+   
+    UPDATE Evenements SET DateModification=MAX(NEW.DateModification, Evenements.DateModification) WHERE Evenements.CodeID=OLD.CodeProprietaire ;
+    UPDATE Evenements SET DateModification=MAX(NEW.DateModification, Evenements.DateModification) WHERE Evenements.CodeID=NEW.CodeProprietaire ;
+    
+    UPDATE Unions SET DateModification=MAX(NEW.DateModification, Unions.DateModification) WHERE Unions.CodeID=OLD.CodeProprietaire ;
+    UPDATE Unions SET DateModification=MAX(NEW.DateModification, Unions.DateModification) WHERE Unions.CodeID=NEW.CodeProprietaire ;
+END;
+
+CREATE TRIGGER "MajDateNoteIndividuInsert"
+AFTER INSERT ON Notes
+FOR EACH ROW
+WHEN NEW.CodeProprietaire != 0
+BEGIN
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.CodeProprietaire AND (NEW.TypeNote = 1 OR NEW.TypeNote = 12) ;
+    UPDATE Evenements SET DateModification=MAX(NEW.DateModification, Evenements.DateModification) WHERE Evenements.CodeID=NEW.CodeProprietaire ;
+    UPDATE Unions SET DateModification=MAX(NEW.DateModification, Unions.DateModification) WHERE Unions.CodeID=NEW.CodeProprietaire ;
+END;
+
+CREATE TRIGGER "MajDateNoteIndividuDelete"
+AFTER DELETE ON Notes
+FOR EACH ROW
+WHEN OLD.CodeProprietaire != 0
+BEGIN
+    UPDATE Individus SET DateModification=datetime('now') WHERE Individus.CodeID=OLD.CodeProprietaire AND (OLD.TypeNote = 1 OR OLD.TypeNote = 12) ;
+    UPDATE Evenements SET DateModification=datetime('now') WHERE Evenements.CodeID=OLD.CodeProprietaire ;
+    UPDATE Unions SET DateModification=datetime('now') WHERE Unions.CodeID=OLD.CodeProprietaire ;
+END;
+
+/*------------------------------------------------------------------------------------------------------
+* Triggers pour le champs précalculé du nombre de source pour un événement/individu
+*----------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDateSourceInsertEvenement"
+AFTER INSERT ON LiensSources
+FOR EACH ROW
+BEGIN
+    UPDATE Evenements SET DateModification=MAX(NEW.DateModification, Evenements.DateModification) WHERE Evenements.CodeID=NEW.XrefProprietaire ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.XrefProprietaire ;
+END;
+
+CREATE TRIGGER "MajDateSourceUpdateEvenement"
+AFTER UPDATE ON LiensSources
+FOR EACH ROW
+BEGIN
+    UPDATE Evenements SET DateModification=MAX(NEW.DateModification, Evenements.DateModification) WHERE Evenements.CodeID=OLD.XrefProprietaire ;
+    UPDATE Evenements SET DateModification=MAX(NEW.DateModification, Evenements.DateModification) WHERE Evenements.CodeID=NEW.XrefProprietaire ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=OLD.XrefProprietaire ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.XrefProprietaire ;
+END;
+
+CREATE TRIGGER "MajDateSourceDeleteEvenement"
+AFTER DELETE ON LiensSources
+FOR EACH ROW
+BEGIN
+    UPDATE Evenements SET DateModification=datetime('now') WHERE Evenements.CodeID=OLD.XrefProprietaire ;
+    UPDATE Individus SET DateModification=datetime('now') WHERE Individus.CodeID=OLD.XrefProprietaire ;
+END;
+
+/*------------------------------------------------------------------------------------------------------
+* Triggers pour le champs précalculé du nombre de témoins pour un événement 
+*----------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDateTemoinsUpdateEvenement"
+AFTER UPDATE ON LiensIndividus
+FOR EACH ROW
+BEGIN
+    UPDATE Evenements SET DateModification=MAX(NEW.DateModification, Evenements.DateModification) WHERE Evenements.CodeID=OLD.XrefOrigine ;
+    UPDATE Evenements SET DateModification=MAX(NEW.DateModification, Evenements.DateModification) WHERE Evenements.CodeID=NEW.XrefOrigine ;
+    
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=OLD.XrefOrigine ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=OLD.XrefDestination ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.XrefOrigine ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.XrefDestination ;
+END;
+
+CREATE TRIGGER "MajDateTemoinsInsertEvenement"
+AFTER INSERT ON LiensIndividus
+FOR EACH ROW
+BEGIN
+    UPDATE Evenements SET DateModification=MAX(NEW.DateModification, Evenements.DateModification) WHERE Evenements.CodeID=NEW.XrefOrigine ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.XrefOrigine ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.XrefDestination ;
+END;
+
+CREATE TRIGGER "MajDateTemoinsDeleteEvenement"
+AFTER DELETE ON LiensIndividus
+FOR EACH ROW
+BEGIN
+    UPDATE Evenements SET DateModification=datetime('now') WHERE Evenements.CodeID=OLD.XrefOrigine ;
+    UPDATE Individus SET DateModification=datetime('now') WHERE Individus.CodeID=OLD.XrefOrigine ;
+    UPDATE Individus SET DateModification=datetime('now') WHERE Individus.CodeID=OLD.XrefDestination ;
+END;
+
+/*------------------------------------------------------------------------------------------------------
+ * Triggers pour la modification d'un événement
+*----------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDateEvenementInsert"
+AFTER INSERT ON Evenements
+FOR EACH ROW
+WHEN NEW.CodeProprietaire != 0
+BEGIN
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.CodeProprietaire ;
+    UPDATE Unions SET DateModification=MAX(NEW.DateModification, Unions.DateModification) WHERE Unions.CodeID=NEW.CodeProprietaire ;
+END;
+
+CREATE TRIGGER "MajDateEvenementUpdate"
+AFTER UPDATE ON Evenements
+FOR EACH ROW
+BEGIN
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=OLD.CodeProprietaire ;
+    UPDATE Individus SET DateModification=MAX(NEW.DateModification, Individus.DateModification) WHERE Individus.CodeID=NEW.CodeProprietaire ;
+    
+    UPDATE Unions SET DateModification=MAX(NEW.DateModification, Unions.DateModification) WHERE Unions.CodeID=OLD.CodeProprietaire ;
+    UPDATE Unions SET DateModification=MAX(NEW.DateModification, Unions.DateModification) WHERE Unions.CodeID=NEW.CodeProprietaire ;
+END;
+
+CREATE TRIGGER "MajDateEvenementDelete"
+AFTER DELETE ON Evenements
+FOR EACH ROW
+WHEN OLD.CodeProprietaire != 0
+BEGIN
+    UPDATE Individus SET DateModification=datetime('now') WHERE Individus.CodeID=OLD.CodeProprietaire ;
+    UPDATE Unions SET DateModification=datetime('now') WHERE Unions.CodeID=OLD.CodeProprietaire ;
+END;
+
+/*------------------------------------------------------------------------------------------------------
+ * Triggers pour la Mise à jour d'un événement après le changement du lieu
+ *----------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDateEvenementUpdateLieux"
+AFTER UPDATE ON Lieux
+FOR EACH ROW
+BEGIN
+    UPDATE Evenements SET DateModification=MAX(NEW.DateModification, Evenements.DateModification) WHERE Evenements.CodeLieu=NEW.codeID ;
+END;
+
+/*------------------------------------------------------------------------------------------------------
+ * Triggers pour la Mise à jour d'une union après la modification du nom ou du prénom d'un individu
+ *----------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDateUnionUpdateIndividu"
+AFTER UPDATE OF NomTri, Prenoms ON Individus
+FOR EACH ROW
+WHEN OLD.NomTri != NEW.NomTri OR OLD.Prenoms != NEW.Prenoms
+BEGIN
+    UPDATE Unions SET DateModification=MAX(NEW.DateModification, Unions.DateModification) WHERE Unions.Epoux=NEW.CodeID OR Unions.Epouse=NEW.CodeID ;
+END;
+
+/*------------------------------------------------------------------------------------------------------
+ * Triggers pour la Mise à jour d'un individu après la modification du nomTri d'un individu
+ *----------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDateIndividuUpdateIndividuNomTri"
+AFTER UPDATE OF NomTri ON Individus
+FOR EACH ROW
+WHEN OLD.NomTri != NEW.NomTri
+BEGIN
+    UPDATE Individus SET DateModification=datetime('now') WHERE Individus.CodeID=NEW.CodeID ;
+END;
+
+/*------------------------------------------------------------------------------------------------------
+ * Triggers pour la Mise à jour d'un evenement après la modification du code lieu d'un evenement
+ *----------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDateEvenementUpdateEvenementCodeLieu"
+AFTER UPDATE OF CodeLieu ON Evenements
+FOR EACH ROW
+WHEN OLD.CodeLieu != NEW.CodeLieu
+BEGIN
+    UPDATE Evenements SET DateModification=datetime('now') WHERE Evenements.CodeID=NEW.CodeID ;
+END;
+
+/*------------------------------------------------------------------------------------------------------
+ * Triggers pour la Mise à jour d'un nom alternatif
+ *----------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDateAlternateNamesUpdate"
+AFTER UPDATE ON AlternateNames
+FOR EACH ROW
+WHEN OLD.DateModification == NEW.DateModification
+BEGIN
+UPDATE AlternateNames SET DateModification=datetime('now') WHERE AlternateNames.CodeID=NEW.CodeID ;
+END;
+
+CREATE TRIGGER "MajIndividusDateAlternateNamesInsert"
+AFTER INSERT ON AlternateNames
+FOR EACH ROW
+WHEN NEW.CodeID != 0
+BEGIN
+UPDATE Individus SET DateModification=datetime('now') WHERE Individus.CodeID=NEW.XrefIndividu ;
+END;
+
+/*------------------------------------------------------------------------------------------------------
+ * Triggers pour la Mise à jour des liens prénoms / nom alternatif
+ *----------------------------------------------------------------------------------------------------*/
+
+CREATE TRIGGER "MajDateLiensAlternateNamesPrenomssUpdate"
+AFTER UPDATE ON LiensAlternateNamesPrenoms
+FOR EACH ROW
+WHEN OLD.DateModification == NEW.DateModification
+BEGIN
+UPDATE LiensAlternateNamesPrenoms SET DateModification=datetime('now') WHERE LiensAlternateNamesPrenoms.CodeID=NEW.CodeID ;
+END;

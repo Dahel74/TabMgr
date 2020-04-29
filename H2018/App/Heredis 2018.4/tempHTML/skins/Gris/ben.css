@@ -1,0 +1,29 @@
+
+/* Panneau */
+
+#panneau {
+	background: #9a9a9a;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#panneau div {
+	background: url("fond.jpg") top left no-repeat;
+	position: fixed;
+	top: 0;
+	left:0;
+	margin:0;
+	padding: 0;
+	width: 286px;
+	height: 330px;
+}
+
+.decallage {
+	margin-left:60px;
+}
+
+.decallage a{
+	margin-right:30px;
+}

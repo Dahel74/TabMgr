@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Heredis 9</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="style_panneaux.css" type="text/css">
+</head>
+<body>
+<div class="document">
+
+<h1><img src="$ImgCompUn$"><img src="$ImgCompDeux$"><img src="$ImgCompTrois$">&nbsp;
+<img src="$ImageEtat$"> $Nom$ $Prenoms$</h1>
+
+	<p class="Sosa">$Numerotation$</p>
+	<p class="Profession">$Profession$</p>
+	<p class="Profession">$Titre$</p>
+
+<p>$EvenementsPrincipaux$</p>
+
+<div id='altName'>
+    <h2>$TitreAutresNoms$</h2>
+    <p>$AutresNoms$</p>
+</div>
+
+<h2>$TitreParents$</h2>
+<p>$Parents$</p>
+
+<h2>$TitreConjoints$</h2>
+<p>$Conjoints$</p>
+
+<h2>$TitreEnfants$</h2>
+<p>$Enfants$</p>
+
+<h2>$TitreEvenements$</h2>
+<p>$EvenementsAutres$</p>
+
+<h2>$TitreSharedEvents$</h2>
+<p>$SharedEvents$</p>
+
+<h2>$TitreFaits$</h2>
+<p>$Faits$</p>
+
+<h2>$TitreEstTemoinDe$</h2>
+<p>$TemoinsDe$</p>
+
+<h2>$TitreAPourTemoin$</h2>
+<p>$APourTemoin$</p>
+
+<h2>$TitreAutresIndis$</h2>
+<p>$AutresIndis$</p>
+
+<br/>
+<p class="Secondaire">$DateCreation$ - $DateModification$</p>
+</div>
+</body>
+</html>

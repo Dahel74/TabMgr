@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Heredis 10</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="style_panneaux.css" type="text/css">
+</head>
+
+<body>
+
+<h1>$SourceTexte$</h1>
+
+$SourcePrivee$
+
+<p></p>
+	<h2>$TitreUtilisations$$nbUtilisations$ <a href="?GoUtilisationsSource:$codeID$">$DetailUtilisation$</a></h2>
+<p></p>
+
+<h2 class="no-border-top">$TitreSource$</h2>
+
+<p class="Listes">$TexteSource$</p>
+
+<h2 class="no-border-top">$TitreTranscription$</h2>
+
+<p class="Listes">$TexteTranscription$</p>
+
+</body>
+</html>

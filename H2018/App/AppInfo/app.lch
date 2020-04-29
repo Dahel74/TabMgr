@@ -1,0 +1,4 @@
+[Launch] 
+ExecuteFile=FramaRoot\Apps\Heredis 2018.4Portable\Heredis 2018.4Portable.exe
+ExecuteDirectory=FramaRoot\Apps\Heredis 2018.4Portable
+ExecuteParameters=

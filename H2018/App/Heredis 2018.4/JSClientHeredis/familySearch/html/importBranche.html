@@ -1,0 +1,83 @@
+<div id="tempDivImport" data-bind="events: { keyup : keypress }" tabindex="1">
+    <h4 style="text-align:center">
+        <span data-bind="text: importWindowTitle"></span>
+    </h4>
+    <div style="min-height:200px;"  >
+        <div class="tableContainer">
+            <h5 class="titleSection" data-bind="text:radioButtonSectionTitle"></h5>
+            <table>
+                <tr>
+                    <td>
+                        <input type="radio" class="radioInput" name="selectFsid" value="currentUser" data-bind="checked: selectedFsid">
+                    </td>
+                    <td>
+                        <label for="tfImportFSID" data-bind="text: labelCurrentUser"></label>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" class="radioInput" name="selectFsid" value="pc" data-bind="checked: selectedFsid,disabled:disablePcFsid">
+                    </td>
+                    <td>
+                        <label id="labelPc" for="tfImportFSID" data-bind="text: labelPc"></label>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" class="radioInput" name="selectFsid" value="inputFsid" data-bind="checked: selectedFsid">
+                    </td>
+                    <td>
+                        <label for="tfImportFSID" data-bind="text: labelInputFsid"></label>
+                        <input id="tfImportFSID" style="display:block;height:40px" class="form-control" type="text" data-bind="value: importInputValue, disabled:disableInputFsid"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="tableContainer">
+            <h5 class="titleSection" data-bind="text:optionsSectionTitle"></h5>
+            <table>
+                <tr>
+                    <td>
+                        <label for="nbAsc" data-bind="text: labelNbGenAsc"></label>
+                    </td>
+                    <td align="right">
+                        <input id="nbAsc" data-role="numerictextbox" style="width:70px" data-format="n0" data-min="1" data-max="99" data-bind="value: nbAscInputValue"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nbDesc" data-bind="text: labelNbGenDesc"></label>
+                    </td>
+                    <td align="right">
+                        <input id="nbDesc" data-role="numerictextbox" data-format="n0" style="width:70px" data-min="1" data-max="99" data-bind="value: nbDescInputValue"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="importAncestorChildren" data-bind="text: labelImportAncestorChildren"></label>
+                    </td>
+                    <td align="right">
+                        <input class="chkbox" id="importAncestorChildren" type="checkbox" data-bind="checked: importAncestorsChildren" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="importAlternateNames" data-bind="text: labelImportAlternateNames"></label>
+                    </td>
+                    <td align="right">
+                        <input id="importAlternateNames" type="checkbox" data-bind="checked: importAlternateNames" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <button type="submit" class="btn btn-primary" data-bind="click: importAction, text:importTextButton"></button>
+    <div id="logError">
+    </div>
+</div>
