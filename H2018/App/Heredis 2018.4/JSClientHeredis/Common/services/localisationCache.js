@@ -1,1 +1,0 @@
-function LocalisationCache(ajaxController){GenericApiCache.call(this,ajaxController,AjaxController.prototype.loadLocalizationMap)}var TRANSLATER;AjaxController.prototype.loadLocalizationMap=function(localisationMap){return $.ajax({url:this.getBaseUrl()+"/libheredis/local/get",type:"POST",dataType:"json",data:localisationMap})};

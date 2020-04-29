@@ -1,1 +1,0 @@
-function PreferencesCache(ajaxController){GenericApiCache.call(this,ajaxController,AjaxController.prototype.loadPreferencesMap)}var PREFERENCES;AjaxController.prototype.loadPreferencesMap=function(argumentsMap){return $.ajax({url:this.getBaseUrl()+"/libheredis/prefsApp/map",type:"POST",dataType:"json",data:argumentsMap})};

@@ -1,1 +1,0 @@
-function HTMLTemplateManager(mapTemplate){this.getHtmlFileTemplate=function(nameFileTemplate,idContainer,callback){$.get(nameFileTemplate,function(data){$(idContainer).html(data),void 0!==callback&&callback()})}}

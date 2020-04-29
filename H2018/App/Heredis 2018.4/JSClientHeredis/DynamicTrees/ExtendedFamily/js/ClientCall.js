@@ -1,1 +1,0 @@
-function applyGroupFilter(groupFilters){extendedFamilly.applyFilters(groupFilters)}function changeCentral(individuId){extendedFamilly.changeCentral(individuId)}function hideOverview(){$("#myOverview").hide()}function showOverview(){$("#myOverview").show()}

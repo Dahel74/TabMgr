@@ -1,1 +1,0 @@
-var AppPrefsMap={kPrefsMeasurementUnits:"Centimeters"};
